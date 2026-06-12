@@ -1,4 +1,4 @@
-const UPDATED="2026-06-12 11:38";
+const UPDATED="2026-06-12 11:55";
 const CASES=[
  {
   "title": "Show HN: Non.io, a Reddit-like platform Ive been working on for the last 4 years",
@@ -2135,17 +2135,6 @@ const CASES=[
   "date": "2026-06-06"
  },
  {
-  "title": "built a free tool people actually use, want to charge but confused abt adding payment",
-  "summary": "so i made a little tool that generates meal plans based on whatever you have in your fridge. built it with a no-code thing over a few months, its free right now and somehow has like 500 people using it monthly which blew my mind. a bunch of them have emailed asking for more features (saving plans, g",
-  "url": "https://www.reddit.com/r/SideProject/comments/1tyv22i/built_a_free_tool_people_actually_use_want_to/",
-  "source": "r/SideProject",
-  "category": "SaaS 經營",
-  "mrr": null,
-  "points": 0,
-  "comments": 0,
-  "date": "2026-06-06"
- },
- {
   "title": "Assembling a small group of founders to swap support with — want in?",
   "summary": "Every time I see a side project blow up on Product Hunt, I notice the same thing — there's a crew behind it. I don't have that crew yet, so I'm building one. I've got friends, but the ones building things aren't on the right platforms or their accounts are too fresh to help (HN needs karma before yo",
   "url": "https://www.reddit.com/r/SideProject/comments/1u3e5o4/assembling_a_small_group_of_founders_to_swap/",
@@ -2155,6 +2144,17 @@ const CASES=[
   "points": 0,
   "comments": 0,
   "date": "2026-06-11"
+ },
+ {
+  "title": "built a free tool people actually use, want to charge but confused abt adding payment",
+  "summary": "so i made a little tool that generates meal plans based on whatever you have in your fridge. built it with a no-code thing over a few months, its free right now and somehow has like 500 people using it monthly which blew my mind. a bunch of them have emailed asking for more features (saving plans, g",
+  "url": "https://www.reddit.com/r/SideProject/comments/1tyv22i/built_a_free_tool_people_actually_use_want_to/",
+  "source": "r/SideProject",
+  "category": "SaaS 經營",
+  "mrr": null,
+  "points": 0,
+  "comments": 0,
+  "date": "2026-06-06"
  },
  {
   "title": "I built a music discovery engine with 10M+ artists. 230 paying users in 2 months, zero moneys spent in marketing",
