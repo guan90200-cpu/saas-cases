@@ -125,6 +125,98 @@ def fetch_reddit():
         time.sleep(10)
     return cases
 
+# ---------- 翻譯層：Gemini 把 title/summary 翻成繁中（含快取，只翻新案例） ----------
+KEYFILE = Path.home() / ".gemini_key.json"   # repo 外，絕不 commit
+CACHE = Path(__file__).parent / "translations.json"  # 已 .gitignore
+RETRY_CODES = {429, 500, 502, 503, 529}
+BACKOFF = [5, 15, 40, 60]
+
+def load_gemini_cfg():
+    """優先讀本機 keyfile；沒有就從 WSL 的 Hermes config 抽一次並存起來。"""
+    if KEYFILE.exists():
+        d = json.loads(KEYFILE.read_text(encoding="utf-8"))
+        return d["url"], d["key"], d["model"]
+    import subprocess
+    cfg = subprocess.run(["wsl", "-e", "bash", "-lc", "cat ~/.hermes/config.yaml"],
+                         capture_output=True, text=True, timeout=30).stdout
+    m = re.search(r"name:\s*gemini-cloud(.*?)(?:\n-\s|\Z)", cfg, re.S)
+    if not m:
+        raise RuntimeError("WSL config.yaml 找不到 gemini-cloud provider")
+    blk = m.group(1)
+    url = re.search(r"base_url:\s*(\S+)", blk).group(1).rstrip("/") + "/chat/completions"
+    key = re.search(r"api_key:\s*(\S+)", blk).group(1)
+    model = re.search(r"model:\s*(\S+)", blk).group(1)
+    KEYFILE.write_text(json.dumps({"url": url, "key": key, "model": model}), encoding="utf-8")
+    return url, key, model
+
+def call_gemini(url, key, model, prompt):
+    body = json.dumps({"model": model, "temperature": 0.2, "max_tokens": 8192,
+                       "messages": [{"role": "user", "content": prompt}]}).encode("utf-8")
+    last_err = None
+    for attempt in range(len(BACKOFF) + 1):
+        try:
+            req = urllib.request.Request(url, data=body, headers={
+                "Authorization": "Bearer " + key, "Content-Type": "application/json"})
+            with urllib.request.urlopen(req, timeout=90) as r:
+                return json.load(r)["choices"][0]["message"]["content"].strip()
+        except urllib.error.HTTPError as e:
+            last_err = f"HTTP {e.code}"
+            if e.code in RETRY_CODES and attempt < len(BACKOFF):
+                time.sleep(BACKOFF[attempt]); continue
+            break
+        except Exception as e:
+            last_err = f"{type(e).__name__}: {str(e)[:120]}"
+            if attempt < len(BACKOFF):
+                time.sleep(BACKOFF[attempt]); continue
+            break
+    raise RuntimeError(last_err)
+
+def translate_cases(cases):
+    cache = json.loads(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else {}
+    todo = [c for c in cases if c["url"] not in cache]
+    print(f"翻譯：{len(cases)-len(todo)} 筆走快取，{len(todo)} 筆新案例待翻")
+    if todo:
+        try:
+            url, key, model = load_gemini_cfg()
+        except Exception as e:
+            print(f"  取 Gemini key 失敗（{e}），本次保留英文")
+            todo = []
+        def translate_batch(batch, depth=0):
+            """一批翻譯；JSON 壞掉就對半切重試，切到 1 筆還失敗才放棄。"""
+            items = [{"i": j, "t": c["title"], "s": c["summary"][:200]} for j, c in enumerate(batch)]
+            prompt = ("把下列 SaaS 案例的 t(標題) 和 s(摘要) 翻成自然的繁體中文（台灣用語）。"
+                      "產品名、人名、專有名詞、金額數字保留原文。"
+                      "只回傳 JSON array，格式 [{\"i\":0,\"t\":\"...\",\"s\":\"...\"}]，不要任何其他文字。\n\n"
+                      + json.dumps(items, ensure_ascii=False))
+            try:
+                resp = call_gemini(url, key, model, prompt)
+                resp = re.sub(r"^```(?:json)?|```$", "", resp.strip(), flags=re.M).strip()
+                for row in json.loads(resp):
+                    c = batch[row["i"]]
+                    cache[c["url"]] = {"t": row["t"], "s": row["s"]}
+                return len(batch)
+            except Exception as e:
+                if len(batch) > 1:
+                    print(f"  {'  '*depth}批({len(batch)}筆)壞 JSON，對半切重試")
+                    time.sleep(2)
+                    mid = len(batch) // 2
+                    return translate_batch(batch[:mid], depth+1) + translate_batch(batch[mid:], depth+1)
+                print(f"  {'  '*depth}單筆放棄（{e}）：{batch[0]['title'][:50]}")
+                return 0
+            finally:
+                time.sleep(2)
+
+        done = 0
+        for i in range(0, len(todo), 20):
+            done += translate_batch(todo[i:i+20])
+            print(f"  進度 {min(i+20,len(todo))}/{len(todo)}（成功 {done}）")
+        CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
+    for c in cases:
+        if c["url"] in cache:
+            c["title_zh"] = cache[c["url"]]["t"]
+            c["summary_zh"] = cache[c["url"]]["s"]
+    return cases
+
 def main():
     print("抓取 Hacker News ...")
     cases = fetch_hn()
@@ -141,6 +233,7 @@ def main():
         deduped.append(c)
 
     deduped.sort(key=lambda x: -x["points"])
+    deduped = translate_cases(deduped)
     updated = datetime.now().strftime("%Y-%m-%d %H:%M")
     js = ("const UPDATED=" + json.dumps(updated)
           + ";\nconst CASES=" + json.dumps(deduped, ensure_ascii=False, indent=1) + ";\n")

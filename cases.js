@@ -1,4 +1,4 @@
-const UPDATED="2026-06-12 11:55";
+const UPDATED="2026-06-12 12:21";
 const CASES=[
  {
   "title": "Show HN: Non.io, a Reddit-like platform Ive been working on for the last 4 years",
@@ -9,7 +9,9 @@ const CASES=[
   "mrr": null,
   "points": 1943,
   "comments": 590,
-  "date": "2023-06-12"
+  "date": "2023-06-12",
+  "title_zh": "HN 展示：Non.io，我花了四年開發的類 Reddit 平台",
+  "summary_zh": "哈囉，HN 的大家，過去幾年來，我一直將一個類似 Reddit 的平台作為我的主要副業。今天進行一個（非常）低調的軟啟動，主要是因為我想用它來鼓勵討論..."
  },
  {
   "title": "I run multiple $10K MRR companies on a $20/month tech stack",
@@ -20,7 +22,9 @@ const CASES=[
   "mrr": "$10K MRR",
   "points": 980,
   "comments": 517,
-  "date": "2026-04-12"
+  "date": "2026-04-12",
+  "title_zh": "我經營多個每月經常性收入達 $10K 的公司，卻只使用每月 $20 的技術堆疊",
+  "summary_zh": ""
  },
  {
   "title": "Show HN: Wealthfolio: Private, open-source investment tracker",
@@ -31,7 +35,9 @@ const CASES=[
   "mrr": null,
   "points": 924,
   "comments": 263,
-  "date": "2024-09-06"
+  "date": "2024-09-06",
+  "title_zh": "HN 展示：Wealthfolio：私有、開源的投資追蹤器",
+  "summary_zh": "感謝大家的評論，以下是一些背景資訊：<p>- 這個應用程式是一個簡單的桌面應用程式，可在 macOS、Windows 和 Ubuntu 上運行。<p>- 我是為了自己的需求開發這個應用程式的。厭倦了 SaaS..."
  },
  {
   "title": "Thank HN: My SaaS paid my rent this month",
@@ -42,7 +48,9 @@ const CASES=[
   "mrr": null,
   "points": 800,
   "comments": 187,
-  "date": "2020-01-20"
+  "date": "2020-01-20",
+  "title_zh": "感謝 HN：我的 SaaS 這個月幫我付了房租",
+  "summary_zh": "從我寫下第一行程式碼的那一刻起，經營一個盈利的 SaaS 就一直是我的夢想。<p>在 HN 和 IndieHackers 上，我一直很敬佩那些能靠經常性收入支付帳單的人..."
  },
  {
   "title": "Show HN: We built a developer-first open-source Zapier alternative",
@@ -53,7 +61,9 @@ const CASES=[
   "mrr": null,
   "points": 745,
   "comments": 190,
-  "date": "2023-02-01"
+  "date": "2023-02-01",
+  "title_zh": "HN 展示：我們打造了一個開發者優先的開源 Zapier 替代方案",
+  "summary_zh": "過去幾個月，我們一直在開發 Trigger.dev，現在可以與大家分享我們的測試版了：<a href=\"https:&#x2F;&#x2F;github.com&#x2F;triggerdotdev&#x2F;trigger.dev\">https:&#x2F;&#x2F;github.com&#x2"
  },
  {
   "title": "Show HN: I made a privacy friendly and simple app to track my menstruation",
@@ -64,7 +74,9 @@ const CASES=[
   "mrr": null,
   "points": 732,
   "comments": 196,
-  "date": "2024-04-29"
+  "date": "2024-04-29",
+  "title_zh": "HN 展示：我做了一個注重隱私且簡單的月經追蹤應用程式",
+  "summary_zh": "哈囉，HN 的大家，在我實際使用的月經追蹤應用程式要求我登入並將數據儲存到雲端後，我決定自己寫一個。<p>這個領域的大多數應用程式都採用訂閱模式，並且..."
  },
  {
   "title": "N8n.io – Workflow automation alternative to Zapier",
@@ -75,7 +87,9 @@ const CASES=[
   "mrr": null,
   "points": 728,
   "comments": 196,
-  "date": "2019-10-08"
+  "date": "2019-10-08",
+  "title_zh": "N8n.io – Zapier 的工作流程自動化替代方案",
+  "summary_zh": ""
  },
  {
   "title": "Show HN: Micasa – track your house from the terminal",
@@ -86,7 +100,9 @@ const CASES=[
   "mrr": null,
   "points": 657,
   "comments": 218,
-  "date": "2026-02-19"
+  "date": "2026-02-19",
+  "title_zh": "HN 展示：Micasa – 從終端機追蹤你的居家事務",
+  "summary_zh": "micasa 是一個終端機使用者介面，可幫助你將居家事務追蹤在單一的 SQLite 檔案中。沒有雲端、沒有帳戶、沒有訂閱。使用 cp 進行備份。<p>我開發它，是因為我厭倦了總是搞不清楚所有事情..."
  },
  {
   "title": "My 2 Year Journey to $10K MRR",
@@ -97,7 +113,9 @@ const CASES=[
   "mrr": "$10K MRR",
   "points": 654,
   "comments": 110,
-  "date": "2021-01-27"
+  "date": "2021-01-27",
+  "title_zh": "我兩年達到 $10K 月經常性收入的旅程",
+  "summary_zh": ""
  },
  {
   "title": "GitHub launches Actions, its workflow automation tool",
@@ -108,7 +126,9 @@ const CASES=[
   "mrr": null,
   "points": 642,
   "comments": 145,
-  "date": "2018-10-16"
+  "date": "2018-10-16",
+  "title_zh": "GitHub 推出 Actions，其工作流程自動化工具",
+  "summary_zh": ""
  },
  {
   "title": "Shopify says remove Stripe billing or get booted from their app store",
@@ -119,7 +139,9 @@ const CASES=[
   "mrr": null,
   "points": 624,
   "comments": 225,
-  "date": "2021-02-25"
+  "date": "2021-02-25",
+  "title_zh": "Shopify 表示：移除 Stripe 支付，否則將被踢出他們的應用程式商店",
+  "summary_zh": "我們是一家目前在 Shopify 應用程式商店上架的 SaaS 公司。<p>今天我們收到了 Shopify '合作夥伴治理' 團隊發來的一封嚴厲電子郵件。<p>總之：甚至不要將 Stripe 作為一個選..."
  },
  {
   "title": "Those making $1,000+/month on side projects – what did you make?",
@@ -130,7 +152,9 @@ const CASES=[
   "mrr": null,
   "points": 563,
   "comments": 525,
-  "date": "2015-01-06"
+  "date": "2015-01-06",
+  "title_zh": "那些透過副業每月賺取 $1,000 以上的人 – 你們做了什麼？",
+  "summary_zh": "由於現在是 2015 新年，讓我們重新開啟這個話題，看看這方面的情況如何 :)<p>它可以是一個 SaaS 應用程式、一個行動應用程式，或是任何能為你帶來經常性收入的副業..."
  },
  {
   "title": "Ask HN: Side project of more than $2k monthly revenue? what's your project?",
@@ -141,7 +165,9 @@ const CASES=[
   "mrr": "$2k monthly",
   "points": 530,
   "comments": 502,
-  "date": "2023-04-14"
+  "date": "2023-04-14",
+  "title_zh": "HN 提問：每月收入超過 $2k 的副業？你的專案是什麼？",
+  "summary_zh": "我打算開始一個副業，但還沒有找到真正的利基市場。<p>我很想知道你經營的是什麼業務，是行動應用程式、網站還是 SaaS？<p>以及你花了多久時間達到 $2k..."
  },
  {
   "title": "Show HN: Reverse-Engineering a Switch Lite with 1,917 wires",
@@ -152,7 +178,9 @@ const CASES=[
   "mrr": null,
   "points": 513,
   "comments": 114,
-  "date": "2024-02-25"
+  "date": "2024-02-25",
+  "title_zh": "HN 展示：使用 1,917 條電線逆向工程 Switch Lite",
+  "summary_zh": "哈囉，各位駭客。這是我獨立開發的一個專案，它能將完成的 PCB 組件轉換成易於使用的板視圖，並附帶一些板掃描圖。還有很多更簡單、更好的方法可以做到..."
  },
  {
   "title": "Thank HN: 7 years and $7M later, it all started right here",
@@ -163,7 +191,9 @@ const CASES=[
   "mrr": null,
   "points": 501,
   "comments": 58,
-  "date": "2021-10-18"
+  "date": "2021-10-18",
+  "title_zh": "感謝 HN：七年後，累積 $7M，一切都從這裡開始",
+  "summary_zh": "在 BEE，我們開發用於電子郵件、登陸頁面等的視覺化編輯器。上個月，我們在數百個軟體應用程式中記錄了超過 5,214,407 次的編輯器使用會話。作為一家公司，我們最近..."
  },
  {
   "title": "Apple has acquired Workflow, an automation tool for iPad and iPhone",
@@ -174,7 +204,9 @@ const CASES=[
   "mrr": null,
   "points": 499,
   "comments": 147,
-  "date": "2017-03-22"
+  "date": "2017-03-22",
+  "title_zh": "Apple 收購了 Workflow，一款適用於 iPad 和 iPhone 的自動化工具",
+  "summary_zh": ""
  },
  {
   "title": "6 months in and $1k MRR: my biggest mistakes so far",
@@ -185,7 +217,9 @@ const CASES=[
   "mrr": "$1k MRR",
   "points": 454,
   "comments": 161,
-  "date": "2020-03-06"
+  "date": "2020-03-06",
+  "title_zh": "六個月內達到 $1k 月經常性收入：我目前為止犯的最大錯誤",
+  "summary_zh": ""
  },
  {
   "title": "Reaching $10k monthly revenue with WakaTime, my SaaS side project",
@@ -196,7 +230,9 @@ const CASES=[
   "mrr": "$10k monthly",
   "points": 399,
   "comments": 163,
-  "date": "2017-10-31"
+  "date": "2017-10-31",
+  "title_zh": "我的 SaaS 副業 WakaTime 達到 $10k 月收入",
+  "summary_zh": ""
  },
  {
   "title": "Show HN: Image background removal without annoying subscriptions",
@@ -207,7 +243,9 @@ const CASES=[
   "mrr": null,
   "points": 383,
   "comments": 115,
-  "date": "2023-05-24"
+  "date": "2023-05-24",
+  "title_zh": "HN 展示：無需惱人訂閱的圖片去背工具",
+  "summary_zh": "哈囉，HN 的大家，<p>圖片去背是一個出乎意料地常見的圖像處理任務，而 AI 讓它變得非常容易。自從領域領導者 remove.bg 推出以來，這項技術已經取得了長足的進步..."
  },
  {
   "title": "Show HN: Side project passed $2.5k/mo revenue after 2 years (Phoenix and Vue)",
@@ -218,7 +256,9 @@ const CASES=[
   "mrr": "$2.5k/mo",
   "points": 381,
   "comments": 89,
-  "date": "2021-04-18"
+  "date": "2021-04-18",
+  "title_zh": "HN 展示：副業在兩年後達到每月 $2.5k 收入 (使用 Phoenix 和 Vue)",
+  "summary_zh": "幾年前，我有一個客戶，他們的銷售人員使用 Excel 來生成銷售提案。這效率低下，而且生成的檔案看起來很糟糕，所以我為他們開發了一個新流程..."
  },
  {
   "title": "Bootstrapping to €600k MRR and getting killed by Shopify: Checkout X",
@@ -229,7 +269,9 @@ const CASES=[
   "mrr": "600k MRR",
   "points": 360,
   "comments": 197,
-  "date": "2023-07-27"
+  "date": "2023-07-27",
+  "title_zh": "白手起家達到 €600k MRR，卻被 Shopify 擊垮：Checkout X",
+  "summary_zh": ""
  },
  {
   "title": "Show HN: Automatisch – Open source workflow automation, an alternative to Zapier",
@@ -240,7 +282,9 @@ const CASES=[
   "mrr": null,
   "points": 317,
   "comments": 58,
-  "date": "2023-01-25"
+  "date": "2023-01-25",
+  "title_zh": "HN 展示：Automatisch – 開源工作流程自動化工具，Zapier 的替代方案",
+  "summary_zh": "嗨，HN 社群的大家，我們很高興終於能向 HN 分享 Automatisch。Automatisch 是一款開源的工作流程自動化工具，是 Zapier 的替代方案。我和我的共同創辦人 (@barinal"
  },
  {
   "title": "Ask HN: Is the concept of a one-person software shop still viable?",
@@ -251,7 +295,9 @@ const CASES=[
   "mrr": null,
   "points": 315,
   "comments": 161,
-  "date": "2016-12-13"
+  "date": "2016-12-13",
+  "title_zh": "HN 提問：一人軟體公司/工作室 的概念還可行嗎？",
+  "summary_zh": "我開了一家軟體公司，想維持只有我一個人，不僱用員工。在這個 SaaS 普及且需要確保服務正常運作的時代，創業並維持這種模式，這還是一個實際的目標嗎？"
  },
  {
   "title": "Simple Analytics hits $4k MRR and shares its numbers",
@@ -262,7 +308,9 @@ const CASES=[
   "mrr": "$4k MRR",
   "points": 288,
   "comments": 120,
-  "date": "2020-02-12"
+  "date": "2020-02-12",
+  "title_zh": "Simple Analytics 達到 $4k MRR 並分享其營運數據",
+  "summary_zh": ""
  },
  {
   "title": "Candy Japan crosses $10K MRR",
@@ -273,7 +321,9 @@ const CASES=[
   "mrr": "$10K MRR",
   "points": 269,
   "comments": 103,
-  "date": "2014-06-29"
+  "date": "2014-06-29",
+  "title_zh": "Candy Japan 月經常性收入 (MRR) 突破 $10K",
+  "summary_zh": ""
  },
  {
   "title": "Show HN: A Global Co-Living Subscription for Nomads",
@@ -284,7 +334,9 @@ const CASES=[
   "mrr": null,
   "points": 265,
   "comments": 165,
-  "date": "2015-02-09"
+  "date": "2015-02-09",
+  "title_zh": "HN 展示：為數位遊民打造的全球共居訂閱服務",
+  "summary_zh": ""
  },
  {
   "title": "Show HN: Tracecat – Open-source security alert automation / SOAR alternative",
@@ -295,7 +347,9 @@ const CASES=[
   "mrr": null,
   "points": 264,
   "comments": 65,
-  "date": "2024-03-25"
+  "date": "2024-03-25",
+  "title_zh": "HN 展示：Tracecat – 開源資安警報自動化 / SOAR 替代方案",
+  "summary_zh": "嗨 HN，我們正在開發 Tracecat (https://tracecat.com/)，這是一個用於資安警報的開源自動化平台。Tracecat 自動化了"
  },
  {
   "title": "How I got to $9.99 MRR after 7 years",
@@ -306,7 +360,9 @@ const CASES=[
   "mrr": "$9.99 MRR",
   "points": 258,
   "comments": 107,
-  "date": "2020-12-11"
+  "date": "2020-12-11",
+  "title_zh": "我如何在 7 年後達到 $9.99 的月經常性收入 (MRR)",
+  "summary_zh": ""
  },
  {
   "title": "Making money building Shopify micro-SaaS apps",
@@ -317,7 +373,9 @@ const CASES=[
   "mrr": null,
   "points": 247,
   "comments": 63,
-  "date": "2020-08-24"
+  "date": "2020-08-24",
+  "title_zh": "透過開發 Shopify 微型 SaaS 應用程式來賺錢",
+  "summary_zh": ""
  },
  {
   "title": "Doubling SaaS Revenue By Changing The Pricing Model",
@@ -328,7 +386,9 @@ const CASES=[
   "mrr": null,
   "points": 216,
   "comments": 72,
-  "date": "2012-08-13"
+  "date": "2012-08-13",
+  "title_zh": "透過改變定價模式將 SaaS 營收翻倍",
+  "summary_zh": ""
  },
  {
   "title": "Launch HN: Enso (YC S21) – Visual programming and workflow automation tool",
@@ -339,7 +399,9 @@ const CASES=[
   "mrr": null,
   "points": 205,
   "comments": 54,
-  "date": "2021-07-06"
+  "date": "2021-07-06",
+  "title_zh": "HN 發布：Enso (YC S21) – 視覺化程式設計與工作流程自動化工具",
+  "summary_zh": "嗨 HN，我們是 Wojciech 和 Sylwia，Enso (https://enso.org) 的共同創辦人。在技術層面，Enso 是一個視覺化和文字化的程式設計"
  },
  {
   "title": "Show HN: Myphotos.site – Make a gallery website from Google Photos",
@@ -350,7 +412,9 @@ const CASES=[
   "mrr": null,
   "points": 195,
   "comments": 82,
-  "date": "2024-11-28"
+  "date": "2024-11-28",
+  "title_zh": "HN 展示：Myphotos.site – 從 Google 相簿建立圖庫網站",
+  "summary_zh": "嗨 HN！我朋友和我都喜歡用手機拍照，我們一直在尋找一種超級簡單的方式來與世界分享這些照片。Google 相簿的相簿很不錯，但結果不夠流暢"
  },
  {
   "title": "The New American Micro-SaaS Dream",
@@ -361,7 +425,9 @@ const CASES=[
   "mrr": null,
   "points": 189,
   "comments": 117,
-  "date": "2022-07-04"
+  "date": "2022-07-04",
+  "title_zh": "新美國微型 SaaS 夢",
+  "summary_zh": ""
  },
  {
   "title": "Show HN: Keep – GitHub Actions for your monitoring tools",
@@ -372,7 +438,9 @@ const CASES=[
   "mrr": null,
   "points": 181,
   "comments": 65,
-  "date": "2023-09-04"
+  "date": "2023-09-04",
+  "title_zh": "HN 展示：Keep – 適用於監控工具的 GitHub Actions",
+  "summary_zh": "嗨 Hacker News！我是來自 Keep 的 Shahar 和 Tal。幾個月前，我們在 HN 上介紹了 (https://news.ycombinator.com/item?id=34806482)"
  },
  {
   "title": "Show HN: I wrote an open-source browser alternative for Computer Use for any LLM",
@@ -383,7 +451,9 @@ const CASES=[
   "mrr": null,
   "points": 180,
   "comments": 72,
-  "date": "2024-11-05"
+  "date": "2024-11-05",
+  "title_zh": "HN 展示：我為任何大型語言模型 (LLM) 寫了一個開源的瀏覽器替代方案，用於電腦操作",
+  "summary_zh": "嗨 HN，我開發了 Browser-Use，這是一個開源工具，讓 (所有 Langchain 支援的) 大型語言模型 (LLM) 僅透過函式呼叫就能直接在瀏覽器中執行任務。它讓你可以建立能夠互動的代理"
  },
  {
   "title": "Growing From $5,000 to $25,000 in MRR",
@@ -394,7 +464,9 @@ const CASES=[
   "mrr": null,
   "points": 179,
   "comments": 16,
-  "date": "2014-01-03"
+  "date": "2014-01-03",
+  "title_zh": "月經常性收入 (MRR) 從 $5,000 成長到 $25,000",
+  "summary_zh": ""
  },
  {
   "title": "Launch HN: DryMerge (YC W24) – Automate Workflows with Plain English",
@@ -405,7 +477,9 @@ const CASES=[
   "mrr": null,
   "points": 179,
   "comments": 85,
-  "date": "2024-03-22"
+  "date": "2024-03-22",
+  "title_zh": "HN 發布：DryMerge (YC W24) – 用白話英文自動化工作流程",
+  "summary_zh": "嗨 HN！我們是 Edward 和 Sam，DryMerge (https://drymerge.com) 的創辦人，這是一個用白話英文自動化工作流程的工具。例如，"
  },
  {
   "title": "Startups that have hit more than $1K MRR in about 12-24 months",
@@ -416,7 +490,9 @@ const CASES=[
   "mrr": "$1K MRR",
   "points": 168,
   "comments": 111,
-  "date": "2020-11-09"
+  "date": "2020-11-09",
+  "title_zh": "大約在 12-24 個月內達到超過 $1K 月經常性收入 (MRR) 的新創公司",
+  "summary_zh": ""
  },
  {
   "title": "Show HN: Monthly subscription airline with SFO-LAX flights starting at $78",
@@ -427,7 +503,9 @@ const CASES=[
   "mrr": null,
   "points": 168,
   "comments": 162,
-  "date": "2018-01-10"
+  "date": "2018-01-10",
+  "title_zh": "HN 展示：月費訂閱制航空公司，SFO-LAX 航班起價 $78",
+  "summary_zh": ""
  },
  {
   "title": "Stripe Data vs. Open‐Source Alternatives: A MRR Example",
@@ -438,7 +516,9 @@ const CASES=[
   "mrr": null,
   "points": 167,
   "comments": 69,
-  "date": "2024-08-25"
+  "date": "2024-08-25",
+  "title_zh": "Stripe 資料 vs. 開源替代方案：一個月經常性收入 (MRR) 範例",
+  "summary_zh": ""
  },
  {
   "title": "$8600 MRR business on Airtable",
@@ -449,7 +529,9 @@ const CASES=[
   "mrr": "$8600 MRR",
   "points": 160,
   "comments": 85,
-  "date": "2022-08-18"
+  "date": "2022-08-18",
+  "title_zh": "在 Airtable 上經營的 $8600 MRR 事業",
+  "summary_zh": ""
  },
  {
   "title": "Why agencies get stuck at $50k MRR",
@@ -460,7 +542,9 @@ const CASES=[
   "mrr": "$50k MRR",
   "points": 159,
   "comments": 89,
-  "date": "2023-09-13"
+  "date": "2023-09-13",
+  "title_zh": "為什麼代理商會卡在 $50k MRR",
+  "summary_zh": ""
  },
  {
   "title": "Launch HN: Loops (YC W22) – Email for SaaS Companies",
@@ -471,7 +555,9 @@ const CASES=[
   "mrr": null,
   "points": 151,
   "comments": 137,
-  "date": "2023-09-21"
+  "date": "2023-09-21",
+  "title_zh": "Launch HN: Loops (YC W22) – 專為 SaaS 公司打造的電子郵件服務",
+  "summary_zh": "哈囉 HN！我們是 Loops (<a href=\"https:&#x2F;&#x2F;loops.so\">https:&#x2F;&#x2F;loops.so</a>) 的團隊，這個平台旨在簡化 SaaS 公司的電子郵件體驗。我們支援 cr"
  },
  {
   "title": "Micro-SaaS Alternatives to BigTech/VC",
@@ -482,7 +568,9 @@ const CASES=[
   "mrr": "$14K MRR",
   "points": 151,
   "comments": 30,
-  "date": "2022-08-07"
+  "date": "2022-08-07",
+  "title_zh": "對抗大型科技公司/創投的 Micro-SaaS 替代方案",
+  "summary_zh": "哈囉 HN<p>我發起了這個群眾募資清單，旨在尋找由獨立開發者（或小型團隊）製作的小型網路產品，這些產品可以作為大型科技公司/創投資助的新創公司的替代方案。<p>例如，你可以使用"
  },
  {
   "title": "Launch HN: Patterns (YC S21) – A much faster way to build and deploy data apps",
@@ -493,7 +581,9 @@ const CASES=[
   "mrr": null,
   "points": 149,
   "comments": 36,
-  "date": "2022-11-30"
+  "date": "2022-11-30",
+  "title_zh": "Launch HN: Patterns (YC S21) – 更快速地建構與部署資料應用程式的方法",
+  "summary_zh": "嘿 HN，我是 Ken，Patterns (<a href=\"https:&#x2F;&#x2F;www.patterns.app&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.patterns.app&#x2F;</a>) 的共同創辦人，我的朋友 Chris 也是。Patterns 解決了"
  },
  {
   "title": "How I grew my Shopify micro-SaaS",
@@ -504,7 +594,9 @@ const CASES=[
   "mrr": null,
   "points": 139,
   "comments": 55,
-  "date": "2020-07-04"
+  "date": "2020-07-04",
+  "title_zh": "我如何發展我的 Shopify micro-SaaS",
+  "summary_zh": ""
  },
  {
   "title": "Show HN: Premium Medical Marijuana Subscription – SF Only",
@@ -515,7 +607,9 @@ const CASES=[
   "mrr": null,
   "points": 129,
   "comments": 76,
-  "date": "2014-11-21"
+  "date": "2014-11-21",
+  "title_zh": "Show HN: 高階醫療大麻訂閱服務 – 僅限舊金山",
+  "summary_zh": ""
  },
  {
   "title": "Show HN: Data Diff – compare tables of any size across databases",
@@ -526,7 +620,9 @@ const CASES=[
   "mrr": null,
   "points": 127,
   "comments": 21,
-  "date": "2022-06-22"
+  "date": "2022-06-22",
+  "title_zh": "Show HN: Data Diff – 比較任何規模的跨資料庫表格",
+  "summary_zh": "Gleb、Alex、Erez 和 Simon 在這裡 – 我們正在開發一個開源工具，用於比較任何規模的資料庫內部和跨資料庫的資料。儲存庫位於 <a href=\"https:&#x2F;&#x2F;github.com&#x2F;datafold&#x"
  },
  {
   "title": "Show HN: PySaaS – Python SaaS starter kit",
@@ -537,7 +633,9 @@ const CASES=[
   "mrr": null,
   "points": 121,
   "comments": 46,
-  "date": "2023-04-30"
+  "date": "2023-04-30",
+  "title_zh": "Show HN: PySaaS – Python SaaS 入門套件",
+  "summary_zh": "哈囉 HN，<p>最近，我注意到開發具有競爭力的全端 SaaS 應用程式存在相當高的進入門檻。<p>除了那些需要數月才能實施的標準、無聊功能之外，"
  },
  {
   "title": "How I Stay Motivated Working on My Solo SaaS (When It Feels Like Nobody Cares)",
@@ -548,7 +646,9 @@ const CASES=[
   "mrr": null,
   "points": 119,
   "comments": 55,
-  "date": "2025-03-18"
+  "date": "2025-03-18",
+  "title_zh": "當感覺沒人在乎時，我如何保持開發個人 SaaS 的動力",
+  "summary_zh": "我已經在我的個人專案——一個幫助遠端工作者尋找附近共享辦公空間的小應用程式——上努力了好幾個月，有時候感覺就像對著虛空吶喊。沒有人註冊，我正在建"
  },
  {
   "title": "Show HN: Patchwork – Open-source framework to automate development gruntwork",
@@ -559,7 +659,9 @@ const CASES=[
   "mrr": null,
   "points": 116,
   "comments": 24,
-  "date": "2024-07-26"
+  "date": "2024-07-26",
+  "title_zh": "Show HN: Patchwork – 自動化開發雜務的開源框架",
+  "summary_zh": "哈囉 HN！我們是 Asankhaya 和 Rohan，我們正在開發 Patchwork。<p>Patchwork 透過可客製化、程式碼優先的「patchfl」來處理開發雜務——例如審查、文件、程式碼檢查和安全修復。"
  },
  {
   "title": "Launch HN: June (YC W21) – Product Analytics for B2B SaaS Companies",
@@ -570,7 +672,9 @@ const CASES=[
   "mrr": null,
   "points": 115,
   "comments": 48,
-  "date": "2023-06-28"
+  "date": "2023-06-28",
+  "title_zh": "Launch HN: June (YC W21) – 適用於 B2B SaaS 公司的產品分析工具",
+  "summary_zh": "兩年半前，我和我的共同創辦人離開了 Intercom 的產品團隊，嘗試創辦一家新公司。我們經歷了 YC，並在 Segment 之上推出了一個分析工具，該工具允許"
  },
  {
   "title": "See how 100 startups are running – MRR and Stats",
@@ -581,7 +685,9 @@ const CASES=[
   "mrr": null,
   "points": 113,
   "comments": 32,
-  "date": "2021-02-23"
+  "date": "2021-02-23",
+  "title_zh": "看看 100 家新創公司如何營運 – MRR 和統計數據",
+  "summary_zh": ""
  },
  {
   "title": "Show HN: M3O – Universal Public API Interface",
@@ -592,7 +698,9 @@ const CASES=[
   "mrr": null,
   "points": 110,
   "comments": 37,
-  "date": "2022-04-25"
+  "date": "2022-04-25",
+  "title_zh": "Show HN: M3O – 通用公共 API 介面",
+  "summary_zh": "大家好，我是 Asim，M3O 的創辦人，M3O 是一個精選的 API 目錄，為最常見的 API 使用案例提供簡單的抽象。我們的想法是創建一個單一的地方來探索、發現和"
  },
  {
   "title": "Show HN: BillaBear – Self-Hosted SaaS Subscription Management and Billing",
@@ -603,7 +711,9 @@ const CASES=[
   "mrr": null,
   "points": 107,
   "comments": 46,
-  "date": "2023-06-27"
+  "date": "2023-06-27",
+  "title_zh": "Show HN: BillaBear – 自託管 SaaS 訂閱管理與計費",
+  "summary_zh": ""
  },
  {
   "title": "Show HN: Open-source alternative to ChatGPT Agents for browsing",
@@ -614,7 +724,9 @@ const CASES=[
   "mrr": null,
   "points": 104,
   "comments": 23,
-  "date": "2025-07-30"
+  "date": "2025-07-30",
+  "title_zh": "Show HN: 瀏覽用的 ChatGPT Agents 開源替代方案",
+  "summary_zh": "嘿 HN，<p>我們是 Winston、Edward 和 James，我們開發了 Meka Agent，這是一個開源框架，讓基於視覺的 LLM 能夠像人一樣直接在電腦上執行任務。<p>背景故事："
  },
  {
   "title": "Launch HN: FlyCode (YC S22) – Stop losing revenue due to failed payments",
@@ -625,7 +737,9 @@ const CASES=[
   "mrr": null,
   "points": 103,
   "comments": 66,
-  "date": "2024-10-30"
+  "date": "2024-10-30",
+  "title_zh": "Launch HN: FlyCode (YC S22) – 避免因支付失敗而損失收入",
+  "summary_zh": "哈囉 HN 社群，我們是 Jake、Tzachi 和 Etai，FlyCode (<a href=\"https:&#x2F;&#x2F;www.flycode.com\">https:&#x2F;&#x2F;www.flycode.com</a>) 的共同創辦人。FlyCode 讓訂閱制的"
  },
  {
   "title": "Show HN: Software to give insurance advice like an agent would",
@@ -636,7 +750,9 @@ const CASES=[
   "mrr": null,
   "points": 97,
   "comments": 64,
-  "date": "2018-07-05"
+  "date": "2018-07-05",
+  "title_zh": "Show HN: 像保險業務員一樣提供保險建議的軟體",
+  "summary_zh": "Chris、Dan 和 Goodcover 團隊在這裡。Goodcover 正在建立一家新的房屋和租客保險公司，試圖透過將任何未領取的保費退還給客戶來修正保險獎勵機制，k"
  },
  {
   "title": "Ask HN: Side projects making less than $2k MRR, what's your project?",
@@ -647,7 +763,9 @@ const CASES=[
   "mrr": "$2k MRR",
   "points": 95,
   "comments": 99,
-  "date": "2023-04-14"
+  "date": "2023-04-14",
+  "title_zh": "Ask HN: MRR 低於 $2k 的副業專案，你的專案是什麼？",
+  "summary_zh": "當一個關於 $2k 以上 MRR 的討論正在進行時，我覺得聽聽那些還沒達到 $2k 的人的意見會很棒。"
  },
  {
   "title": "The 2 Biggest Mistakes I Made (Before Reaching $500 MRR)",
@@ -658,7 +776,9 @@ const CASES=[
   "mrr": "$500 MRR",
   "points": 95,
   "comments": 38,
-  "date": "2014-01-20"
+  "date": "2014-01-20",
+  "title_zh": "我在達到 $500 MRR 之前犯的 2 個最大錯誤",
+  "summary_zh": ""
  },
  {
   "title": "How to Build a SaaS Unicorn: The Outreach Story",
@@ -669,7 +789,9 @@ const CASES=[
   "mrr": null,
   "points": 93,
   "comments": 15,
-  "date": "2019-12-02"
+  "date": "2019-12-02",
+  "title_zh": "如何打造 SaaS 獨角獸：Outreach 的故事",
+  "summary_zh": ""
  },
  {
   "title": "Brazilian Micro-SaaS Map",
@@ -680,7 +802,9 @@ const CASES=[
   "mrr": null,
   "points": 93,
   "comments": 4,
-  "date": "2026-01-31"
+  "date": "2026-01-31",
+  "title_zh": "巴西微型 SaaS 地圖",
+  "summary_zh": ""
  },
  {
   "title": "Show HN: I Built a Visual Workflow Automation Platform – FlowRipple",
@@ -691,7 +815,9 @@ const CASES=[
   "mrr": null,
   "points": 92,
   "comments": 65,
-  "date": "2025-02-22"
+  "date": "2025-02-22",
+  "title_zh": "Show HN: 我打造了一個視覺化工作流程自動化平台 – FlowRipple",
+  "summary_zh": "FlowRipple 旨在輕鬆簡化並自動化商業流程。無論您是開發者、企業主或行銷人員，我們的平台都能讓您建立客製化的工作流程，這些流程可以被 t"
  },
  {
   "title": "Getting to €20k in MRR in 90 days",
@@ -702,7 +828,9 @@ const CASES=[
   "mrr": null,
   "points": 91,
   "comments": 37,
-  "date": "2015-05-13"
+  "date": "2015-05-13",
+  "title_zh": "在 90 天內達到 €20k 的 MRR",
+  "summary_zh": ""
  },
  {
   "title": "Launch HN: Paigo (YC S22) – Measure and bill SaaS customers based on usage",
@@ -713,7 +841,9 @@ const CASES=[
   "mrr": null,
   "points": 89,
   "comments": 35,
-  "date": "2022-10-25"
+  "date": "2022-10-25",
+  "title_zh": "Launch HN: Paigo (YC S22) – 根據使用量衡量並向 SaaS 客戶收費",
+  "summary_zh": "各位 HN 大家好！我是 Daniel，一位軟體工程師和業餘駭客。我的共同創辦人 Matt 也加入了。我們正在開發 Paigo (<a href=\"https:&#x2F;&#x2F;paigo.tech\" rel=\"nofollow\">https:&#x2F;&#x2F;paigo.t"
  },
  {
   "title": "How to accelerate revenue for SaaS startups",
@@ -724,7 +854,9 @@ const CASES=[
   "mrr": null,
   "points": 88,
   "comments": 27,
-  "date": "2018-05-07"
+  "date": "2018-05-07",
+  "title_zh": "如何加速 SaaS 新創公司的營收成長",
+  "summary_zh": ""
  },
  {
   "title": "Show HN: Potbox – A premium cannabis subscription club",
@@ -735,7 +867,9 @@ const CASES=[
   "mrr": null,
   "points": 87,
   "comments": 53,
-  "date": "2015-07-08"
+  "date": "2015-07-08",
+  "title_zh": "Show HN: Potbox – 一個高級大麻訂閱俱樂部",
+  "summary_zh": ""
  },
  {
   "title": "Show HN: Roam – Global co-living subscription",
@@ -746,7 +880,9 @@ const CASES=[
   "mrr": null,
   "points": 87,
   "comments": 40,
-  "date": "2016-02-02"
+  "date": "2016-02-02",
+  "title_zh": "Show HN: Roam – 全球共居訂閱服務",
+  "summary_zh": ""
  },
  {
   "title": "Ask HN: Are there any real examples of AI agents doing work?",
@@ -757,7 +893,9 @@ const CASES=[
   "mrr": null,
   "points": 86,
   "comments": 76,
-  "date": "2025-01-08"
+  "date": "2025-01-08",
+  "title_zh": "Ask HN: 有沒有 AI 代理人實際工作的例子？",
+  "summary_zh": "2025 是代理人的一年。我聽說過 SDR AI 代理人，但評價不怎麼樣。大多數「代理人」聽起來都像是存在已久的工作流程自動化。有人有「AI」代理人的例子嗎，它能 wh"
  },
  {
   "title": "Show HN: GitOps Template for Kubernetes",
@@ -768,7 +906,9 @@ const CASES=[
   "mrr": null,
   "points": 86,
   "comments": 35,
-  "date": "2024-09-10"
+  "date": "2024-09-10",
+  "title_zh": "Show HN: 適用於 Kubernetes 的 GitOps 範本",
+  "summary_zh": "各位 HN 大家好，我們是來自 Glasskube 的 Philip Louis (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;glasskube&#x2F;glasskube\">https:&#x2F;&#x2F;github.com&#x2F;glasskube&#x2F;glasskube</a>)。我們正在開發一個 p"
  },
  {
   "title": "Show HN: Online OPML editor to manage subscription lists",
@@ -779,7 +919,9 @@ const CASES=[
   "mrr": null,
   "points": 85,
   "comments": 11,
-  "date": "2024-06-21"
+  "date": "2024-06-21",
+  "title_zh": "Show HN: 用於管理訂閱列表的線上 OPML 編輯器",
+  "summary_zh": "我做了一個小型的線上編輯器，可以輕鬆管理 OPML[1] 檔案。有很多針對 JSON 等格式的智慧型線上編輯器，但儘管大多數訂閱服務都支援 OPML，其體驗卻 o"
  },
  {
   "title": "Launch YC: 3D Web; Training; Child privacy; Pregnancy; Life science; Desk rental",
@@ -790,7 +932,9 @@ const CASES=[
   "mrr": null,
   "points": 85,
   "comments": 127,
-  "date": "2021-08-03"
+  "date": "2021-08-03",
+  "title_zh": "Launch YC: 3D 網路；培訓；兒童隱私；懷孕；生命科學；辦公桌租賃",
+  "summary_zh": "這是第三個「Meet the Batch」討論串 – 上一個是 <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=27996057\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&"
  },
  {
   "title": "Apple is actually asking for 100% of SaaS mobile revenue",
@@ -801,7 +945,9 @@ const CASES=[
   "mrr": null,
   "points": 83,
   "comments": 106,
-  "date": "2011-02-16"
+  "date": "2011-02-16",
+  "title_zh": "Apple 實際上要求 100% 的 SaaS 行動營收",
+  "summary_zh": ""
  },
  {
   "title": "Launch HN: Parity (YC S24) – AI for on-call engineers working with Kubernetes",
@@ -812,7 +958,9 @@ const CASES=[
   "mrr": null,
   "points": 83,
   "comments": 75,
-  "date": "2024-08-26"
+  "date": "2024-08-26",
+  "title_zh": "Launch HN: Parity (YC S24) – 適用於使用 Kubernetes 的值班工程師的 AI",
+  "summary_zh": "各位 HN 大家好 — 我們是 Jeffrey、Coleman 和 Wilson，我們正在開發 Parity (<a href=\"https:&#x2F;&#x2F;tryparity.com\">https:&#x2F;&#x2F;tryparity.com</a>)，一個適用於值班工程師的 AI SRE 副駕駛，它能"
  },
  {
   "title": "Show HN: Startup Threads Monthly - Subscription Swag Service",
@@ -823,7 +971,9 @@ const CASES=[
   "mrr": null,
   "points": 82,
   "comments": 55,
-  "date": "2012-01-27"
+  "date": "2012-01-27",
+  "title_zh": "Show HN: Startup Threads Monthly - 訂閱式贈品服務",
+  "summary_zh": ""
  },
  {
   "title": "Show HN: My affordable solution to costly workflow automation: Embed Workflow",
@@ -834,7 +984,9 @@ const CASES=[
   "mrr": null,
   "points": 81,
   "comments": 20,
-  "date": "2023-05-20"
+  "date": "2023-05-20",
+  "title_zh": "Show HN: 我針對昂貴工作流程自動化的平價解決方案：Embed Workflow",
+  "summary_zh": ""
  },
  {
   "title": "Show HN: Strada – Cloud IDE for Connecting SaaS APIs",
@@ -845,7 +997,9 @@ const CASES=[
   "mrr": null,
   "points": 79,
   "comments": 29,
-  "date": "2024-02-22"
+  "date": "2024-02-22",
+  "title_zh": "Show HN: Strada – 用於連接 SaaS API 的雲端 IDE",
+  "summary_zh": "各位 HN 大家好！我是 Arash，Strada 的共同創辦人之一 (<a href=\"https:&#x2F;&#x2F;www.getstrada.com\">https:&#x2F;&#x2F;www.getstrada.com</a>)，一個用於在您的公司中建立自動化工作流程的雲端 IDE，它能 compa"
  },
  {
   "title": "Show HN: Cashbar app – your SaaS revenue in your menu bar",
@@ -856,7 +1010,9 @@ const CASES=[
   "mrr": null,
   "points": 74,
   "comments": 46,
-  "date": "2019-12-11"
+  "date": "2019-12-11",
+  "title_zh": "Show HN: Cashbar app – 您的 SaaS 營收顯示在選單列中",
+  "summary_zh": ""
  },
  {
   "title": "Ask HN: Surprised by your revenue? Easier than you thought?",
@@ -867,7 +1023,9 @@ const CASES=[
   "mrr": "$30/mo",
   "points": 74,
   "comments": 35,
-  "date": "2010-07-16"
+  "date": "2010-07-16",
+  "title_zh": "Ask HN: 對您的營收感到驚訝嗎？比您想像的更容易嗎？",
+  "summary_zh": "我正在下班後和週末時間，慢慢地開發一個利基型的 B2B SaaS 產品。<p>我期待著能有一些額外的月收入。我很喜歡這樣想：「每月 $30，我只需要"
  },
  {
   "title": "Show HN: Subscription Billing for Developers and Startups",
@@ -878,7 +1036,9 @@ const CASES=[
   "mrr": null,
   "points": 73,
   "comments": 30,
-  "date": "2014-06-19"
+  "date": "2014-06-19",
+  "title_zh": "Show HN: 適用於開發者和新創公司的訂閱計費",
+  "summary_zh": ""
  },
  {
   "title": "Ask HN: Is it foolish to open source your SAAS business source code?",
@@ -889,7 +1049,9 @@ const CASES=[
   "mrr": null,
   "points": 70,
   "comments": 65,
-  "date": "2015-01-29"
+  "date": "2015-01-29",
+  "title_zh": "HN 提問：將您的 SaaS 業務原始碼開源是否不明智？",
+  "summary_zh": "假設您開發出一個很棒的生產力應用程式。它是基於網路的，擁有後端以及適用於瀏覽器和行動裝置的 JavaScript 前端。您將其以 MIT 或 BSD 等類似授權放在 GitHub 上。"
  },
  {
   "title": "Ask HN: Does my company with $140,000 annual revenue have any value?",
@@ -900,7 +1062,9 @@ const CASES=[
   "mrr": null,
   "points": 69,
   "comments": 38,
-  "date": "2010-07-03"
+  "date": "2010-07-03",
+  "title_zh": "HN 提問：我年收入 $140,000 的公司有任何價值嗎？",
+  "summary_zh": "我是一位 21 歲的網頁開發者，經營一家（已註冊的）公司，擁有幾個與網站管理和電子商務相關的獨特網路應用程式。該軟體由客戶下載並自行託管 (n"
  },
  {
   "title": "RepoKitteh: Github workflow automation using Starlark",
@@ -911,7 +1075,9 @@ const CASES=[
   "mrr": null,
   "points": 66,
   "comments": 7,
-  "date": "2021-04-02"
+  "date": "2021-04-02",
+  "title_zh": "RepoKitteh：使用 Starlark 進行 Github 工作流程自動化",
+  "summary_zh": ""
  },
  {
   "title": "Show HN: ggc – A terminal-based Git CLI written in Go",
@@ -922,7 +1088,9 @@ const CASES=[
   "mrr": null,
   "points": 65,
   "comments": 61,
-  "date": "2025-07-16"
+  "date": "2025-07-16",
+  "title_zh": "HN 展示：ggc – 一個用 Go 語言編寫的終端機版 Git CLI 工具",
+  "summary_zh": "各位 HN 讀者您好，我開發了 ggc (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;bmf-san&#x2F;ggc\">https:&#x2F;&#x2F;github.com&#x2F;bmf-san&#x2F;ggc</a>)，這是一個用 Go 語言編寫的終端機版 Git CLI 工具。ggc 提供："
  },
  {
   "title": "Ask HN: I need advice on my first B2B SaaS startup",
@@ -933,7 +1101,9 @@ const CASES=[
   "mrr": null,
   "points": 59,
   "comments": 79,
-  "date": "2020-01-16"
+  "date": "2020-01-16",
+  "title_zh": "HN 提問：我需要關於我第一個 B2B SaaS 新創公司的建議",
+  "summary_zh": "您好，我是一家自力更生（bootstrapped）的 B2B SaaS 公司的技術創辦人。我們的解決方案是一個非常橫向的流程自動化平台，有潛力適應許多不同產業和 c"
  },
  {
   "title": "Taking Apple to Court: Their mistake wiped out our $33,680 MRR mobile business",
@@ -944,7 +1114,9 @@ const CASES=[
   "mrr": "$33,680 MRR",
   "points": 57,
   "comments": 26,
-  "date": "2024-05-10"
+  "date": "2024-05-10",
+  "title_zh": "將 Apple 告上法庭：他們的錯誤毀掉了我們每月經常性收入 (MRR) $33,680 的行動業務",
+  "summary_zh": ""
  },
  {
   "title": "Launch HN: Manaflow (YC S24) – Automate repetitive office work in tables",
@@ -955,7 +1127,9 @@ const CASES=[
   "mrr": null,
   "points": 57,
   "comments": 22,
-  "date": "2024-08-15"
+  "date": "2024-08-15",
+  "title_zh": "HN 發布：Manaflow (YC S24) – 自動化表格中的重複性辦公室工作",
+  "summary_zh": "各位 HN 讀者您好！我們是來自 Manaflow (<a href=\"https:&#x2F;&#x2F;manaflow.com\" rel=\"nofollow\">https:&#x2F;&#x2F;manaflow.com</a>) 的 Austin、Lawrence 和 Wesley。Manaflow 是一個試算表，其中每個欄位代表"
  },
  {
   "title": "Show HN: Download Twitter data without API keys",
@@ -966,7 +1140,9 @@ const CASES=[
   "mrr": null,
   "points": 57,
   "comments": 43,
-  "date": "2022-02-03"
+  "date": "2022-02-03",
+  "title_zh": "HN 展示：無需 API 金鑰即可下載 Twitter 資料",
+  "summary_zh": "去年四月，我開始思考如何更聰明地使用 Twitter。我希望對我的推文進行分析，並了解更多關於在 Twitter 上追蹤我的人。人們會做些什麼樣的事情"
  },
  {
   "title": "Terminal workflow automation with Terminitor",
@@ -977,7 +1153,9 @@ const CASES=[
   "mrr": null,
   "points": 56,
   "comments": 16,
-  "date": "2010-09-20"
+  "date": "2010-09-20",
+  "title_zh": "使用 Terminitor 進行終端機工作流程自動化",
+  "summary_zh": ""
  },
  {
   "title": "My SaaS makes $50K MRR and is built on vanilla Ruby on Rails and jQuery",
@@ -988,7 +1166,9 @@ const CASES=[
   "mrr": "$50K MRR",
   "points": 54,
   "comments": 13,
-  "date": "2023-05-03"
+  "date": "2023-05-03",
+  "title_zh": "我的 SaaS 每月經常性收入 (MRR) 達 $50K，並以純粹的 Ruby on Rails 和 jQuery 構建",
+  "summary_zh": ""
  },
  {
   "title": "Show HN: Draftss – Design and Code on Monthly Subscription",
@@ -999,7 +1179,9 @@ const CASES=[
   "mrr": null,
   "points": 54,
   "comments": 30,
-  "date": "2019-01-28"
+  "date": "2019-01-28",
+  "title_zh": "HN 展示：Draftss – 設計與程式碼月租訂閱服務",
+  "summary_zh": ""
  },
  {
   "title": "Revenue Contribution, Margin Analysis and Growth Rates of SaaS Companies",
@@ -1010,7 +1192,9 @@ const CASES=[
   "mrr": null,
   "points": 52,
   "comments": 1,
-  "date": "2019-12-15"
+  "date": "2019-12-15",
+  "title_zh": "SaaS 公司的營收貢獻、利潤分析與成長率",
+  "summary_zh": ""
  },
  {
   "title": "Ask HN: Payment processing for micro SaaS outside USA?",
@@ -1021,7 +1205,9 @@ const CASES=[
   "mrr": null,
   "points": 52,
   "comments": 43,
-  "date": "2024-11-23"
+  "date": "2024-11-23",
+  "title_zh": "HN 提問：美國以外的微型 SaaS 如何處理支付？",
+  "summary_zh": "我正在開發一個微型 SaaS（不期望從中賺取太多），但我找不到適合的支付處理器。我所在的國家不支援 Stripe，因此這個顯而易見的選項不可行。<p"
  },
  {
   "title": "Friends, come warm yourselves by the flaming wreckage of my micro-SaaS",
@@ -1032,7 +1218,9 @@ const CASES=[
   "mrr": null,
   "points": 51,
   "comments": 9,
-  "date": "2022-02-12"
+  "date": "2022-02-12",
+  "title_zh": "朋友們，快來我微型 SaaS 的熊熊殘骸旁取暖吧",
+  "summary_zh": ""
  },
  {
   "title": "Show HN: Automated lead gen generator for SaaS",
@@ -1043,7 +1231,9 @@ const CASES=[
   "mrr": null,
   "points": 50,
   "comments": 0,
-  "date": "2024-08-19"
+  "date": "2024-08-19",
+  "title_zh": "HN 展示：SaaS 自動化潛在客戶生成器",
+  "summary_zh": "各位 HN 讀者您好，我是一位自力更生的 SaaS 創辦人，正努力發展我的微型 SaaS。我已經轉型（pivot）多次，這可能是最後一搏了。我意識到行銷和銷售是關鍵所在"
  },
  {
   "title": "Show HN: Subscription Score – A browser ext that identifies bad mailing lists",
@@ -1054,7 +1244,9 @@ const CASES=[
   "mrr": null,
   "points": 48,
   "comments": 21,
-  "date": "2020-02-13"
+  "date": "2020-02-13",
+  "title_zh": "HN 展示：Subscription Score – 一個能識別不良郵件列表的瀏覽器擴充功能",
+  "summary_zh": ""
  },
  {
   "title": "Show HN: Workflow86 - An AI business analyst and automation engineer",
@@ -1065,7 +1257,9 @@ const CASES=[
   "mrr": null,
   "points": 48,
   "comments": 45,
-  "date": "2025-01-30"
+  "date": "2025-01-30",
+  "title_zh": "HN 展示：Workflow86 - 一個 AI 商業分析師與自動化工程師",
+  "summary_zh": "各位 HN 讀者您好，我們開發了 Workflow86，旨在幫助團隊使用拖放元件（如表單、任務、表格和業務邏輯節點、AP）來建立和自動化其內部業務流程和工作流程。"
  },
  {
   "title": "I started $10K MRR business – Print My City story",
@@ -1076,7 +1270,9 @@ const CASES=[
   "mrr": "$10K MRR",
   "points": 46,
   "comments": 20,
-  "date": "2020-03-13"
+  "date": "2020-03-13",
+  "title_zh": "我創立了每月經常性收入 (MRR) 達 $10K 的業務 – Print My City 的故事",
+  "summary_zh": ""
  },
  {
   "title": "Show HN: Revenue Forecasting for SaaS Apps",
@@ -1087,7 +1283,9 @@ const CASES=[
   "mrr": null,
   "points": 45,
   "comments": 19,
-  "date": "2018-01-22"
+  "date": "2018-01-22",
+  "title_zh": "HN 展示：SaaS 應用程式的營收預測",
+  "summary_zh": ""
  },
  {
   "title": "My First $500 MRR – My thoughts and learnings",
@@ -1098,7 +1296,9 @@ const CASES=[
   "mrr": "$500 MRR",
   "points": 44,
   "comments": 22,
-  "date": "2025-08-17"
+  "date": "2025-08-17",
+  "title_zh": "我的第一個 $500 每月經常性收入 (MRR) – 我的想法與學習心得",
+  "summary_zh": "我會盡可能地直截了當，不說廢話。這是我開發的第 6 個專案，也是第一個有實質收入的專案，儘管您可能會認為 500 歐元 MRR 收入很少，但"
  },
  {
   "title": "Show HN: Non-intrusive AI agent to automate email driven workflows",
@@ -1109,7 +1309,9 @@ const CASES=[
   "mrr": null,
   "points": 44,
   "comments": 13,
-  "date": "2025-05-27"
+  "date": "2025-05-27",
+  "title_zh": "Show HN: 非侵入式 AI 助理，自動化電子郵件驅動的工作流程",
+  "summary_zh": "各位 HN 朋友大家好！我和我的共同創辦人花了過去四週的時間，打造了一個我們自己非常需要的產品。<p>問題是：我們花費數小時處理電子郵件——安排會議、閱讀冗長的電子報..."
  },
  {
   "title": "My team validates startup ideas using Reddit. Here is how to get started",
@@ -1120,7 +1322,9 @@ const CASES=[
   "mrr": null,
   "points": 44,
   "comments": 8,
-  "date": "2020-11-23"
+  "date": "2020-11-23",
+  "title_zh": "我的團隊利用 Reddit 驗證新創點子。這是我們的入門指南",
+  "summary_zh": "我的團隊利用 Reddit 驗證新創點子。Reddit 每月有 15 億次造訪，因此驗證過程可以既快速又準確。透過這種方法，我們推出了 5 個專案，其中包含一個「金雞母」產品 Email Verificatio"
  },
  {
   "title": "My 2 year journey to building a successful product ($2,700 MRR)",
@@ -1131,7 +1335,9 @@ const CASES=[
   "mrr": "$2,700 MRR",
   "points": 42,
   "comments": 14,
-  "date": "2025-02-14"
+  "date": "2025-02-14",
+  "title_zh": "我打造成功產品的兩年旅程（每月經常性收入 $2,700）",
+  "summary_zh": "2023 年 2 月 14 日：經營一個成功的 SaaS 已經一年半了，但我只是行銷／業務的創辦人。這並不是我真正想做的專案。我想要成為那個打造產品的人。產品..."
  },
  {
   "title": "They say I make $45K/month just by pure luck and just by posting my MRR on X",
@@ -1142,7 +1348,9 @@ const CASES=[
   "mrr": "$45K/mo",
   "points": 39,
   "comments": 28,
-  "date": "2023-10-04"
+  "date": "2023-10-04",
+  "title_zh": "他們說我每月賺 $45K 純粹是靠運氣，而且只是因為在 X 上發布我的 MRR",
+  "summary_zh": ""
  },
  {
   "title": "$1k MRR: Harder than I anticipated",
@@ -1153,7 +1361,9 @@ const CASES=[
   "mrr": "$1k MRR",
   "points": 39,
   "comments": 4,
-  "date": "2020-02-24"
+  "date": "2020-02-24",
+  "title_zh": "每月經常性收入 $1k：比我預期的還要難",
+  "summary_zh": ""
  },
  {
   "title": "How we reached $6250 monthly recurring revenue in 77 days from launch",
@@ -1164,7 +1374,9 @@ const CASES=[
   "mrr": "$6250 monthly",
   "points": 39,
   "comments": 19,
-  "date": "2020-02-19"
+  "date": "2020-02-19",
+  "title_zh": "我們如何在推出後 77 天內達到每月經常性收入 $6250",
+  "summary_zh": "我以開發 SaaS 產品為生，最近推出了 Helpwise (https://helpwise.io)——一個團隊共用收件匣，用於管理像 help@、jobs@ 等團隊電子郵件。在這裡，我將分享如何..."
  },
  {
   "title": "How I built my MVP in 5 hours and got to $10k MRR in two months",
@@ -1175,7 +1387,9 @@ const CASES=[
   "mrr": "$10k MRR",
   "points": 38,
   "comments": 3,
-  "date": "2018-01-23"
+  "date": "2018-01-23",
+  "title_zh": "我如何在 5 小時內建立我的 MVP，並在兩個月內達到每月經常性收入 $10k",
+  "summary_zh": ""
  },
  {
   "title": "Building Gust's Data Pipeline: From Payments to MRR",
@@ -1186,7 +1400,9 @@ const CASES=[
   "mrr": null,
   "points": 38,
   "comments": 0,
-  "date": "2017-08-22"
+  "date": "2017-08-22",
+  "title_zh": "建立 Gust 的資料管線：從支付到每月經常性收入",
+  "summary_zh": ""
  },
  {
   "title": "How not to SaaS – lessons from 2 years of building 3k MRR SaaS",
@@ -1197,7 +1413,9 @@ const CASES=[
   "mrr": "3k MRR",
   "points": 36,
   "comments": 7,
-  "date": "2020-11-02"
+  "date": "2020-11-02",
+  "title_zh": "SaaS 的反面教材——從兩年打造每月經常性收入 $3k 的 SaaS 中學到的教訓",
+  "summary_zh": ""
  },
  {
   "title": "Micro SaaS Ideas You'll Want to Steal",
@@ -1208,7 +1426,9 @@ const CASES=[
   "mrr": null,
   "points": 36,
   "comments": 14,
-  "date": "2019-05-20"
+  "date": "2019-05-20",
+  "title_zh": "你會想偷走的微型 SaaS 點子",
+  "summary_zh": ""
  },
  {
   "title": "Show HN: Forked and updated the Chrome RSS subscription extension Google removed",
@@ -1219,7 +1439,9 @@ const CASES=[
   "mrr": null,
   "points": 35,
   "comments": 18,
-  "date": "2013-03-19"
+  "date": "2013-03-19",
+  "title_zh": "Show HN: 分叉並更新了 Google 移除的 Chrome RSS 訂閱擴充功能",
+  "summary_zh": ""
  },
  {
   "title": "My side project reached $500 MRR :)",
@@ -1230,7 +1452,9 @@ const CASES=[
   "mrr": "$500 MRR",
   "points": 34,
   "comments": 7,
-  "date": "2023-11-02"
+  "date": "2023-11-02",
+  "title_zh": "我的副業專案達到了每月經常性收入 $500 :)",
+  "summary_zh": ""
  },
  {
   "title": "Ask HN: 57 sales totaling $1,539 for micro-SaaS? Is the idea dead?",
@@ -1241,7 +1465,9 @@ const CASES=[
   "mrr": null,
   "points": 34,
   "comments": 30,
-  "date": "2024-03-07"
+  "date": "2024-03-07",
+  "title_zh": "Ask HN: 微型 SaaS 總共 57 筆銷售，金額 $1,539？這個點子是不是沒戲了？",
+  "summary_zh": "各位朋友大家好，我正在為非英語系受眾開發一個基於 GPT4 的小型網路服務。它能為行銷人員和企業主建立行銷策略。<p>四年過去了，9 個點子，每月經常性收入都是 $0，"
  },
  {
   "title": "Show HN: A private, flat monthly subscription for open-source LLMs",
@@ -1252,7 +1478,9 @@ const CASES=[
   "mrr": null,
   "points": 31,
   "comments": 21,
-  "date": "2025-08-28"
+  "date": "2025-08-28",
+  "title_zh": "Show HN: 適用於開源大型語言模型 (LLMs) 的私有、固定月費訂閱服務",
+  "summary_zh": "嘿，HN 朋友們！我們經營這家專注於隱私的開源推論公司已經一段時間了，現在我們正推出一個類似 Anthropic 的固定月費訂閱服務。它應該能與 Cline、R 搭配使用"
  },
  {
   "title": "The Founder's Journey: SaaS vs. Marketplace Revenue Models",
@@ -1263,7 +1491,9 @@ const CASES=[
   "mrr": null,
   "points": 30,
   "comments": 3,
-  "date": "2020-08-18"
+  "date": "2020-08-18",
+  "title_zh": "創辦人的旅程：SaaS 與市集營收模式的比較",
+  "summary_zh": ""
  },
  {
   "title": "Building a Micro SaaS with MailerLite, Netlify, Stripe and Zapier",
@@ -1274,7 +1504,9 @@ const CASES=[
   "mrr": null,
   "points": 30,
   "comments": 7,
-  "date": "2020-08-12"
+  "date": "2020-08-12",
+  "title_zh": "使用 MailerLite、Netlify、Stripe 和 Zapier 打造微型 SaaS",
+  "summary_zh": ""
  },
  {
   "title": "$20k MRR in one month, Stripe destroyed everything on 1 second",
@@ -1285,7 +1517,9 @@ const CASES=[
   "mrr": "$20k MRR",
   "points": 29,
   "comments": 15,
-  "date": "2024-06-16"
+  "date": "2024-06-16",
+  "title_zh": "一個月內達到每月經常性收入 $20k，Stripe 在一秒內毀掉了一切",
+  "summary_zh": ""
  },
  {
   "title": "Ask HN: Stuck at $500 MRR and Seeking Distribution/Marketing Advice",
@@ -1296,7 +1530,9 @@ const CASES=[
   "mrr": "$500 MRR",
   "points": 28,
   "comments": 19,
-  "date": "2023-08-11"
+  "date": "2023-08-11",
+  "title_zh": "Ask HN: 每月經常性收入停滯在 $500，並尋求通路／行銷建議",
+  "summary_zh": "大家好！我是 Milan，Robofy 的創辦人，這是一個我投入無數時間開發的 AI 聊天機器人工具。Robofy 已經上線大約 3 個月了。我們的每月經常性收入 (MRR) 一直停滯不前..."
  },
  {
   "title": "Ask HN: Should I sell my SaaS (400k rev)?",
@@ -1307,7 +1543,9 @@ const CASES=[
   "mrr": "100 MRR",
   "points": 27,
   "comments": 36,
-  "date": "2017-03-28"
+  "date": "2017-03-28",
+  "title_zh": "Ask HN: 我應該賣掉我的 SaaS 嗎（營收 $400k）？",
+  "summary_zh": "大家好，<p>為了我的員工、客戶和聲譽，我決定使用這個匿名帳號。<p>我六年前創辦了一家 SaaS 公司，身處一個非常熱門／競爭激烈的產業。它已經成長到..."
  },
  {
   "title": "Show HN: Plant Subscription Service",
@@ -1318,7 +1556,9 @@ const CASES=[
   "mrr": null,
   "points": 27,
   "comments": 10,
-  "date": "2013-12-28"
+  "date": "2013-12-28",
+  "title_zh": "Show HN: 植物訂閱服務",
+  "summary_zh": ""
  },
  {
   "title": "How to Win at Micro-SaaS",
@@ -1329,7 +1569,9 @@ const CASES=[
   "mrr": null,
   "points": 27,
   "comments": 5,
-  "date": "2024-08-30"
+  "date": "2024-08-30",
+  "title_zh": "如何在微型 SaaS 領域中致勝",
+  "summary_zh": ""
  },
  {
   "title": "Ask HN: What is an example of a simple SaaS that is profitable in 2022?",
@@ -1340,7 +1582,9 @@ const CASES=[
   "mrr": null,
   "points": 27,
   "comments": 7,
-  "date": "2022-09-01"
+  "date": "2022-09-01",
+  "title_zh": "HN 提問：2022 年有哪些簡單卻獲利的 SaaS 案例？",
+  "summary_zh": "休息了幾年後，想再次投入（微型）SaaS 領域。回想當時，市場還沒有完全飽和，像是一些非常基礎的服務，例如：<p><pre><code> - 天氣預報"
  },
  {
   "title": "Finally make some money with my SaaS",
@@ -1351,7 +1595,9 @@ const CASES=[
   "mrr": null,
   "points": 26,
   "comments": 9,
-  "date": "2021-03-07"
+  "date": "2021-03-07",
+  "title_zh": "我的 SaaS 終於賺到錢了",
+  "summary_zh": "各位 Hacker 夥伴們好，<p>我們都看過許多 SaaS 報告，提到每月營收達到 1 萬到 10 萬美元。但很少人分享每月收入只有幾十美元的案例。<p>所以，我只是想分享一下我的故事："
  },
  {
   "title": "Advanced workflow automation features with GitHub Actions",
@@ -1362,7 +1608,9 @@ const CASES=[
   "mrr": null,
   "points": 26,
   "comments": 2,
-  "date": "2021-11-18"
+  "date": "2021-11-18",
+  "title_zh": "透過 GitHub Actions 實現進階工作流程自動化功能",
+  "summary_zh": ""
  },
  {
   "title": "Looking to sell my ramen profitble SaaS side business",
@@ -1373,7 +1621,9 @@ const CASES=[
   "mrr": null,
   "points": 25,
   "comments": 32,
-  "date": "2023-12-22"
+  "date": "2023-12-22",
+  "title_zh": "打算出售我這個能賺取「拉麵錢」的 SaaS 副業",
+  "summary_zh": "大家好，<p>2022 年初，我推出了 postoptions.app，這是一個接近即時的美國選擇權篩選工具，作為我的副業。<p>從那時起，這項服務已經有幾位付費用戶，淨收入達到 864 美元..."
  },
  {
   "title": "Show HN: A powerful prompt I discovered for landing page copy from ChatGPT",
@@ -1384,7 +1634,9 @@ const CASES=[
   "mrr": null,
   "points": 24,
   "comments": 6,
-  "date": "2023-02-21"
+  "date": "2023-02-21",
+  "title_zh": "HN 展示：我發現了一個強大的提示詞，用於從 ChatGPT 產生登陸頁文案",
+  "summary_zh": "我一直在拖延，遲遲沒有將我的微型 SaaS 上架到需要獨特描述的網站。<p>直到我想到可以把 ChatGPT 當作實習生來撰寫文案。希望這個提示詞..."
  },
  {
   "title": "Ask HN: How many of you want to stay small, part-time, and manageable?",
@@ -1395,7 +1647,9 @@ const CASES=[
   "mrr": "$29/mo",
   "points": 24,
   "comments": 8,
-  "date": "2010-07-06"
+  "date": "2010-07-06",
+  "title_zh": "HN 提問：有多少人希望保持小規模、兼職且易於管理？",
+  "summary_zh": "各位 HN 讀者好，我是長期讀者，第一次發文...<p>我被「自力更生」的熱情感染了，希望在未來幾個月內推出自己的微型獨立軟體供應商 (micro-ISV)，並提供利基型 SaaS 產品。我受到...的啟發"
  },
  {
   "title": "Ask HN: How did 2018 go for you? What went well? What didn't?",
@@ -1406,7 +1660,9 @@ const CASES=[
   "mrr": null,
   "points": 22,
   "comments": 5,
-  "date": "2018-12-31"
+  "date": "2018-12-31",
+  "title_zh": "HN 提問：你的 2018 年過得怎麼樣？有哪些順利？有哪些不順利？",
+  "summary_zh": "對我來說，順利的部分有：<p>* 我創辦了一家顧問公司，營收將近 $300k 美元<p>* 我推出了第一個<i>真正</i>的 SaaS 專案<p>* 我讀了超過 40 本書<p>* 我開始經營一個不斷成長的部落格，還有..."
  },
  {
   "title": "Show HN: Monthly subscription flights between SF and LA for $105/flight",
@@ -1417,7 +1673,9 @@ const CASES=[
   "mrr": null,
   "points": 22,
   "comments": 20,
-  "date": "2018-06-11"
+  "date": "2018-06-11",
+  "title_zh": "HN 展示：每月訂閱航班，往返舊金山 (SF) 和洛杉磯 (LA)，每趟 $105 美元",
+  "summary_zh": ""
  },
  {
   "title": "Show HN: Weekend Project - Monthly Startup T-shirt Subscription",
@@ -1428,7 +1686,9 @@ const CASES=[
   "mrr": null,
   "points": 22,
   "comments": 23,
-  "date": "2011-09-21"
+  "date": "2011-09-21",
+  "title_zh": "HN 展示：週末專案 - 每月新創公司 T 恤訂閱服務",
+  "summary_zh": ""
  },
  {
   "title": "Ask HN: I want to build SaaS app but I don't know front-end development",
@@ -1439,7 +1699,9 @@ const CASES=[
   "mrr": null,
   "points": 21,
   "comments": 19,
-  "date": "2016-12-14"
+  "date": "2016-12-14",
+  "title_zh": "HN 提問：我想開發 SaaS 應用程式，但我不懂前端開發",
+  "summary_zh": "剛才又在 Ask HN 的熱門文章中看到一個討論串。很多人都做得不錯，營收達到 5k+ 到 10k+ 美元。<p>我有一些產品想法想嘗試。我的問題是我不懂前端開發..."
  },
  {
   "title": "Timeline for Selling a Micro-SaaS",
@@ -1450,7 +1712,9 @@ const CASES=[
   "mrr": null,
   "points": 21,
   "comments": 5,
-  "date": "2025-11-30"
+  "date": "2025-11-30",
+  "title_zh": "出售微型 SaaS 的時間表",
+  "summary_zh": ""
  },
  {
   "title": "$2500 MRR on Notion and Google Sheets Add-On",
@@ -1461,7 +1725,9 @@ const CASES=[
   "mrr": "$2500 MRR",
   "points": 21,
   "comments": 8,
-  "date": "2022-09-28"
+  "date": "2022-09-28",
+  "title_zh": "來自 Notion 和 Google Sheets 外掛的每月經常性收入 (MRR) $2500 美元",
+  "summary_zh": ""
  },
  {
   "title": "Ask HN: Micro investment capital (~$50k) for a solo bootstrapped SaaS?",
@@ -1472,7 +1738,9 @@ const CASES=[
   "mrr": null,
   "points": 21,
   "comments": 15,
-  "date": "2023-08-11"
+  "date": "2023-08-11",
+  "title_zh": "HN 提問：個人自力更生的 SaaS 適合尋求微型投資資金（約 $50k 美元）嗎？",
+  "summary_zh": "我是烏克蘭基輔的一位個人自力更生創辦人，經營著一個約兩年歷史、獲利且穩定（緩慢）成長的 SaaS。我需要一筆小額資金注入來升級設備..."
  },
  {
   "title": "I just crossed $0,000 MRR after one month. Here's how I did it.",
@@ -1483,7 +1751,9 @@ const CASES=[
   "mrr": "$0,000 MRR",
   "points": 0,
   "comments": 0,
-  "date": "2026-06-10"
+  "date": "2026-06-10",
+  "title_zh": "一個月後，我的每月經常性收入 (MRR) 剛好突破 $0,000 美元。我是這樣做到的。",
+  "summary_zh": "不一致性是關鍵。剛在 Reddit 上發布了關於你的 SaaS 的內容？那就坐等一週，希望那篇文章爆紅。確保在上次發文後的 72 小時內不要再發文。把你所有的錢都花在..."
  },
  {
   "title": "Biggest spammer on this sub exposing his fake engagement strategy himself",
@@ -1494,7 +1764,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-07"
+  "date": "2026-06-07",
+  "title_zh": "這個版上最大的垃圾訊息發送者親自揭露了他的虛假互動策略",
+  "summary_zh": "這是那篇文章。u/ Ecstatic-Tough6503 是一個冒充者兼垃圾訊息發送者，我確信他甚至為了獲取客戶而謊報營收。你可以在這裡查看他所有的舊文章，甚至是隱藏的文章。這些垃圾訊息發送者..."
  },
  {
   "title": "New rule banning a SaaS product category: No Promotional or Advertising SaaS",
@@ -1505,7 +1777,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-09"
+  "date": "2026-06-09",
+  "title_zh": "新規定禁止某類 SaaS 產品：禁止宣傳或廣告類 SaaS",
+  "summary_zh": "各位 SaaS 業者好，今天我們宣布一項新規定，禁止本版上關於某個特定 Software as a Service 產品類別的內容：宣傳或廣告類 SaaS。我們作為版主和管理員..."
  },
  {
   "title": "$20K in 5 months from a Chrome extension. Solo founder. ~$2/mo in costs. No funding. No ads. 822 sales.",
@@ -1516,7 +1790,9 @@ const CASES=[
   "mrr": "$2/mo",
   "points": 0,
   "comments": 0,
-  "date": "2026-06-11"
+  "date": "2026-06-11",
+  "title_zh": "5 個月內從一個 Chrome 擴充功能賺進 $20K 美元。個人創辦。每月成本約 $2 美元。無資金、無廣告。822 筆銷售。",
+  "summary_zh": "我開發了一個 Chrome 擴充功能，一次性售價 $29 美元。從一月以來，營收已突破 $20k 美元。還有一個每月 $6.99 美元的小額專業版升級選項。每月經常性收入 (MRR) 不算高，但正在成長。這段旅程改變了我的人生。不..."
  },
  {
   "title": "My app just earned $236.50 in 2 weeks launch of Pro plan",
@@ -1527,7 +1803,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-08"
+  "date": "2026-06-08",
+  "title_zh": "我的應用程式在專業版推出兩週內剛賺了 $236.50 美元",
+  "summary_zh": "大家好，今天對我來說是一個雖小但意義重大的里程碑。作為一個個人創辦人，我主要靠自己開發 GoMind AI，花費了無數時間進行設計、研究、學習，以及..."
  },
  {
   "title": "Stop lying to yourself: 90% of your \"SaaS grind\" is just a socially acceptable way to procrastinate",
@@ -1538,7 +1816,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-06"
+  "date": "2026-06-06",
+  "title_zh": "別再自欺欺人了：你 90% 的「SaaS 苦幹」只是種社會上可接受的拖延方式",
+  "summary_zh": "大多數個人創辦人每天工作 12 小時，卻沒有做任何真正推動進展的事情。我們花費數週時間調整標誌、重構資料庫、調整 CSS 顏色，以及修改試算表。我們..."
  },
  {
   "title": "My SaaS makes $400/month and it's making me miserable",
@@ -1549,7 +1829,9 @@ const CASES=[
   "mrr": "$400/mo",
   "points": 0,
   "comments": 0,
-  "date": "2026-06-08"
+  "date": "2026-06-08",
+  "title_zh": "我的 SaaS 每月賺 $400，卻讓我痛苦不堪",
+  "summary_zh": "我知道這對沒在創業的人來說可能聽起來很荒謬。幾個月前，要在網路上賺到 $100 都覺得不可能。現在我的 SaaS 每月營收約 $400。問題是..."
  },
  {
   "title": "Hello everyone... My SaaS got its first orders today 🙂",
@@ -1560,7 +1842,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-06"
+  "date": "2026-06-06",
+  "title_zh": "大家好... 我的 SaaS 今天接到第一筆訂單了 🙂",
+  "summary_zh": ""
  },
  {
   "title": "My Tool crossed 2000+ users today",
@@ -1571,7 +1855,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-10"
+  "date": "2026-06-10",
+  "title_zh": "我的工具今天用戶數突破 2000+ 了",
+  "summary_zh": "看到我最初為自己打造的工具，今天用戶數突破 2000+，我感到非常開心。我完全根據自己的需求客製化了這個工具，但後來我轉..."
  },
  {
   "title": "72 € MRR, ask me anything (mom, im rich)",
@@ -1582,7 +1868,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-11"
+  "date": "2026-06-11",
+  "title_zh": "每月經常性收入 (MRR) 72 €，問我任何問題 (媽，我發財了)",
+  "summary_zh": "我開發了 beatsee.app，這是一個瀏覽器工具，能將你的音樂轉換成節奏感十足的 3D 視覺效果，並可匯出至 YouTube/TikTok/Reels。無需安裝、無需 After Effects、無需花 $50 找 Fiverr 上的設計師。經過數月 (其實..."
  },
  {
   "title": "From an old HP laptop to my first paying SaaS customer in 102 days (full story)",
@@ -1593,7 +1881,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-05"
+  "date": "2026-06-05",
+  "title_zh": "從一台舊的 HP 筆電到我的第一個付費 SaaS 客戶，僅用 102 天 (完整故事)",
+  "summary_zh": "各位，我很高興能和大家分享我的故事！在 2026 年 2 月 23 日，我在一台閒置的舊筆電上安裝了 Ubuntu Server。硬體規格：HP Pavilion 15 Notebook PC Intel Core i5-3230M 4 核心 / 8..."
  },
  {
   "title": "Bookmark this to remind you every day how to market your Saas",
@@ -1604,7 +1894,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-10"
+  "date": "2026-06-10",
+  "title_zh": "把這個加到書籤，每天提醒你如何行銷你的 SaaS",
+  "summary_zh": "許多成功的創業公司並非始於「龐大市場」。即使是現在，許多 YC 創辦人也透過先做一些無法規模化的事情來取得成功：- 手動引導用戶 - 親自處理客戶支援..."
  },
  {
   "title": "I’m jealous of every “I hit 3k MRR” post",
@@ -1615,7 +1907,9 @@ const CASES=[
   "mrr": "3k MRR",
   "points": 0,
   "comments": 0,
-  "date": "2026-06-05"
+  "date": "2026-06-05",
+  "title_zh": "我很羨慕每一篇「我達到 3k MRR 了」的貼文",
+  "summary_zh": "沒錯！我承認。每當我看到那些「三個月內就達到 $3k MRR」的貼文時，我真心替那個人高興... 但內心深處也嫉妒得要死。同時，我卻在這裡待了 8 個月..."
  },
  {
   "title": "My first dollar of revenue after a year of development",
@@ -1626,7 +1920,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-08"
+  "date": "2026-06-08",
+  "title_zh": "經過一年的開發，我的第一筆營收入袋了",
+  "summary_zh": "我在 2025 年 5 月 11 日開始開發這個專案。我的目標是建立一個功能類似 Blender 的 3D 建模網路應用程式。幾週前，我為 3D 模型實作了 AI 生成的紋理。"
  },
  {
   "title": "My product is basically done and working, and I have zero paying customers. What actually moved the needle for you?",
@@ -1637,7 +1933,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-08"
+  "date": "2026-06-08",
+  "title_zh": "我的產品基本上已經完成並可運作，但我卻沒有任何付費客戶。對你來說，真正帶來轉變的是什麼？",
+  "summary_zh": "一年半前，我什麼都不會做。我透過 YouTube 自學 AI，看了大約 100 小時的影片。但這段時間我一直遇到同樣的瓶頸。YouTube 什麼都有，但更多的是..."
  },
  {
   "title": "AMA: My free video processing SAAS process ~2TB of videos monthly, I earn around 2$ in avg",
@@ -1648,7 +1946,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-10"
+  "date": "2026-06-10",
+  "title_zh": "問我任何問題：我的免費影片處理 SaaS 每月處理約 2TB 的影片，我平均賺約 $2",
+  "summary_zh": "大家好！😄 我有一個業餘專案，在網路上似乎很受歡迎。用戶？✅ 流量？✅ 良好回饋？✅ 營收？❌ 我該擔心嗎？還是我只是成功地經營著一個慈善..."
  },
  {
   "title": "How will your SaaS survive the DIY AI age?",
@@ -1659,7 +1959,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-11"
+  "date": "2026-06-11",
+  "title_zh": "你的 SaaS 將如何存活於 DIY AI 時代？",
+  "summary_zh": "大家好，我毫不懷疑在 2-5 年內，任何人都能輕而易舉地生成任何 SaaS。看看 Claude 相較一年前的進步速度有多快就知道了。我想要..."
  },
  {
   "title": "Ran an AI photoshoot business for a year. ~$250k ARR, 8 big clients. Honest writeup of why I'm probably done with it.",
@@ -1670,7 +1972,9 @@ const CASES=[
   "mrr": "$250k ARR",
   "points": 0,
   "comments": 0,
-  "date": "2026-06-11"
+  "date": "2026-06-11",
+  "title_zh": "經營 AI 攝影業務一年，年經常性收入約 $250k，擁有 8 個大客戶。誠實分享我可能要收手的原因。",
+  "summary_zh": "我是一位創業者，在過去一年左右，我經營了一家為電商服務的 AI 攝影業務。基本上，我們利用 AI 為服裝品牌製作商品照片，客戶大多是大型印度公司。做到大約..."
  },
  {
   "title": "I've built 25+ MVPs. The funded ones all cut these 5 features",
@@ -1681,7 +1985,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-11"
+  "date": "2026-06-11",
+  "title_zh": "我打造了 25 個以上的 MVP。那些獲得資金的專案都砍掉了這 5 個功能。",
+  "summary_zh": "上個月在歸檔已終止合作的客戶資料夾時，結果花了大概三個小時閱讀舊的專案範圍文件，而不是做實際工作。我們是一家小型開發工作室。從我們開始以來，已經交付了 26 個 MVP，我數了..."
  },
  {
   "title": "Got sued threats on week one, ended up at -0,49 € on my first user. Lesson learned with stripe and db sync",
@@ -1692,7 +1998,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-08"
+  "date": "2026-06-08",
+  "title_zh": "第一週就收到訴訟威脅，我的第一個用戶讓我虧損了 -0,49 €。從 Stripe 和資料庫同步學到的教訓。",
+  "summary_zh": "嘿，大家好，我最近推出了 ShopManage，這是一個 SaaS 工具，能為 eBay 賣家完全自動化所有事務（例如庫存、管理等）。才剛推出幾週，我就已經收到我的第一個..."
  },
  {
   "title": "What SaaS niche are most founders sleeping on right now?",
@@ -1703,7 +2011,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-10"
+  "date": "2026-06-10",
+  "title_zh": "目前大多數創業者都忽略了哪個 SaaS 利基市場？",
+  "summary_zh": "正在尋找跳脫一般 AI 熱潮的點子。"
  },
  {
   "title": "SaaS Journey to get first 100 customer",
@@ -1714,7 +2024,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-09"
+  "date": "2026-06-09",
+  "title_zh": "SaaS 獲得前 100 個客戶的旅程",
+  "summary_zh": "這裡的許多 SaaS 創業者都擁有超過 100 個客戶，而那些仍在努力爭取早期客戶的創業者也會在這裡。對於那些正在尋找早期客戶的 SaaS 創業者來說，這將會是..."
  },
  {
   "title": "Technical founder here: How do SaaS startups actually get their first 100 customers from Reddit and X?",
@@ -1725,7 +2037,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-05"
+  "date": "2026-06-05",
+  "title_zh": "我是技術型創業者：SaaS 新創公司究竟如何從 Reddit 和 X 獲得他們的前 100 個客戶？",
+  "summary_zh": "我是一名擁有多年開發經驗的軟體工程師，但我幾乎沒有行銷經驗。每當我閱讀新創公司的成功案例時，我總是看到相同的建議：「我們獲得了我們的第一個..."
  },
  {
   "title": "Client disputed the payment after I delivered.",
@@ -1736,7 +2050,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-10"
+  "date": "2026-06-10",
+  "title_zh": "客戶在我交付後爭議付款。",
+  "summary_zh": "我為創業者打造 SaaS MVP。我通常不做廉價的工作，但這個人看起來確實需要幫助，所以我給他的 MVP 報價遠低於我的正常費率。這是第一個錯誤，但我們會..."
  },
  {
   "title": "Feedback on my SaaS landing page?",
@@ -1747,7 +2063,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-08"
+  "date": "2026-06-08",
+  "title_zh": "我的 SaaS 登陸頁面，大家有什麼回饋嗎？",
+  "summary_zh": "我最近重新設計了我的表單建立工具 Formsuite 的登陸頁面，希望能得到一些快速回饋。主要想知道它是否足夠清晰、值得信賴，並且對於一個 SaaS 首頁來說足夠精緻。新的 D..."
  },
  {
   "title": "Tips on how to get your first paying users",
@@ -1758,7 +2076,9 @@ const CASES=[
   "mrr": "$ 10k MRR",
   "points": 0,
   "comments": 0,
-  "date": "2026-06-05"
+  "date": "2026-06-05",
+  "title_zh": "關於如何獲得你的第一批付費用戶的訣竅",
+  "summary_zh": "我從今年年初開始經營 https://allscreenshots.com，這是一個螢幕截圖 API。甚至在產品推出之前，我就已經沉迷於常見的策略：登陸頁面文案、定價方案、社..."
  },
  {
   "title": "Let's be honest: what's actually happening on your SaaS website?",
@@ -1769,7 +2089,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-10"
+  "date": "2026-06-10",
+  "title_zh": "說實話：你的 SaaS 網站上到底發生了什麼事？",
+  "summary_zh": "哪一個最能描述你的情況？A. 沒人造訪 B. 有人造訪但沒註冊 C. 有人註冊但沒付費 D. 有人付費但沒留下來。好奇大多數 SaaS 創辦人處於哪個階段？"
  },
  {
   "title": "Got my first paying customer today ($98 MRR)",
@@ -1780,7 +2102,9 @@ const CASES=[
   "mrr": "$98 MRR",
   "points": 0,
   "comments": 0,
-  "date": "2026-06-06"
+  "date": "2026-06-06",
+  "title_zh": "今天獲得了我的第一個付費客戶（$98 MRR）",
+  "summary_zh": "獲得了我的第一個 $98 MRR，我為此感到莫名的開心。如果幾個月前你告訴我會慶祝每月 $98，我會笑出來。一直想為網站製作社群證明小工具。"
  },
  {
   "title": "Is trust the hardest feature to build in security SaaS?",
@@ -1791,7 +2115,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-05"
+  "date": "2026-06-05",
+  "title_zh": "信任是資安 SaaS 最難建立的功能嗎？",
+  "summary_zh": "我正在開發一個用於線上文件簽署/安全檔案儲存庫的 SaaS（帶有一個 Windows 應用程式，但我不知道如何推廣，讓大家信任並安裝）。我的應用程式叫做 esecuriser.com。"
  },
  {
   "title": "A free platform to preview and compare ProductHunt launches",
@@ -1802,7 +2128,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-10"
+  "date": "2026-06-10",
+  "title_zh": "一個免費平台，用於預覽和比較 Product Hunt 的產品發布",
+  "summary_zh": "嗨 r/SaaS，我想可以肯定地說，我們許多人都花費了無數時間研究成功的產品，並了解它們的運作方式。Product Hunt 是進行這項工作最好的地方之一。"
  },
  {
   "title": "Why is there so much BS on here with fake stories of SaaS success?",
@@ -1813,7 +2141,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-05"
+  "date": "2026-06-05",
+  "title_zh": "為什麼這裡充斥著這麼多關於 SaaS 成功假故事的廢話？",
+  "summary_zh": "我有時會來這裡尋求建議，或者如果我從啟動 SaaS 的經驗中學到了一些東西，甚至會提供建議，但我不知道該相信什麼，這裡有太多假故事，例如不要..."
  },
  {
   "title": "First day of marketing my SaaS App",
@@ -1824,7 +2154,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-06"
+  "date": "2026-06-06",
+  "title_zh": "我的 SaaS 應用程式行銷第一天",
+  "summary_zh": "我剛推出了 Draftlytic——我的第一個 SaaS 專案。它是一個 AI 專案規劃器和 PRD 生成器，旨在幫助 vibe-coders 解決許多初始提示的挫折感。"
  },
  {
   "title": "Spent a month pivoting my SaaS... only to find out my biggest competitor is launching kinda the same thing. Should I just quit?",
@@ -1835,7 +2167,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-09"
+  "date": "2026-06-09",
+  "title_zh": "花了一個月時間調整我的 SaaS 方向... 結果發現我最大的競爭對手正在推出類似的東西。我應該放棄嗎？",
+  "summary_zh": "我現在真的感到很沮喪。幾個月來，我一直在開發沒人真正想要的功能。這是個經典錯誤，我沒有經過適當的市場研究就先開發了。在與一些人交談後..."
  },
  {
   "title": "The saddest part is that for the last few years, all I've wanted was to build my own SaaS.",
@@ -1846,7 +2180,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-08"
+  "date": "2026-06-08",
+  "title_zh": "最令人難過的是，過去幾年我一直想做的就是建立自己的 SaaS。",
+  "summary_zh": "那時候，我的技能還不足以創造任何有價值的東西，所以我花了好幾年學習、建立專案並提升我的技術能力。現在我終於覺得自己有能力建立..."
  },
  {
   "title": "I accidentally built the wrong product",
@@ -1857,7 +2193,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-05"
+  "date": "2026-06-05",
+  "title_zh": "我不小心做錯了產品",
+  "summary_zh": "幾週前我推出了 AppRoast.app，它最初只是一個有趣的 AI 工具，可以「吐槽」應用程式評論並解釋用戶為什麼討厭某個應用程式。這個想法很簡單：貼上一個應用程式 → 獲得一份殘酷誠實的 AI 剖析。"
  },
  {
   "title": "Founders should probably talk to other founders more",
@@ -1868,7 +2206,9 @@ const CASES=[
   "mrr": "$10k MRR",
   "points": 0,
   "comments": 0,
-  "date": "2026-06-10"
+  "date": "2026-06-10",
+  "title_zh": "創辦人或許應該多和其他創辦人交流",
+  "summary_zh": "昨天我們舉辦了 Causo 的第一次「浣熊時間」活動。六個人參加，我們花了一個小時討論創辦人常見的困境：早期用戶、募資、加速器、被拒絕、沒有獲得..."
  },
  {
   "title": "Been posting consistently on LinkedIn for a month, got very little traction. What am I missing?",
@@ -1879,7 +2219,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-09"
+  "date": "2026-06-09",
+  "title_zh": "在 LinkedIn 上持續發文一個月，卻幾乎沒有任何迴響。我錯過了什麼？",
+  "summary_zh": "在過去一個月左右，我一直在 LinkedIn 上更頻繁地發文，並嘗試分享我的產品更新、技術深度文章，甚至是更廣泛的技術觀點文章。我遇到了一個困難..."
  },
  {
   "title": "I spent a year building before I sold anything. 2 months later I have 3 businesses sign-up within 2 weeks, and one repeatable trick.",
@@ -1890,7 +2232,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-09"
+  "date": "2026-06-09",
+  "title_zh": "我花了一年時間開發，然後才賣出任何東西。兩個月後，我在兩週內獲得了 3 家企業註冊，還有一個可重複使用的訣竅。",
+  "summary_zh": "我是一名獨立開發者。我埋頭苦幹了 12 個月，開發了一個社群媒體分析工具，然後才有人使用它。它圍繞著一個客製化的多模態管道，可以實際觀看每個 TikTok..."
  },
  {
   "title": "From 1,500 users to total burnout: How a free Chrome extension and local B2B saved my SaaS momentum.",
@@ -1901,7 +2245,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-09"
+  "date": "2026-06-09",
+  "title_zh": "從 1,500 名用戶到完全倦怠：一個免費的 Chrome 擴充功能和本地 B2B 如何挽救我的 SaaS 動力。",
+  "summary_zh": "嗨 r/indiehackers，（為了讓它易於閱讀，我將其格式化得很整潔——請不要再說「AI 廢話」了，我只是分享過去兩週的一些真實原始數據，哈哈）。幾週前，我分享了..."
  },
  {
   "title": "I've created a tool that solves my problem, but I don't know if it will solve everyone else's.",
@@ -1912,7 +2258,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-09"
+  "date": "2026-06-09",
+  "title_zh": "我開發了一個解決我問題的工具，但我不知道它是否能解決其他人的問題。",
+  "summary_zh": "大家好！嗯，讓我解釋一下。我實際上身處應用程式生態系統中，和你們許多人一樣，我開發應用程式來解決我自己或周圍人遇到的問題。問題是，我通常做得很好..."
  },
  {
   "title": "Please roast my SaaS!",
@@ -1923,7 +2271,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-05"
+  "date": "2026-06-05",
+  "title_zh": "請吐槽我的 SaaS！",
+  "summary_zh": "我現在情緒很低落，我嘗試推廣我的工具，但除了幾個測試用戶之外，我無法讓任何人付費使用我的工具，儘管許多人告訴我他們喜歡這個想法。這就是為什麼我請你們來吐槽..."
  },
  {
   "title": "Trying to get better at user feedback. What actually works for you?",
@@ -1934,7 +2284,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-05"
+  "date": "2026-06-05",
+  "title_zh": "努力改進用戶回饋。對你來說，什麼方法真正有效？",
+  "summary_zh": "我們最近推出了 Causo，我們正在努力做好的一件事是盡可能多地與用戶交流。不自動化。不躲在問卷調查後面。就是實際與人交談。目前我們：發送電子郵件..."
  },
  {
   "title": "Why I’m launching a social network and how we’ll differentiate",
@@ -1945,7 +2297,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-11"
+  "date": "2026-06-11",
+  "title_zh": "我為什麼要推出社群網路以及我們將如何差異化",
+  "summary_zh": "各位獨立開發者大家好！請原諒這篇長文... 我非常清楚這已經有人嘗試過。非常清楚這很困難，也非常清楚有競爭對手。但我還是要這麼做..."
  },
  {
   "title": "I was wasting 80% of my Apple Search Ads budget and didn’t know it — so I built a tool to see per-keyword ROAS",
@@ -1956,7 +2310,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-11"
+  "date": "2026-06-11",
+  "title_zh": "我浪費了 80% 的 Apple Search Ads 預算卻不自知 — 所以我開發了一個工具來查看每個關鍵字的 ROAS",
+  "summary_zh": "像許多獨立開發者一樣，我會投放 Apple Search Ads 來為我的應用程式帶來安裝量。ASA 的問題在於，Apple 自己的儀表板會告訴你安裝量和每次安裝成本，但僅止於此。它沒有..."
  },
  {
   "title": "Solo founders who's actually running your revenue function?",
@@ -1967,7 +2323,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-11"
+  "date": "2026-06-11",
+  "title_zh": "獨立創辦人中，誰實際負責你的營收職能？",
+  "summary_zh": "最近一直在思考這個問題。在某個階段，一家公司會有 CRO、營收營運、客戶成功、客戶經理、銷售開發代表等整個團隊，從頭到尾負責營收運作。銷售管道、留存、擴展、預測，所有這些。"
  },
  {
   "title": "(SHOW IH) Why are there almost no good native Mac SEO apps?",
@@ -1978,7 +2336,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-08"
+  "date": "2026-06-08",
+  "title_zh": "(展示 IH) 為什麼幾乎沒有好的原生 Mac SEO 應用程式？",
+  "summary_zh": "SEO 領域的一切似乎都是另一個 SaaS 儀表板。所以我開發了 Rank：一個本機優先的 macOS 應用程式，直接連接到 Search Console，分析排名和機會，並幫助提高可見度。"
  },
  {
   "title": "My side project went viral, then someone cloned the source and shared it publicly",
@@ -1989,7 +2349,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-08"
+  "date": "2026-06-08",
+  "title_zh": "我的業餘專案爆紅，結果有人複製了原始碼並公開分享",
+  "summary_zh": "幾天前，我開發的 macOS 桌面小貓咪應用程式在一位科技創作者發布相關內容後，意外地爆紅。該影片在一夜之間突破 500K 觀看次數，這讓我非常興奮，直到我看到有人在留言區..."
  },
  {
   "title": "I made Angly, a weirdly competitive browser game about angles",
@@ -2000,7 +2362,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-07"
+  "date": "2026-06-07",
+  "title_zh": "我做了 Angly，一個關於角度的奇怪競技型瀏覽器遊戲",
+  "summary_zh": "我開發了 Angly，這是一個小型的瀏覽器遊戲，內容是關於記憶角度並盡可能精確地重現它們。這不是一個 MRR 產品或新創事業，只是一個我為了好玩而製作的簡單遊戲。目前..."
  },
  {
   "title": "Stop building useless products",
@@ -2011,7 +2375,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-08"
+  "date": "2026-06-08",
+  "title_zh": "別再開發沒用的產品了",
+  "summary_zh": "我已經在這個 subreddit 潛水至少 3 年了。隨著 AI 的影響，我看到越來越多沒有經驗的人（這不是主要問題）嘗試開發他們的第一個產品，這真的..."
  },
  {
   "title": "In a sea of AI apps and software side projects, my wife and I decided to build a unique titanium pen",
@@ -2022,7 +2388,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-07"
+  "date": "2026-06-07",
+  "title_zh": "在 AI 應用程式和軟體業餘專案的浪潮中，我和妻子決定打造一支獨特的鈦金屬筆",
+  "summary_zh": "大家好，我們想分享我們的故事。感覺現在這個 subreddit 上 99% 的業餘專案都是 SaaS 或 AI 應用程式，所以我們希望這種不同的步調能受到歡迎！我和妻子想..."
  },
  {
   "title": "The selfish promotion epidemic is killing this sub",
@@ -2033,7 +2401,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-08"
+  "date": "2026-06-08",
+  "title_zh": "自私的推銷歪風正在扼殺這個社群",
+  "summary_zh": "老實說，這裡很多人不再想幫忙或分享知識了。他們只是想丟下他們的 SaaS 連結、賺取 karma，然後就消失。他們不評論其他貼文，也不提供回饋..."
  },
  {
   "title": "After 7 months of GRINDING... I finally hit 1k in earnings!",
@@ -2044,7 +2414,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-07"
+  "date": "2026-06-07",
+  "title_zh": "經過 7 個月的努力奮鬥... 我終於賺到 1k 了！",
+  "summary_zh": "這真是太不可思議了... 我老實說從沒想過這對我來說是可能的。但我做到了... 我就是開始了！我組裝了一個可運作的 MVP。只有最基本的功能。買了一個網域..."
  },
  {
   "title": "I built a home maintenance app that helps you decide what to tackle first",
@@ -2055,7 +2427,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-11"
+  "date": "2026-06-11",
+  "title_zh": "我開發了一款居家維護應用程式，能幫你決定優先處理哪些事項",
+  "summary_zh": "HomeQueue 已經上線 2 個月了，目前運作良好，擁有超過 2500 名使用者。它源於一個簡單的家庭問題：我有一長串待辦事項，但卻沒有明確的方法來決定什麼才是真正重要的..."
  },
  {
   "title": "I've been working solo on this for 2 years. The movie & TV tracker I always wished existed!",
@@ -2066,7 +2440,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-10"
+  "date": "2026-06-10",
+  "title_zh": "我獨自開發這個專案已經 2 年了。這是我一直以來夢寐以求的電影與電視追蹤器！",
+  "summary_zh": "兩年的夜晚和週末。沒有資金、沒有團隊、沒有藍圖... 只有一個固執的念頭：打造一個好用的電影與電視追蹤器。今天 WeTrakr 推出 Beta 版。一字一句、親手打造，漫長..."
  },
  {
   "title": "Made my first money from my own app this week, and it feels way better than my salary",
@@ -2077,7 +2453,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-07"
+  "date": "2026-06-07",
+  "title_zh": "這週我的應用程式賺到了第一筆錢，感覺比我的薪水好多了",
+  "summary_zh": "快速介紹一下背景。我是一名 CS 學生，從高中時期，也就是 ChatGPT 出現之前，就一直在開發應用程式。沒什麼大不了的，只是一些基本功能。它始於 Covid 疫情期間，當時我突然..."
  },
  {
   "title": "My girlfriend kept getting headaches from not drinking enough water, so I built a Mac app that floods her screen until she does",
@@ -2088,7 +2466,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-08"
+  "date": "2026-06-08",
+  "title_zh": "我女友老是因水喝不夠而頭痛，所以我開發了一款 Mac 應用程式，會讓她的螢幕被「淹沒」直到她喝水為止",
+  "summary_zh": "我為我女友開發了這個應用程式。她會頭痛，那種會讓整個下午報銷的頭痛，而幾乎每次我都會問她同樣的問題：你今天喝了多少水？答案總是..."
  },
  {
   "title": "Made a stupid app where users can challenge others to do weird & crazy Sidequests. This one is the most completed SideQuest. Should I continue developing the app?",
@@ -2099,7 +2479,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-11"
+  "date": "2026-06-11",
+  "title_zh": "我做了一個蠢應用程式，讓使用者可以挑戰別人完成奇怪又瘋狂的 Sidequests。這是完成次數最多的 SideQuest。我應該繼續開發這個應用程式嗎？",
+  "summary_zh": "我開發了一個名為 SideQuest 的應用程式，它也有網頁版。這個應用程式允許使用者創建並挑戰他人完成瘋狂又狂野的 Sidequests。使用者可以完成它們、評分並評論..."
  },
  {
   "title": "Hey guys my app got its first subscription, so happy right now!!",
@@ -2110,7 +2492,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-10"
+  "date": "2026-06-10",
+  "title_zh": "嘿，各位，我的應用程式獲得了第一個訂閱，現在超開心的！！",
+  "summary_zh": "請務必查看：https://github.com/sarim2000/pennywiseai-tracker https://play.google.com/store/apps/details?id=com.pennywiseai.tracker"
  },
  {
   "title": "I Made A Free Co-op Survival Game To Play With My Kids",
@@ -2121,7 +2505,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-07"
+  "date": "2026-06-07",
+  "title_zh": "我做了一款免費的合作生存遊戲，可以和我的孩子們一起玩",
+  "summary_zh": "背景：我喜歡和家人一起玩遊戲。最近的假期我們在 99 Nights in the Forest 上花了數小時，之後我們一直在尋找其他可以一起玩的遊戲。有些..."
  },
  {
   "title": "I’ve been building my first game solo. The trailer is finally ready. How does it look? 🌊",
@@ -2132,7 +2518,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-06"
+  "date": "2026-06-06",
+  "title_zh": "我獨自開發我的第一款遊戲。預告片終於準備好了。看起來怎麼樣？🌊",
+  "summary_zh": "大家好，我是一名獨立遊戲開發者，正在開發 The Borderless，這是一款設定在海洋中央的舒適浮島經營模擬遊戲。這是遊戲的第一個預告片，我非常感謝..."
  },
  {
   "title": "Assembling a small group of founders to swap support with — want in?",
@@ -2143,7 +2531,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-11"
+  "date": "2026-06-11",
+  "title_zh": "正在組建一個小型創辦人社群，互相提供支援 — 想加入嗎？",
+  "summary_zh": "每次我看到一個業餘專案在 Product Hunt 上爆紅，我都會注意到同樣的事情 — 背後都有一個團隊。我還沒有這樣的團隊，所以我正在組建一個。我有朋友，但那些正在開發..."
  },
  {
   "title": "built a free tool people actually use, want to charge but confused abt adding payment",
@@ -2154,7 +2544,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-06"
+  "date": "2026-06-06",
+  "title_zh": "開發了一個大家真的會用的免費工具，想收費但不知道怎麼加入付款功能",
+  "summary_zh": "所以我做了一個小工具，可以根據你冰箱裡有的食材生成膳食計畫。我用無程式碼工具花了幾個月時間開發，目前是免費的，但不知怎麼地已經有大約 500 人在使用..."
  },
  {
   "title": "I built a music discovery engine with 10M+ artists. 230 paying users in 2 months, zero moneys spent in marketing",
@@ -2165,7 +2557,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-10"
+  "date": "2026-06-10",
+  "title_zh": "我開發了一個擁有 10M+ 藝術家的音樂探索引擎。兩個月內有 230 名付費使用者，行銷費用為零",
+  "summary_zh": "我是 Alessandro，一位來自義大利的獨立開發者。我的職業是交易員，自學程式碼來建立交易系統。我開發 Sonic Oracle 是因為我厭倦了所有串流應用程式都推薦同樣的..."
  },
  {
   "title": "Built a niche job board for independent coffee shops. 800 monthly visitors, no idea what to do next.",
@@ -2176,7 +2570,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-09"
+  "date": "2026-06-09",
+  "title_zh": "為獨立咖啡店打造了一個利基職缺佈告欄。每月 800 名訪客，不知道下一步該怎麼辦。",
+  "summary_zh": "四個月前我將它作為一個業餘專案開始，因為我一直看到特色咖啡店在隨機的 Facebook 群組中發布招聘啟事，卻沒有一個集中的地方可以找到它們。我花了一個週末開發，然後發布了..."
  },
  {
   "title": "Built a Side Project: A Security-First Cloud Platform",
@@ -2187,7 +2583,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-08"
+  "date": "2026-06-08",
+  "title_zh": "開發了一個業餘專案：一個安全優先的雲端平台",
+  "summary_zh": "過去幾個月我一直在開發一個名為 Krova (krova.cloud) 的業餘專案。這個想法源於一個簡單的挫折：大多數雲端平台預設會暴露大量基礎設施，而且安全..."
  },
  {
   "title": "I was surprised Unity games rarely use Live Activities, so I tried to solve it",
@@ -2198,7 +2596,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-09"
+  "date": "2026-06-09",
+  "title_zh": "我很驚訝 Unity 遊戲很少使用「即時動態」，所以我試圖解決這個問題",
+  "summary_zh": "大家好，這其實是我在 Reddit 上的第一篇文章 :) 我擔任 Unity 行動開發者已經幾年了，有一件事總是讓我感到驚訝：幾乎沒有人會在遊戲中單獨使用「即時動態」..."
  },
  {
   "title": "Vaults.lol - free link in bio with music, video backgrounds, analytics, and no subscription. Ever. (Better guns.lol alternative) Better alternative to wound.gg, haunt.gg, feds.lol, linktree, bio.link, etc.",
@@ -2209,7 +2609,9 @@ const CASES=[
   "mrr": "$15 a month",
   "points": 0,
   "comments": 0,
-  "date": "2026-06-05"
+  "date": "2026-06-05",
+  "title_zh": "Vaults.lol - 免費的個人簡介連結，具備音樂、影片背景、數據分析，且永久免訂閱。(比 guns.lol 更好的替代方案) wound.gg、haunt.gg、feds.lol、linktree、bio.link 等的更好替代方案。",
+  "summary_zh": "Vaults.lol - 免費的個人簡介連結，具備音樂、影片背景、數據分析，且永久免訂閱。大多數個人簡介連結工具都有相同的問題。它們一開始免費，但會將真正有用的功能鎖在"
  },
  {
   "title": "We launched Rhyme.com - our Reddit alternative - to the public last week. Here's what we've learned so far.",
@@ -2220,7 +2622,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-07"
+  "date": "2026-06-07",
+  "title_zh": "我們上週向大眾推出了 Rhyme.com — 我們 Reddit 的替代方案。這是我們目前學到的心得。",
+  "summary_zh": "快速背景說明：Rhyme (rhyme.com) 是一個以主題為優先的社群平台，每個主題都有一個標準討論區、階層式主題分類、沒有公開按讚數、沒有志工版主。我們是一個六人團隊"
  },
  {
   "title": "The jig is up - I'm a fraud (what to do next?)",
@@ -2231,7 +2635,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-05"
+  "date": "2026-06-05",
+  "title_zh": "事情敗露了 — 我是個騙子 (接下來該怎麼辦？)",
+  "summary_zh": "各位，事情敗露了。將近一年來，我辭職創業。我已經在產品上投入了七個月。雖然沒有營收，但我的商業計畫是十八個月"
  },
  {
   "title": "I built a LinkedIn Automation tool from scratch, with zero engineering background. Now it’s an actual business",
@@ -2242,7 +2648,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-05"
+  "date": "2026-06-05",
+  "title_zh": "我從零開始打造了一個 LinkedIn 自動化工具，零工程背景。現在它是一個真正的事業了",
+  "summary_zh": "去年十二月左右，在使用一款常見的自動化工具後，我的 LinkedIn 帳號收到警告。我沒有尋找新工具，而是決定自己開發一個，然後"
  },
  {
   "title": "early stage founders - how did you get your first 100 leads?",
@@ -2253,7 +2661,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-05"
+  "date": "2026-06-05",
+  "title_zh": "早期創業者 — 你們是如何獲得首批 100 位潛在客戶的？",
+  "summary_zh": "嘗試了幾種工具後，我已經投入四個月了，我們仍在摸索穩定的潛在客戶來源。到目前為止，我們做了顯而易見的事情 — 在 Slack 社群發文、在 Twitter 上發送陌生私訊，以及"
  },
  {
   "title": "i sent our customer the internal account doc we wrote about them",
@@ -2264,7 +2674,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-08"
+  "date": "2026-06-08",
+  "title_zh": "我把我們為客戶撰寫的內部客戶文件寄給了他們",
+  "summary_zh": "我們公司每次與客戶的 Zoom 通話都會輸入到一個內部工具，該工具會將錄音轉換成帶有標籤的綜合文件，用於客戶服務和產品審查，並直接引用對話內容。客戶成功經理 (CSM) 和我"
  },
  {
   "title": "Launched my two sided marketplace this week. Terrified and excited. Here's where I'm at",
@@ -2275,7 +2687,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-10"
+  "date": "2026-06-10",
+  "title_zh": "本週推出了我的雙邊市集。既害怕又興奮。這是我的現況",
+  "summary_zh": "獨立創辦人。過去幾個月，我一直在建立一個平台，讓創作者透過剪輯品牌內容，並根據驗證過的觀看次數獲得報酬。本週我終於撤下了「即將推出」頁面。目前狀況：一些"
  },
  {
   "title": "This journey can feel so isolating",
@@ -2286,7 +2700,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-07"
+  "date": "2026-06-07",
+  "title_zh": "這段旅程讓人感到如此孤單",
+  "summary_zh": "大家好！我是一家小型童裝電商公司的創辦人。三年前，當我女兒五個月大時，我被裁員後創辦了這家公司。當我推出時，我沒有任何想法"
  },
  {
   "title": "I feel lost in marketing.",
@@ -2297,7 +2713,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-06"
+  "date": "2026-06-06",
+  "title_zh": "我在行銷上感到迷茫。",
+  "summary_zh": "從小我就喜歡程式設計和科技。後來，我開始創建我的第一個旨在賺錢的專案，但我失敗了（很多次 xd）。每一次，我都學到了教訓，並且"
  },
  {
   "title": "Started Alone. Ready to Build With Someone Now.",
@@ -2308,7 +2726,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-11"
+  "date": "2026-06-11",
+  "title_zh": "獨自開始。現在準備好與人合作開發。",
+  "summary_zh": "你是否曾覺得自己能貢獻的，比目前狀況所能展現的還要多？我已經開發 AI 自動化工具和應用程式好幾年了。真實專案、真實客戶，以及"
  },
  {
   "title": "How to Find Your First Users for Your SaaS (Without a Marketing Budget)",
@@ -2319,7 +2739,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-10"
+  "date": "2026-06-10",
+  "title_zh": "如何為你的 SaaS 找到首批使用者 (沒有行銷預算的情況下)",
+  "summary_zh": "沒有人會警告你這部分。你花費數月打造產品。你對功能、使用者引導和設計錙銖必較。然後你推出產品。卻什麼都沒發生。沒有註冊。沒有回饋。只有一片寂靜。"
  },
  {
   "title": "I made a over a $10K this 2026 in my side gig. That's how I did it.",
@@ -2330,7 +2752,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-08"
+  "date": "2026-06-08",
+  "title_zh": "我在 2026 年透過副業賺了超過 $10K。我是這樣辦到的。",
+  "summary_zh": "我利用空閒時間擔任自由工作者，為我所在地區的企業提供社群經理和社群策略師服務。我目前沒有扶養義務和重大責任，但我喜歡錢，而且我會"
  },
  {
   "title": "Anyone actually dealt with permanent establishment risk when using international contractors as a small business?",
@@ -2341,29 +2765,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-10"
- },
- {
-  "title": "Looking for a partner to help manage a growing content ecosystem with revenue share, no upfront cost.",
-  "summary": "I’ve built a small but real ecosystem across a website, social channels, and a daily content workflow.Traffic peaked around ~7,500 monthly visits and has dipped to ~5,000 because I’m juggling too many roles: content, analytics, brokerage tracking, video production, and distribution with a full time ",
-  "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1u21j0w/looking_for_a_partner_to_help_manage_a_growing/",
-  "source": "r/EntrepreneurRideAlong",
-  "category": "工作流自動化",
-  "mrr": null,
-  "points": 0,
-  "comments": 0,
-  "date": "2026-06-10"
- },
- {
-  "title": "20, stuck in finance, contract ends in 6 months, cant pick a path and feel like im falling behind everyone - looking for a business/skill to start",
-  "summary": "hi Im 20 in the UK and currently working as an Accounts Payable. Got about 20 months finance experience now. My contract ends in 6 months and ive been trying to get a role with study support (ACCA/CIMA etc) in industry. The weird thing is im getting interviews. Loads of them. Ive even had an offer b",
-  "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1tyw8z4/20_stuck_in_finance_contract_ends_in_6_months/",
-  "source": "r/EntrepreneurRideAlong",
-  "category": "工作流自動化",
-  "mrr": null,
-  "points": 0,
-  "comments": 0,
-  "date": "2026-06-06"
+  "date": "2026-06-10",
+  "title_zh": "當小型企業使用國際約聘人員時，有人實際處理過常設機構風險嗎？",
+  "summary_zh": "我們經營一家小型 SaaS 公司，有 9 名員工。我們與一名德國開發人員和一名菲律賓客戶支援人員合作約八個月了，兩者都是約聘人員。一切都很好"
  },
  {
   "title": "Got organically featured in tier-1 media (Inc.) — great, but zero traffic or revenue from it. Is PR only social proof?",
@@ -2374,7 +2778,35 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-11"
+  "date": "2026-06-11",
+  "title_zh": "在 Inc. 等一線媒體上獲得自然報導 — 很棒，但沒有帶來任何流量或營收。公關只有社會認同的作用嗎？",
+  "summary_zh": "昨天，我的 LinkedIn 內容應用程式 2pr 在 Inc. 這家一線傳統媒體上被提及。我沒有為此付費，也從未向任何記者推銷過。只是以為一個利基的自力更生應用程式永遠不會"
+ },
+ {
+  "title": "Looking for a partner to help manage a growing content ecosystem with revenue share, no upfront cost.",
+  "summary": "I’ve built a small but real ecosystem across a website, social channels, and a daily content workflow.Traffic peaked around ~7,500 monthly visits and has dipped to ~5,000 because I’m juggling too many roles: content, analytics, brokerage tracking, video production, and distribution with a full time ",
+  "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1u21j0w/looking_for_a_partner_to_help_manage_a_growing/",
+  "source": "r/EntrepreneurRideAlong",
+  "category": "工作流自動化",
+  "mrr": null,
+  "points": 0,
+  "comments": 0,
+  "date": "2026-06-10",
+  "title_zh": "正在尋找合作夥伴，協助管理不斷成長的內容生態系，採營收分潤，無前期成本。",
+  "summary_zh": "我建立了一個雖小但真實的生態系，涵蓋網站、社群媒體和日常內容工作流程。流量曾達到每月約 7,500 次造訪的峰值，但現在已降至約 5,000 次，因為我同時處理太多"
+ },
+ {
+  "title": "20, stuck in finance, contract ends in 6 months, cant pick a path and feel like im falling behind everyone - looking for a business/skill to start",
+  "summary": "hi Im 20 in the UK and currently working as an Accounts Payable. Got about 20 months finance experience now. My contract ends in 6 months and ive been trying to get a role with study support (ACCA/CIMA etc) in industry. The weird thing is im getting interviews. Loads of them. Ive even had an offer b",
+  "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1tyw8z4/20_stuck_in_finance_contract_ends_in_6_months/",
+  "source": "r/EntrepreneurRideAlong",
+  "category": "工作流自動化",
+  "mrr": null,
+  "points": 0,
+  "comments": 0,
+  "date": "2026-06-06",
+  "title_zh": "20 歲，困在金融業，合約六個月後到期，無法選擇一條路，感覺自己落後於所有人 — 正在尋找可以開始的事業/技能",
+  "summary_zh": "嗨，我 20 歲，在英國擔任應付帳款專員。現在約有 20 個月的金融業經驗。我的合約六個月後到期，我一直在嘗試找到一個提供學習支援（ACCA/CIM）的職位。"
  },
  {
   "title": "Strong operator / OBM rebuilding after a hard reset. Looking for the right seat, business idea or the right co-founder. Would love honest input",
@@ -2385,7 +2817,9 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-09"
+  "date": "2026-06-09",
+  "title_zh": "優秀的營運者 / OBM 在徹底重啟後重建。正在尋找合適的職位、商業點子或合適的共同創辦人。希望能得到誠實的回饋",
+  "summary_zh": "我是一名優秀的營運者：幕僚長 / OBM 類型。在徹底重啟後重建，我正在努力找出我最明智的下一步。我如何走到這一步的快速背景說明：我的生活在一段時間前徹底重啟了"
  },
  {
   "title": "My freelance and lead gen odyssey… got beaten down",
@@ -2396,17 +2830,8 @@ const CASES=[
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-07"
- },
- {
-  "title": "Asked my first members why they actually joined. The answer is changing who i build for",
-  "summary": "quick update on my deal alerts community (posted here about it a few weeks back). i started this thinking my customer was \"people who want to save money on stuff they already buy\". makes sense right? biggest possible market. then i actually talked to my founding members. the most engaged one isn't t",
-  "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1u2djkc/asked_my_first_members_why_they_actually_joined/",
-  "source": "r/EntrepreneurRideAlong",
-  "category": "SaaS 經營",
-  "mrr": null,
-  "points": 0,
-  "comments": 0,
-  "date": "2026-06-10"
+  "date": "2026-06-07",
+  "title_zh": "我的自由接案與開發客戶漫長旅程… 卻受挫了",
+  "summary_zh": "目前還沒有顯著的營收或客戶，但有很多心得想與大家分享。我去年二月開始我的自由顧問工作。我完全從零開始。在那之前，我沒有"
  }
 ];
