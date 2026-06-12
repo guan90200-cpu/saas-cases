@@ -1,4 +1,4 @@
-const UPDATED="2026-06-12 12:21";
+const UPDATED="2026-06-12 12:32";
 const CASES=[
  {
   "title": "Show HN: Non.io, a Reddit-like platform Ive been working on for the last 4 years",
@@ -23,6 +23,7 @@ const CASES=[
   "points": 980,
   "comments": 517,
   "date": "2026-04-12",
+  "img": "https://stevehanov.ca/blog/images/95f16b3dbf861a9156cb2c6d1be39f5e2fcfc1b1f4c5f11ee6f9e182bd4c5f5a.png",
   "title_zh": "我經營多個每月經常性收入達 $10K 的公司，卻只使用每月 $20 的技術堆疊",
   "summary_zh": ""
  },
@@ -36,6 +37,7 @@ const CASES=[
   "points": 924,
   "comments": 263,
   "date": "2024-09-06",
+  "img": "https://wealthfolio.app/og.png",
   "title_zh": "HN 展示：Wealthfolio：私有、開源的投資追蹤器",
   "summary_zh": "感謝大家的評論，以下是一些背景資訊：<p>- 這個應用程式是一個簡單的桌面應用程式，可在 macOS、Windows 和 Ubuntu 上運行。<p>- 我是為了自己的需求開發這個應用程式的。厭倦了 SaaS..."
  },
@@ -62,6 +64,7 @@ const CASES=[
   "points": 745,
   "comments": 190,
   "date": "2023-02-01",
+  "img": "https://trigger.dev/build/_assets/og-image-FUCLNVIV.jpg",
   "title_zh": "HN 展示：我們打造了一個開發者優先的開源 Zapier 替代方案",
   "summary_zh": "過去幾個月，我們一直在開發 Trigger.dev，現在可以與大家分享我們的測試版了：<a href=\"https:&#x2F;&#x2F;github.com&#x2F;triggerdotdev&#x2F;trigger.dev\">https:&#x2F;&#x2F;github.com&#x2"
  },
@@ -88,6 +91,7 @@ const CASES=[
   "points": 728,
   "comments": 196,
   "date": "2019-10-08",
+  "img": "https://n8niostorageaccount.blob.core.windows.net/n8nio-strapi-blobs-stage/assets/og_image_website_3_afd66761a9.png",
   "title_zh": "N8n.io – Zapier 的工作流程自動化替代方案",
   "summary_zh": ""
  },
@@ -101,6 +105,7 @@ const CASES=[
   "points": 657,
   "comments": 218,
   "date": "2026-02-19",
+  "img": "https://micasa.dev/images/og-card.jpg",
   "title_zh": "HN 展示：Micasa – 從終端機追蹤你的居家事務",
   "summary_zh": "micasa 是一個終端機使用者介面，可幫助你將居家事務追蹤在單一的 SQLite 檔案中。沒有雲端、沒有帳戶、沒有訂閱。使用 cp 進行備份。<p>我開發它，是因為我厭倦了總是搞不清楚所有事情..."
  },
@@ -114,6 +119,7 @@ const CASES=[
   "points": 654,
   "comments": 110,
   "date": "2021-01-27",
+  "img": "https://www.bannerbear.com/images/journey-og.png",
   "title_zh": "我兩年達到 $10K 月經常性收入的旅程",
   "summary_zh": ""
  },
@@ -127,6 +133,7 @@ const CASES=[
   "points": 642,
   "comments": 145,
   "date": "2018-10-16",
+  "img": "https://techcrunch.com/wp-content/uploads/2018/10/IMG_20181016_092551.jpg",
   "title_zh": "GitHub 推出 Actions，其工作流程自動化工具",
   "summary_zh": ""
  },
@@ -179,6 +186,7 @@ const CASES=[
   "points": 513,
   "comments": 114,
   "date": "2024-02-25",
+  "img": "https://usoldering.com/switch-lite/images/demo.jpg",
   "title_zh": "HN 展示：使用 1,917 條電線逆向工程 Switch Lite",
   "summary_zh": "哈囉，各位駭客。這是我獨立開發的一個專案，它能將完成的 PCB 組件轉換成易於使用的板視圖，並附帶一些板掃描圖。還有很多更簡單、更好的方法可以做到..."
  },
@@ -205,6 +213,7 @@ const CASES=[
   "points": 499,
   "comments": 147,
   "date": "2017-03-22",
+  "img": "https://techcrunch.com/wp-content/uploads/2017/03/image-3-21-17-at-9-44-am.jpg?resize=1200,800",
   "title_zh": "Apple 收購了 Workflow，一款適用於 iPad 和 iPhone 的自動化工具",
   "summary_zh": ""
  },
@@ -218,6 +227,7 @@ const CASES=[
   "points": 454,
   "comments": 161,
   "date": "2020-03-06",
+  "img": "https://lunchbag.ca/uploads/ogimage-blog-biggest-mistake-2.png",
   "title_zh": "六個月內達到 $1k 月經常性收入：我目前為止犯的最大錯誤",
   "summary_zh": ""
  },
@@ -244,6 +254,7 @@ const CASES=[
   "points": 383,
   "comments": 115,
   "date": "2023-05-24",
+  "img": "https://dq2gn5p12glyq.cloudfront.net/p/assets/images/example-og-image_75009c3699bf4696de1d452906c49ac7.jpeg",
   "title_zh": "HN 展示：無需惱人訂閱的圖片去背工具",
   "summary_zh": "哈囉，HN 的大家，<p>圖片去背是一個出乎意料地常見的圖像處理任務，而 AI 讓它變得非常容易。自從領域領導者 remove.bg 推出以來，這項技術已經取得了長足的進步..."
  },
@@ -270,6 +281,7 @@ const CASES=[
   "points": 360,
   "comments": 197,
   "date": "2023-07-27",
+  "img": "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/4d9e92df-b5fb-4bea-a10b-f3f5417d723c?Expires=1773059744&amp;GoogleAccessId=go-api-on-aws%40gpt-engineer-390607.iam.gserviceaccount.com&amp;Signature=TnRWPJ5ichx4O8umVWN3GJHllQKf5GiJ6ioNo4oAUedWUZC54DJYnreg3sNZfy82CDa%2Fu%2FKGSKFKc3ISxBsNLTw79h83TO8NAYdanPkLcI5UHRfINbI%2BprAPmprJa%2BqvLjYyCqwq81d8guA0r6uIf41WJ%2FzBaeiHb%2FaQGwzWVgsTyqsLo1qBpRIf9uJQ03bg0NhbaTEbI1h5Dm%2FOMH3ieFgcnIUlH6T%2F88Qf5RLFdy3owknQ0jlkgOXAoN5kuQYq%2FL6c3iirjihLlSDcfxRAN3kDYxDJudyTNQ8WP1YZWwTbLVH9LyXnaBlohRQflHKuVwqU5fHbzftmHuYluloqOA%3D%3D",
   "title_zh": "白手起家達到 €600k MRR，卻被 Shopify 擊垮：Checkout X",
   "summary_zh": ""
  },
@@ -283,6 +295,7 @@ const CASES=[
   "points": 317,
   "comments": 58,
   "date": "2023-01-25",
+  "img": "https://automatisch.io/android-chrome-192x192.png",
   "title_zh": "HN 展示：Automatisch – 開源工作流程自動化工具，Zapier 的替代方案",
   "summary_zh": "嗨，HN 社群的大家，我們很高興終於能向 HN 分享 Automatisch。Automatisch 是一款開源的工作流程自動化工具，是 Zapier 的替代方案。我和我的共同創辦人 (@barinal"
  },
@@ -309,6 +322,7 @@ const CASES=[
   "points": 288,
   "comments": 120,
   "date": "2020-02-12",
+  "img": "https://assets.simpleanalytics.com/social-media/open-startup-page.png",
   "title_zh": "Simple Analytics 達到 $4k MRR 並分享其營運數據",
   "summary_zh": ""
  },
@@ -322,6 +336,7 @@ const CASES=[
   "points": 269,
   "comments": 103,
   "date": "2014-06-29",
+  "img": "http://www.candyjapan.com/static/iceberg.jpg",
   "title_zh": "Candy Japan 月經常性收入 (MRR) 突破 $10K",
   "summary_zh": ""
  },
@@ -348,6 +363,7 @@ const CASES=[
   "points": 264,
   "comments": 65,
   "date": "2024-03-25",
+  "img": "https://opengraph.githubassets.com/66bbd7285d4cbd2d5af5e9b5dd6d09596bcef5b2697323357445779b65bb7fcf/TracecatHQ/tracecat",
   "title_zh": "HN 展示：Tracecat – 開源資安警報自動化 / SOAR 替代方案",
   "summary_zh": "嗨 HN，我們正在開發 Tracecat (https://tracecat.com/)，這是一個用於資安警報的開源自動化平台。Tracecat 自動化了"
  },
@@ -361,6 +377,7 @@ const CASES=[
   "points": 258,
   "comments": 107,
   "date": "2020-12-11",
+  "img": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixlib=rb-1.2.1&amp;q=80&amp;cs=tinysrgb&amp;fm=jpg&amp;crop=entropy",
   "title_zh": "我如何在 7 年後達到 $9.99 的月經常性收入 (MRR)",
   "summary_zh": ""
  },
@@ -374,6 +391,7 @@ const CASES=[
   "points": 247,
   "comments": 63,
   "date": "2020-08-24",
+  "img": "https://media.preetamnath.com/og-images/shopify-micro-saas.webp",
   "title_zh": "透過開發 Shopify 微型 SaaS 應用程式來賺錢",
   "summary_zh": ""
  },
@@ -426,6 +444,7 @@ const CASES=[
   "points": 189,
   "comments": 117,
   "date": "2022-07-04",
+  "img": "https://microfounder.com/storage/posts/originals/prcryywd2th7uvo.png",
   "title_zh": "新美國微型 SaaS 夢",
   "summary_zh": ""
  },
@@ -439,6 +458,7 @@ const CASES=[
   "points": 181,
   "comments": 65,
   "date": "2023-09-04",
+  "img": "https://repository-images.githubusercontent.com/597502256/9f9086ad-2631-4459-ad92-c49a1b3fdbf1",
   "title_zh": "HN 展示：Keep – 適用於監控工具的 GitHub Actions",
   "summary_zh": "嗨 Hacker News！我是來自 Keep 的 Shahar 和 Tal。幾個月前，我們在 HN 上介紹了 (https://news.ycombinator.com/item?id=34806482)"
  },
@@ -452,6 +472,7 @@ const CASES=[
   "points": 180,
   "comments": 72,
   "date": "2024-11-05",
+  "img": "https://repository-images.githubusercontent.com/881458615/fddb1de9-5742-4037-8ea9-bf8f1cfd2f58",
   "title_zh": "HN 展示：我為任何大型語言模型 (LLM) 寫了一個開源的瀏覽器替代方案，用於電腦操作",
   "summary_zh": "嗨 HN，我開發了 Browser-Use，這是一個開源工具，讓 (所有 Langchain 支援的) 大型語言模型 (LLM) 僅透過函式呼叫就能直接在瀏覽器中執行任務。它讓你可以建立能夠互動的代理"
  },
@@ -517,6 +538,7 @@ const CASES=[
   "points": 167,
   "comments": 69,
   "date": "2024-08-25",
+  "img": "https://opengraph.githubassets.com/fe0a2c6892136a0a5d86d440ed6eadec94697684fff842b929c58adc11a542dc/getlago/lago",
   "title_zh": "Stripe 資料 vs. 開源替代方案：一個月經常性收入 (MRR) 範例",
   "summary_zh": ""
  },
@@ -543,6 +565,7 @@ const CASES=[
   "points": 159,
   "comments": 89,
   "date": "2023-09-13",
+  "img": "https://jakobgreenfeld.com/images/default.png",
   "title_zh": "為什麼代理商會卡在 $50k MRR",
   "summary_zh": ""
  },
@@ -569,6 +592,7 @@ const CASES=[
   "points": 151,
   "comments": 30,
   "date": "2022-08-07",
+  "img": "https://microfounder.com/images/microfounder-logo.png",
   "title_zh": "對抗大型科技公司/創投的 Micro-SaaS 替代方案",
   "summary_zh": "哈囉 HN<p>我發起了這個群眾募資清單，旨在尋找由獨立開發者（或小型團隊）製作的小型網路產品，這些產品可以作為大型科技公司/創投資助的新創公司的替代方案。<p>例如，你可以使用"
  },
@@ -595,6 +619,7 @@ const CASES=[
   "points": 139,
   "comments": 55,
   "date": "2020-07-04",
+  "img": "https://media.preetamnath.com/og-images/grow-shopify-micro-saas-to-25k-mrr-in-14-months.webp",
   "title_zh": "我如何發展我的 Shopify micro-SaaS",
   "summary_zh": ""
  },
@@ -660,6 +685,7 @@ const CASES=[
   "points": 116,
   "comments": 24,
   "date": "2024-07-26",
+  "img": "https://repository-images.githubusercontent.com/782544882/a9743f35-5e1c-43ed-a0e0-536322056d38",
   "title_zh": "Show HN: Patchwork – 自動化開發雜務的開源框架",
   "summary_zh": "哈囉 HN！我們是 Asankhaya 和 Rohan，我們正在開發 Patchwork。<p>Patchwork 透過可客製化、程式碼優先的「patchfl」來處理開發雜務——例如審查、文件、程式碼檢查和安全修復。"
  },
@@ -712,6 +738,7 @@ const CASES=[
   "points": 107,
   "comments": 46,
   "date": "2023-06-27",
+  "img": "https://repository-images.githubusercontent.com/611669523/dcc7e4f3-100a-4e25-ad08-72b487eba79b",
   "title_zh": "Show HN: BillaBear – 自託管 SaaS 訂閱管理與計費",
   "summary_zh": ""
  },
@@ -725,6 +752,7 @@ const CASES=[
   "points": 104,
   "comments": 23,
   "date": "2025-07-30",
+  "img": "https://opengraph.githubassets.com/36bad469ad11c0bce18d3a9272cf4cc114cb0f3ffac3bf1e5cd9f15840f0b54b/trymeka/agent",
   "title_zh": "Show HN: 瀏覽用的 ChatGPT Agents 開源替代方案",
   "summary_zh": "嘿 HN，<p>我們是 Winston、Edward 和 James，我們開發了 Meka Agent，這是一個開源框架，讓基於視覺的 LLM 能夠像人一樣直接在電腦上執行任務。<p>背景故事："
  },
@@ -816,6 +844,7 @@ const CASES=[
   "points": 92,
   "comments": 65,
   "date": "2025-02-22",
+  "img": "https://r2.flowripple.com/media/OG.jpg",
   "title_zh": "Show HN: 我打造了一個視覺化工作流程自動化平台 – FlowRipple",
   "summary_zh": "FlowRipple 旨在輕鬆簡化並自動化商業流程。無論您是開發者、企業主或行銷人員，我們的平台都能讓您建立客製化的工作流程，這些流程可以被 t"
  },
@@ -907,6 +936,7 @@ const CASES=[
   "points": 86,
   "comments": 35,
   "date": "2024-09-10",
+  "img": "https://opengraph.githubassets.com/9f1835369b880b12b9e385aef1545ad4fcb0ea72edf72bfbd607565145ddacbb/glasskube/gitops-template",
   "title_zh": "Show HN: 適用於 Kubernetes 的 GitOps 範本",
   "summary_zh": "各位 HN 大家好，我們是來自 Glasskube 的 Philip Louis (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;glasskube&#x2F;glasskube\">https:&#x2F;&#x2F;github.com&#x2F;glasskube&#x2F;glasskube</a>)。我們正在開發一個 p"
  },
@@ -920,6 +950,7 @@ const CASES=[
   "points": 85,
   "comments": 11,
   "date": "2024-06-21",
+  "img": "https://opengraph.githubassets.com/8bb14f274e8aa79ddcbd3bc1524206f4c89671a6f023119969b1e4dff9cd917d/imdj/opml-editor",
   "title_zh": "Show HN: 用於管理訂閱列表的線上 OPML 編輯器",
   "summary_zh": "我做了一個小型的線上編輯器，可以輕鬆管理 OPML[1] 檔案。有很多針對 JSON 等格式的智慧型線上編輯器，但儘管大多數訂閱服務都支援 OPML，其體驗卻 o"
  },
@@ -985,6 +1016,7 @@ const CASES=[
   "points": 81,
   "comments": 20,
   "date": "2023-05-20",
+  "img": "https://cms.embedworkflow.com/wp-content/uploads/2026/06/g2.jpg",
   "title_zh": "Show HN: 我針對昂貴工作流程自動化的平價解決方案：Embed Workflow",
   "summary_zh": ""
  },
@@ -998,6 +1030,7 @@ const CASES=[
   "points": 79,
   "comments": 29,
   "date": "2024-02-22",
+  "img": "https://framerusercontent.com/images/YHwyR11pO7RBX13LnM5tsVQLvY.png",
   "title_zh": "Show HN: Strada – 用於連接 SaaS API 的雲端 IDE",
   "summary_zh": "各位 HN 大家好！我是 Arash，Strada 的共同創辦人之一 (<a href=\"https:&#x2F;&#x2F;www.getstrada.com\">https:&#x2F;&#x2F;www.getstrada.com</a>)，一個用於在您的公司中建立自動化工作流程的雲端 IDE，它能 compa"
  },
@@ -1011,6 +1044,7 @@ const CASES=[
   "points": 74,
   "comments": 46,
   "date": "2019-12-11",
+  "img": "https://cashbar.app/assets/images/share.jpg?v=8f6edeb8",
   "title_zh": "Show HN: Cashbar app – 您的 SaaS 營收顯示在選單列中",
   "summary_zh": ""
  },
@@ -1076,6 +1110,7 @@ const CASES=[
   "points": 66,
   "comments": 7,
   "date": "2021-04-02",
+  "img": "https://repokitteh.io/assets/media/intro.png",
   "title_zh": "RepoKitteh：使用 Starlark 進行 Github 工作流程自動化",
   "summary_zh": ""
  },
@@ -1089,6 +1124,7 @@ const CASES=[
   "points": 65,
   "comments": 61,
   "date": "2025-07-16",
+  "img": "https://repository-images.githubusercontent.com/1001909812/4fca5cb2-0df1-4d48-a4ae-6684c597a364",
   "title_zh": "HN 展示：ggc – 一個用 Go 語言編寫的終端機版 Git CLI 工具",
   "summary_zh": "各位 HN 讀者您好，我開發了 ggc (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;bmf-san&#x2F;ggc\">https:&#x2F;&#x2F;github.com&#x2F;bmf-san&#x2F;ggc</a>)，這是一個用 Go 語言編寫的終端機版 Git CLI 工具。ggc 提供："
  },
@@ -1167,6 +1203,7 @@ const CASES=[
   "points": 54,
   "comments": 13,
   "date": "2023-05-03",
+  "img": "https://pbs.twimg.com/profile_images/691543635779649536/TbHKbCCc_200x200.jpg",
   "title_zh": "我的 SaaS 每月經常性收入 (MRR) 達 $50K，並以純粹的 Ruby on Rails 和 jQuery 構建",
   "summary_zh": ""
  },
@@ -1180,6 +1217,7 @@ const CASES=[
   "points": 54,
   "comments": 30,
   "date": "2019-01-28",
+  "img": "https://draftss.com/assets/og-images/OG-img.jpg",
   "title_zh": "HN 展示：Draftss – 設計與程式碼月租訂閱服務",
   "summary_zh": ""
  },
@@ -1193,6 +1231,7 @@ const CASES=[
   "points": 52,
   "comments": 1,
   "date": "2019-12-15",
+  "img": "https://lh7-us.googleusercontent.com/docs/AHkbwyL8ktw7Ur3XcAgx2xzAR76rwuUUWebuyhl3Ohry4UykDyu_Q24tNLVIVREudfKywzb3HqVV6zh_Zh9fAfzeVGuXmiV4GWOkT00ZoSQOJojf8-tRtoNK=w1200-h630-p",
   "title_zh": "SaaS 公司的營收貢獻、利潤分析與成長率",
   "summary_zh": ""
  },
@@ -1219,6 +1258,7 @@ const CASES=[
   "points": 51,
   "comments": 9,
   "date": "2022-02-12",
+  "img": "https://storage.googleapis.com/indie-hackers.appspot.com/shareable-images/posts/93d393b07f",
   "title_zh": "朋友們，快來我微型 SaaS 的熊熊殘骸旁取暖吧",
   "summary_zh": ""
  },
@@ -1349,6 +1389,7 @@ const CASES=[
   "points": 39,
   "comments": 28,
   "date": "2023-10-04",
+  "img": "https://pbs.twimg.com/media/F7gAFLubEAAiNOH.jpg:large",
   "title_zh": "他們說我每月賺 $45K 純粹是靠運氣，而且只是因為在 X 上發布我的 MRR",
   "summary_zh": ""
  },
@@ -1388,6 +1429,7 @@ const CASES=[
   "points": 38,
   "comments": 3,
   "date": "2018-01-23",
+  "img": "https://www.indiehackers.com/images/shareables/home.jpg",
   "title_zh": "我如何在 5 小時內建立我的 MVP，並在兩個月內達到每月經常性收入 $10k",
   "summary_zh": ""
  },
@@ -1401,6 +1443,7 @@ const CASES=[
   "points": 38,
   "comments": 0,
   "date": "2017-08-22",
+  "img": "https://gust-marketing-production.herokuapp.com/marketing_assets/gust_logo_dark-d1f46cdc52697c6c8f82d893f52b2d39a22a2082f5715fd028d75c233948bab0.png",
   "title_zh": "建立 Gust 的資料管線：從支付到每月經常性收入",
   "summary_zh": ""
  },
@@ -1414,6 +1457,7 @@ const CASES=[
   "points": 36,
   "comments": 7,
   "date": "2020-11-02",
+  "img": "https://pbs.twimg.com/profile_images/2055295011630247936/EluvyHGS_200x200.jpg",
   "title_zh": "SaaS 的反面教材——從兩年打造每月經常性收入 $3k 的 SaaS 中學到的教訓",
   "summary_zh": ""
  },
@@ -1427,6 +1471,7 @@ const CASES=[
   "points": 36,
   "comments": 14,
   "date": "2019-05-20",
+  "img": "https://budibase.com/og.png",
   "title_zh": "你會想偷走的微型 SaaS 點子",
   "summary_zh": ""
  },
@@ -1453,6 +1498,7 @@ const CASES=[
   "points": 34,
   "comments": 7,
   "date": "2023-11-02",
+  "img": "https://substackcdn.com/image/fetch/$s_!5pGJ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09d7d4c8-f904-411c-a55d-fd11e98a7d8e_1400x799.png",
   "title_zh": "我的副業專案達到了每月經常性收入 $500 :)",
   "summary_zh": ""
  },
@@ -1479,6 +1525,7 @@ const CASES=[
   "points": 31,
   "comments": 21,
   "date": "2025-08-28",
+  "img": "https://synthetic.new/logo_with_text_bottom_512.png",
   "title_zh": "Show HN: 適用於開源大型語言模型 (LLMs) 的私有、固定月費訂閱服務",
   "summary_zh": "嘿，HN 朋友們！我們經營這家專注於隱私的開源推論公司已經一段時間了，現在我們正推出一個類似 Anthropic 的固定月費訂閱服務。它應該能與 Cline、R 搭配使用"
  },
@@ -1492,6 +1539,7 @@ const CASES=[
   "points": 30,
   "comments": 3,
   "date": "2020-08-18",
+  "img": "https://www.rapidly.co/wp-content/themes/exponentially/assets/images/og-image-1200x630.png",
   "title_zh": "創辦人的旅程：SaaS 與市集營收模式的比較",
   "summary_zh": ""
  },
@@ -1505,6 +1553,7 @@ const CASES=[
   "points": 30,
   "comments": 7,
   "date": "2020-08-12",
+  "img": "https://bullish.email/bull/banner.png",
   "title_zh": "使用 MailerLite、Netlify、Stripe 和 Zapier 打造微型 SaaS",
   "summary_zh": ""
  },
@@ -1518,6 +1567,7 @@ const CASES=[
   "points": 29,
   "comments": 15,
   "date": "2024-06-16",
+  "img": "https://pbs.twimg.com/media/GQHf1JzXAAA6FJe.jpg:large",
   "title_zh": "一個月內達到每月經常性收入 $20k，Stripe 在一秒內毀掉了一切",
   "summary_zh": ""
  },
@@ -1570,6 +1620,7 @@ const CASES=[
   "points": 27,
   "comments": 5,
   "date": "2024-08-30",
+  "img": "https://substackcdn.com/image/fetch/$s_!FiAY!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4999d354-0441-4cf7-8c16-5019f9880669_1456x816.png",
   "title_zh": "如何在微型 SaaS 領域中致勝",
   "summary_zh": ""
  },
@@ -1609,6 +1660,7 @@ const CASES=[
   "points": 26,
   "comments": 2,
   "date": "2021-11-18",
+  "img": "https://github.blog/wp-content/uploads/2019/03/product-social.png",
   "title_zh": "透過 GitHub Actions 實現進階工作流程自動化功能",
   "summary_zh": ""
  },
@@ -1713,6 +1765,7 @@ const CASES=[
   "points": 21,
   "comments": 5,
   "date": "2025-11-30",
+  "img": "https://www.jrhizor.dev/api/og?text=Timeline%20for%20Selling%20a%20Micro-SaaS",
   "title_zh": "出售微型 SaaS 的時間表",
   "summary_zh": ""
  },

@@ -35,6 +35,9 @@
   .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;
     display:flex;flex-direction:column;gap:10px;transition:.15s}
   .card:hover{background:var(--card-hover);border-color:#3a4156;transform:translateY(-2px)}
+  .cover{height:150px;margin:-18px -18px 2px;border-radius:12px 12px 0 0;overflow:hidden;
+    position:relative;display:flex;align-items:center;justify-content:center;font-size:2.6rem}
+  .cover img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
   .card .top{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
   .cat{font-size:.72rem;padding:3px 10px;border-radius:999px;background:var(--pill);color:var(--accent);white-space:nowrap}
   .src{font-size:.72rem;color:var(--muted);white-space:nowrap}
@@ -97,15 +100,22 @@ function render(){
   if(state.sort==='date')list.sort((a,b)=>b.date.localeCompare(a.date));
   if(state.sort==='mrr')list.sort((a,b)=>(b.mrr?1:0)-(a.mrr?1:0)||b.points-a.points);
   document.getElementById('count').textContent=`${list.length} 個案例`;
-  grid.innerHTML=list.length?list.map(c=>`
+  const PH={'營收實戰':['💰','#3b2f12,#1f1a0d'],'工作流自動化':['⚙️','#12303b,#0d1a1f'],
+    'AI SaaS':['🤖','#2a123b,#170d1f'],'出售變現':['🤝','#3b1220,#1f0d12'],'SaaS 經營':['📦','#12253b,#0d141f']};
+  grid.innerHTML=list.length?list.map(c=>{
+    const ph=PH[c.category]||['📦','#12253b,#0d141f'];
+    return `
     <div class="card">
+      <div class="cover" style="background:linear-gradient(135deg,${ph[1]})">${ph[0]}
+        ${c.img?`<img src="${c.img}" loading="lazy" onerror="this.remove()" alt="">`:''}
+      </div>
       <div class="top"><span class="cat">${c.category}</span><span class="src">${c.source} · ${c.date}</span></div>
       <h3><a href="${c.url}" target="_blank" rel="noopener">${c.title_zh||c.title}</a></h3>
       ${c.title_zh?`<div class="orig">${c.title}</div>`:''}
       ${c.mrr?`<span class="mrr">💰 ${c.mrr}</span>`:''}
       <div class="summary">${c.summary_zh||c.summary||''}</div>
       <div class="foot"><span>${c.points>0?'▲ '+c.points+' 熱度':'本週熱門'}</span><span>${c.comments>0?'💬 '+c.comments+' 留言':''}</span></div>
-    </div>`).join('')
+    </div>`}).join('')
     :'<div class="empty">沒有符合的案例</div>';
 }
 

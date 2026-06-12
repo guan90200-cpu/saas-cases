@@ -125,6 +125,50 @@ def fetch_reddit():
         time.sleep(10)
     return cases
 
+# ---------- 封面圖層：抓原文連結的 og:image（含快取，失敗也快取避免重打） ----------
+OG_CACHE = Path(__file__).parent / "og_cache.json"  # 已 .gitignore
+SKIP_OG_DOMAINS = ("news.ycombinator.com", "reddit.com", "www.reddit.com")  # 通用圖/擋爬蟲
+OG_PAT = re.compile(
+    r'<meta[^>]+(?:property|name)=["\'](?:og:image|twitter:image)(?::src)?["\'][^>]+content=["\']([^"\']+)'
+    r'|<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\'](?:og:image|twitter:image)', re.I)
+
+def fetch_og_image(url):
+    try:
+        host = urllib.parse.urlparse(url).netloc.lower()
+        if any(host.endswith(d) for d in SKIP_OG_DOMAINS):
+            return None
+        req = urllib.request.Request(url, headers=UA)
+        with urllib.request.urlopen(req, timeout=10) as r:
+            if "text/html" not in (r.headers.get("Content-Type") or ""):
+                return None
+            html = r.read(120_000).decode("utf-8", "ignore")
+        m = OG_PAT.search(html)
+        if not m:
+            return None
+        img = (m.group(1) or m.group(2) or "").strip()
+        if img.startswith("//"): img = "https:" + img
+        if not img.startswith("http"): img = urllib.parse.urljoin(url, img)
+        return img
+    except Exception:
+        return None
+
+def attach_cover_images(cases):
+    from concurrent.futures import ThreadPoolExecutor
+    cache = json.loads(OG_CACHE.read_text(encoding="utf-8")) if OG_CACHE.exists() else {}
+    todo = [c for c in cases if c["url"] not in cache]
+    print(f"封面圖：{len(cases)-len(todo)} 筆走快取，{len(todo)} 筆待查")
+    if todo:
+        with ThreadPoolExecutor(max_workers=10) as ex:
+            for c, img in zip(todo, ex.map(lambda c: fetch_og_image(c["url"]), todo)):
+                cache[c["url"]] = img  # 失敗存 null，明天不重打
+        OG_CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
+    n = 0
+    for c in cases:
+        if cache.get(c["url"]):
+            c["img"] = cache[c["url"]]; n += 1
+    print(f"  共 {n}/{len(cases)} 筆有封面圖")
+    return cases
+
 # ---------- 翻譯層：Gemini 把 title/summary 翻成繁中（含快取，只翻新案例） ----------
 KEYFILE = Path.home() / ".gemini_key.json"   # repo 外，絕不 commit
 CACHE = Path(__file__).parent / "translations.json"  # 已 .gitignore
@@ -233,6 +277,7 @@ def main():
         deduped.append(c)
 
     deduped.sort(key=lambda x: -x["points"])
+    deduped = attach_cover_images(deduped)
     deduped = translate_cases(deduped)
     updated = datetime.now().strftime("%Y-%m-%d %H:%M")
     js = ("const UPDATED=" + json.dumps(updated)
