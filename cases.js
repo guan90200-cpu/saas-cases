@@ -1,4 +1,4 @@
-const UPDATED="2026-06-28 12:04";
+const UPDATED="2026-06-29 12:04";
 const CASES=[
  {
   "title": "After ~20 SaaS projects over 10 years, I made $6k in 30 days",
@@ -53,6 +53,19 @@ const CASES=[
   "summary_zh": "耶！"
  },
  {
+  "title": "Now I understand why so many SaaS products require a credit card!!!",
+  "summary": "￼​When we built our product, one of the first things I really wanted was a useful free tier. No tricks, no credit card, just a way for people to actually get value from it. That mattered to me! A lot... What I didn’t expect was how much abuse would come with it. We’ve had throwaway email domains spi",
+  "url": "https://www.reddit.com/r/SaaS/comments/1uez7og/now_i_understand_why_so_many_saas_products/",
+  "source": "r/SaaS",
+  "category": "SaaS 經營",
+  "mrr": null,
+  "points": 0,
+  "comments": 0,
+  "date": "2026-06-25",
+  "title_zh": "現在我懂了為什麼這麼多 SaaS 產品都需要信用卡！！！",
+  "summary_zh": "https://preview.redd.it/x0c3a15dpc9h1.png?width=1761&format=png&auto=webp&s=7c2bf2ee8334976079f62c368a3bf9d4d789167b 當我們開發產品時，我真正想要的第一件事就是一個實用的免費..."
+ },
+ {
   "title": "i lost my stripe virginity… 🤑",
   "summary": "last week I launched my first ever vibe coded app. a little marketing game where people fight for ad space. and two people have now paid to play. total revenue: $2.62 a little shocked because you can play the game for free… but im feeling very grateful to whoever my first 2 customers were 🫡 this is ",
   "url": "https://www.reddit.com/r/SaaS/comments/1ue0m42/i_lost_my_stripe_virginity/",
@@ -66,17 +79,17 @@ const CASES=[
   "summary_zh": "上週我推出了我的第一個 vibe coded 應用程式。這是一個小型的行銷遊戲，玩家在其中爭奪廣告版位。現在已經有兩個人付費玩了。總收入：$2.62。我有點震驚，因為你可以..."
  },
  {
-  "title": "Now I understand why so many SaaS products require a credit card!!!",
-  "summary": "￼​When we built our product, one of the first things I really wanted was a useful free tier. No tricks, no credit card, just a way for people to actually get value from it. That mattered to me! A lot... What I didn’t expect was how much abuse would come with it. We’ve had throwaway email domains spi",
-  "url": "https://www.reddit.com/r/SaaS/comments/1uez7og/now_i_understand_why_so_many_saas_products/",
+  "title": "I sold my $29 mrr SaaS for 1.4k - AMA",
+  "summary": "",
+  "url": "https://www.reddit.com/r/SaaS/comments/1uiac7n/i_sold_my_29_mrr_saas_for_14k_ama/",
   "source": "r/SaaS",
-  "category": "SaaS 經營",
+  "category": "出售變現",
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-25",
-  "title_zh": "現在我懂了為什麼這麼多 SaaS 產品都需要信用卡！！！",
-  "summary_zh": "https://preview.redd.it/x0c3a15dpc9h1.png?width=1761&format=png&auto=webp&s=7c2bf2ee8334976079f62c368a3bf9d4d789167b 當我們開發產品時，我真正想要的第一件事就是一個實用的免費..."
+  "date": "2026-06-28",
+  "title_zh": "我以 1.4k 賣掉了我每月 $29 經常性收入 (MRR) 的 SaaS — 問我任何問題",
+  "summary_zh": ""
  },
  {
   "title": "How I reach $5k MRR in 2 months. What worked and didn't.",
@@ -92,19 +105,6 @@ const CASES=[
   "summary_zh": "大家好，今天我想跟大家分享我是如何讓我的網路應用程式在兩個月內達到 $5k MRR 的旅程。我嘗試了什麼，以及哪些方法有效。我的應用程式是 B2C 模式，並與業界最大的應用程式之一競爭。"
  },
  {
-  "title": "every b2b founder on reddit",
-  "summary": "genuine question because i feel like i'm losing my mind a little how are you actually supposed to market a b2b saas and get sales coming in directly, not in six months, now every place i go to find customers is full of other founders trying to do the exact same thing to me everywhere i show up to ta",
-  "url": "https://www.reddit.com/r/SaaS/comments/1ucv7zx/every_b2b_founder_on_reddit/",
-  "source": "r/SaaS",
-  "category": "SaaS 經營",
-  "mrr": null,
-  "points": 0,
-  "comments": 0,
-  "date": "2026-06-22",
-  "title_zh": "Reddit 上每個 B2B 創辦人",
-  "summary_zh": "這是個真誠的問題，因為我感覺自己快要瘋了，到底該如何行銷 B2B SaaS 並立即獲得銷售，而不是等六個月後？我尋找客戶的每個地方..."
- },
- {
   "title": "Got my first paying customer today!!!",
   "summary": "been building a booking/scheduling SaaS for small service businesses (salons, beauty studios, clinics) solo for months. Today a local beauty studio signed up for the Pro plan, my first real paying customer!! €37 won't change my life, but watching \"Customers: 1\" tick over on Stripe after all the unpa",
   "url": "https://www.reddit.com/r/SaaS/comments/1ugi4vt/got_my_first_paying_customer_today/",
@@ -116,6 +116,19 @@ const CASES=[
   "date": "2026-06-26",
   "title_zh": "今天我獲得了第一個付費客戶！！！",
   "summary_zh": "我獨自開發一個針對小型服務業（沙龍、美容工作室、診所）的預約/排程 SaaS 已經好幾個月了。今天，一家當地的美容工作室註冊了專業版方案，這是我的第一個真正付費客戶。"
+ },
+ {
+  "title": "every b2b founder on reddit",
+  "summary": "genuine question because i feel like i'm losing my mind a little how are you actually supposed to market a b2b saas and get sales coming in directly, not in six months, now every place i go to find customers is full of other founders trying to do the exact same thing to me everywhere i show up to ta",
+  "url": "https://www.reddit.com/r/SaaS/comments/1ucv7zx/every_b2b_founder_on_reddit/",
+  "source": "r/SaaS",
+  "category": "SaaS 經營",
+  "mrr": null,
+  "points": 0,
+  "comments": 0,
+  "date": "2026-06-22",
+  "title_zh": "Reddit 上每個 B2B 創辦人",
+  "summary_zh": "這是個真誠的問題，因為我感覺自己快要瘋了，到底該如何行銷 B2B SaaS 並立即獲得銷售，而不是等六個月後？我尋找客戶的每個地方..."
  },
  {
   "title": "How much I earned in 1 year from my SaaS (And what I learned)",
@@ -157,6 +170,19 @@ const CASES=[
   "summary_zh": "不久前，我在另一個社群發文提到我弟弟透過刪除 40% 的 SEO 內容，解決了我的 SaaS 內容停滯問題。因此，我們的點擊量在 90 天內從 4,000 增加到 12,000..."
  },
  {
+  "title": "Spent a week doing only marketing for my SaaS. Got 3 paying users and 50+ signups. Here's what I tried.",
+  "summary": "I usually spend all my time building, so this week I forced myself to stop and only do marketing. First time doing that. Wanted to share the actual numbers in case it's useful to anyone in the same spot. What I did over 7 days: Cold DMed around 100 people on X and Reddit. I'd search for people talki",
+  "url": "https://www.reddit.com/r/SaaS/comments/1uhn1sm/spent_a_week_doing_only_marketing_for_my_saas_got/",
+  "source": "r/SaaS",
+  "category": "SaaS 經營",
+  "mrr": null,
+  "points": 0,
+  "comments": 0,
+  "date": "2026-06-28",
+  "title_zh": "我花了一週時間，只為我的 SaaS 做行銷。獲得了 3 個付費用戶和 50 多個註冊。這是我嘗試過的方法。",
+  "summary_zh": "我通常把所有時間都花在開發上，所以這週我強迫自己停下來，只做行銷。這是第一次這樣做。想分享實際的數據，以防對處於相同情況的人有所幫助。"
+ },
+ {
   "title": "I posted my results last week and made extra $410",
   "summary": "Hello community! I am really happy. Internet is amazing. I created a tool and people buy. Never believed this could be possible ever. Here is the link of the post . Guys, never stop believing in yourself. I started coding a few years ago and had a burning desire to make money online. Here I am now. ",
   "url": "https://www.reddit.com/r/SaaS/comments/1ufcbmp/i_posted_my_results_last_week_and_made_extra_410/",
@@ -168,19 +194,6 @@ const CASES=[
   "date": "2026-06-25",
   "title_zh": "我上週發布了我的成果，並額外賺了 $410",
   "summary_zh": "大家好！我真的很高興。網路真是太棒了。我做了一個工具，然後人們購買了。從未想過這會成為可能。這是該貼文的連結。各位，永遠不要停止相信你們的..."
- },
- {
-  "title": "The way I got my first paying user on my SaaS",
-  "summary": "I searched on X and Reddit about who is facing the problem that my product solves, and DMed 50+ people and got one conversion out of it.",
-  "url": "https://www.reddit.com/r/SaaS/comments/1ucg8ks/the_way_i_got_my_first_paying_user_on_my_saas/",
-  "source": "r/SaaS",
-  "category": "SaaS 經營",
-  "mrr": null,
-  "points": 0,
-  "comments": 0,
-  "date": "2026-06-22",
-  "title_zh": "我如何在我的 SaaS 上獲得第一個付費使用者",
-  "summary_zh": "我在 X 和 Reddit 上搜尋誰正遇到我的產品能解決的問題，並私訊了 50 多人，其中一人成功轉換。"
  },
  {
   "title": "The age of the solopreneur (stripe report)",
@@ -196,160 +209,17 @@ const CASES=[
   "summary_zh": "這是 Stripe 最近報告中最有趣的圖表之一。跨越每個主要收入門檻的一人創業家人數持續加速成長，尤其是在 $500k 和 $1M 的水平。"
  },
  {
-  "title": "After months of building my first SaaS, I finally understood that building is the easy part",
-  "summary": "I spent the last few months building my first SaaS as a solo founder. When I started, I thought the hardest part would be the coding. I was wrong. The product side was challenging, but there were clear problems and clear solutions. You fix a bug, improve the UX, optimize performance and move forward",
-  "url": "https://www.reddit.com/r/SaaS/comments/1uc018i/after_months_of_building_my_first_saas_i_finally/",
-  "source": "r/SaaS",
-  "category": "SaaS 經營",
-  "mrr": null,
-  "points": 0,
-  "comments": 0,
-  "date": "2026-06-21",
-  "title_zh": "打造我的第一個 SaaS 數個月後，我終於明白打造產品是比較簡單的部分",
-  "summary_zh": "在過去幾個月裡，我以獨立創辦人的身份打造我的第一個 SaaS。一開始，我以為最困難的部分會是寫程式。我錯了。產品面雖然充滿挑戰，但有明確的..."
- },
- {
-  "title": "Made my first Sale on my new SaaS",
-  "summary": "I built this SaaS in less than 12 hours and got my first Sale on it! I am just so happy!!",
-  "url": "https://www.reddit.com/r/SaaS/comments/1ubsm0r/made_my_first_sale_on_my_new_saas/",
-  "source": "r/SaaS",
-  "category": "SaaS 經營",
-  "mrr": null,
-  "points": 0,
-  "comments": 0,
-  "date": "2026-06-21",
-  "title_zh": "我的新 SaaS 產品達成了第一筆銷售。",
-  "summary_zh": "我在不到 12 小時內開發了這個 SaaS 產品，並達成了第一筆銷售！我真是太開心了！！"
- },
- {
-  "title": "Sent 50 cold emails. Got 0 replies. How did you get your first users?",
-  "summary": "Over the last week I've been building a SaaS product and recently launched the first working version. After launching, I started reaching out to potential users for feedback. So far I've sent around 50 emails and got almost no responses. One person tested the product and said it was useful, but that",
-  "url": "https://www.reddit.com/r/SaaS/comments/1udcywf/sent_50_cold_emails_got_0_replies_how_did_you_get/",
-  "source": "r/SaaS",
-  "category": "SaaS 經營",
-  "mrr": null,
-  "points": 0,
-  "comments": 0,
-  "date": "2026-06-23",
-  "title_zh": "寄了 50 封陌生開發信，0 回覆。你們是怎麼找到第一批使用者的？",
-  "summary_zh": "過去一週我一直在開發一個 SaaS 產品，最近推出了第一個可運作的版本。上線後，我開始聯繫潛在使用者以獲取回饋。到目前為止，我已經寄了大概 5..."
- },
- {
-  "title": "It took 25 days to make my first €16. Here's everything I did.",
-  "summary": "25 days ago I pushed my first commit to GitHub for my new SaaS app. Today I made my first sale of €16. I know it’s not much but after grinding away for almost a month its feels amazing that someone has actually decided to pay for what I built. Here’s how I got here: - The Idea With a high rise of pe",
-  "url": "https://www.reddit.com/r/SaaS/comments/1uc0fmy/it_took_25_days_to_make_my_first_16_heres/",
-  "source": "r/SaaS",
-  "category": "AI SaaS",
-  "mrr": null,
-  "points": 0,
-  "comments": 0,
-  "date": "2026-06-21",
-  "title_zh": "我花了 25 天賺到我的第一筆 €16。這是我所做的一切。",
-  "summary_zh": "25 天前，我將我的第一個 commit 推送到 GitHub，用於我的新 SaaS 應用程式。今天我完成了第一筆 €16 的銷售。我知道這不算多，但在努力了將近一個月後，有人... 這種感覺真是太棒了。"
- },
- {
-  "title": "I launched my first SaaS 7 days ago - 77 visitors, 13 signups, and a big lesson about distribution",
-  "summary": "After launching my first SaaS (LangSpeak) and sharing it on founder communities, here are the results from the first 7 days: • 77 visitors • 71 first-time visitors • 13 signups • Users from multiple countries • Several bug reports and feature suggestions The most interesting part: Getting people to ",
-  "url": "https://www.reddit.com/r/SaaS/comments/1ubkt27/i_launched_my_first_saas_7_days_ago_77_visitors/",
-  "source": "r/SaaS",
-  "category": "SaaS 經營",
-  "mrr": null,
-  "points": 0,
-  "comments": 0,
-  "date": "2026-06-21",
-  "title_zh": "我在七天前推出了我的第一個 SaaS 產品——77 位訪客、13 次註冊，以及關於通路的一大教訓。",
-  "summary_zh": "在推出我的第一個 SaaS 產品 (LangSpeak) 並在創業者社群分享後，這是前七天的成果：• 77 位訪客 • 71 位首次訪客 • 13 次註冊 • 來自多個國家/地區的使用者..."
- },
- {
-  "title": "How do you market or promote your SaaS product?",
-  "summary": "I'm curious how other bootstrapped SaaS founders are getting their first 10-100 paying customers. There seems to be a huge gap between \"build the product\" and \"people actually find it.\" For those of you running a SaaS: What marketing channels are working best for you right now? How much traffic/cust",
-  "url": "https://www.reddit.com/r/SaaS/comments/1ubrgw4/how_do_you_market_or_promote_your_saas_product/",
-  "source": "r/SaaS",
-  "category": "SaaS 經營",
-  "mrr": null,
-  "points": 0,
-  "comments": 0,
-  "date": "2026-06-21",
-  "title_zh": "你的 SaaS 產品是如何行銷或推廣的？",
-  "summary_zh": "我很好奇其他白手起家的 SaaS 創辦人是如何獲得他們最初的 10-100 位付費客戶。在「開發產品」和「讓大家真正找到產品」之間似乎存在著巨大的鴻溝。對於那些..."
- },
- {
-  "title": "We cloned our $50k/year vendor CRM 100% with Codex. Will LLMs kill SaaS dev houses?",
-  "summary": "Two years ago, we bought our in-house CRM from a software vendor. Last year, we successfully cloned 100% of its features using Codex, which cut our costs by $50,000 per year.",
-  "url": "https://www.reddit.com/r/SaaS/comments/1ufudj7/we_cloned_our_50kyear_vendor_crm_100_with_codex/",
-  "source": "r/SaaS",
-  "category": "SaaS 經營",
-  "mrr": null,
-  "points": 0,
-  "comments": 0,
-  "date": "2026-06-26",
-  "title_zh": "我們用 Codex 100% 複製了我們每年 $50k 的供應商 CRM。大型語言模型會扼殺 SaaS 開發公司嗎？",
-  "summary_zh": "兩年前，我們從一家軟體供應商購買了我們的內部 CRM。去年，我們成功地使用 Codex 100% 複製了它的功能，這為我們每年節省了 $50,000 的成本。"
- },
- {
-  "title": "How do you actually find real problems worth solving?",
-  "summary": "I've been trying to build a SaaS, but I'm stuck on one thing: I just can't seem to find real problems that people have. Everyone says things like: \"Talk to users.\" \"Find pain points.\" \"Solve your own problem.\" But when I talk to people, they usually say everything is fine or they don't have anything",
-  "url": "https://www.reddit.com/r/SaaS/comments/1ucps42/how_do_you_actually_find_real_problems_worth/",
+  "title": "The way I got my first paying user on my SaaS",
+  "summary": "I searched on X and Reddit about who is facing the problem that my product solves, and DMed 50+ people and got one conversion out of it.",
+  "url": "https://www.reddit.com/r/SaaS/comments/1ucg8ks/the_way_i_got_my_first_paying_user_on_my_saas/",
   "source": "r/SaaS",
   "category": "SaaS 經營",
   "mrr": null,
   "points": 0,
   "comments": 0,
   "date": "2026-06-22",
-  "title_zh": "你究竟如何找到真正值得解決的問題？",
-  "summary_zh": "我一直想開發一個 SaaS，但卡在一個問題上：我似乎找不到人們遇到的真正問題。每個人都說：「跟使用者聊聊。」「找出痛點。」「解決你自己的問題。」"
- },
- {
-  "title": "Google Ads are a con. Prove me wrong.",
-  "summary": "Every year or so, I come back to paid ads.... I get sucked into the BS that Google sells and think, \"I'll give it one more go\", and every F**KING time Google wastes my money on BS traffic. In any other industry, what they do would be illegal. You can't walk into a restaurant and say \" I want the ste",
-  "url": "https://www.reddit.com/r/SaaS/comments/1udaa8t/google_ads_are_a_con_prove_me_wrong/",
-  "source": "r/SaaS",
-  "category": "AI SaaS",
-  "mrr": null,
-  "points": 0,
-  "comments": 0,
-  "date": "2026-06-23",
-  "title_zh": "Google 廣告是個騙局。證明我錯了。",
-  "summary_zh": "每年左右，我都會回頭嘗試付費廣告... 我被 Google 推銷的鬼話吸引，心想「我再試一次」，結果每次 Google 都把我的錢浪費在垃圾流量上。在任何其他..."
- },
- {
-  "title": "I'm about to quit the whole SaaS thing, and I don't want to",
-  "summary": "I've been pretty demotivated with the whole SaaS thing for a while now. I've spent months reading up, watching videos, and trying to build some kind of tool. The thing is, I never manage to finish any project I lose motivation, or I find a thousand problems that make me think it won't be worth it. A",
-  "url": "https://www.reddit.com/r/SaaS/comments/1ucgrgk/im_about_to_quit_the_whole_saas_thing_and_i_dont/",
-  "source": "r/SaaS",
-  "category": "SaaS 經營",
-  "mrr": null,
-  "points": 0,
-  "comments": 0,
-  "date": "2026-06-22",
-  "title_zh": "我快要放棄整個 SaaS 事業了，但我不想這樣",
-  "summary_zh": "一段時間以來，我對整個 SaaS 事業感到非常沮喪。我花了數個月閱讀、觀看影片，並嘗試打造某種工具。問題是，我從來沒有完成任何..."
- },
- {
-  "title": "What was your life like after reaching $10K MRR in your SaaS business?",
-  "summary": "I'm currently building a B2B SaaS and working toward my first $10K MRR milestone. As someone based in India, that level of recurring revenue with healthy SaaS margins would be quite meaningful financially. I'd love to hear from founders (especially solo founders or small teams) who have already cros",
-  "url": "https://www.reddit.com/r/SaaS/comments/1ubr57w/what_was_your_life_like_after_reaching_10k_mrr_in/",
-  "source": "r/SaaS",
-  "category": "營收實戰",
-  "mrr": "$10K MRR",
-  "points": 0,
-  "comments": 0,
-  "date": "2026-06-21",
-  "title_zh": "你的 SaaS 事業達到每月經常性收入 (MRR) $10K 後，生活是怎麼樣的？",
-  "summary_zh": "我目前正在開發一個 B2B SaaS 產品，並努力達成我的第一個 $10K MRR 里程碑。作為一個在印度的人，這種健康的 SaaS 利潤率所帶來的經常性收入水平，在財務上將會非常有意義。"
- },
- {
-  "title": "I think I wasted 30k of my own money on my SaaS!",
-  "summary": "To keep this concise I was working as a landlord and decided to make a rental inspection app because all the ones I tried were severely lacking. I invested around 30k of my own money to build it. Went through 2 developers because the first ones were trash. Fast forward and my app is done and I perso",
-  "url": "https://www.reddit.com/r/SaaS/comments/1ugomuc/i_think_i_wasted_30k_of_my_own_money_on_my_saas/",
-  "source": "r/SaaS",
-  "category": "營收實戰",
-  "mrr": "$100 per month",
-  "points": 0,
-  "comments": 0,
-  "date": "2026-06-27",
-  "title_zh": "我想我把自己的 $30k 浪費在我的 SaaS 上了！",
-  "summary_zh": "簡而言之，我當時是一名房東，決定開發一個租賃檢查應用程式，因為我試過的所有應用程式都嚴重不足。我投入了大約 $30k 的自有資金來開發它。結果..."
+  "title_zh": "我如何在我的 SaaS 上獲得第一個付費使用者",
+  "summary_zh": "我在 X 和 Reddit 上搜尋誰正遇到我的產品能解決的問題，並私訊了 50 多人，其中一人成功轉換。"
  },
  {
   "title": "Unpopular opinion: If your SaaS is priced at $5-9/month, you are actively torturing yourself.",
@@ -365,6 +235,84 @@ const CASES=[
   "summary_zh": "經營 SaaS 我學到最痛苦的一課：每月 $9 的客戶每天會發送 15 張客服工單，要求客製化產品藍圖，如果應用程式載入需要 2 秒就會申請退款。每月 $39 的客戶..."
  },
  {
+  "title": "Sent 50 cold emails. Got 0 replies. How did you get your first users?",
+  "summary": "Over the last week I've been building a SaaS product and recently launched the first working version. After launching, I started reaching out to potential users for feedback. So far I've sent around 50 emails and got almost no responses. One person tested the product and said it was useful, but that",
+  "url": "https://www.reddit.com/r/SaaS/comments/1udcywf/sent_50_cold_emails_got_0_replies_how_did_you_get/",
+  "source": "r/SaaS",
+  "category": "SaaS 經營",
+  "mrr": null,
+  "points": 0,
+  "comments": 0,
+  "date": "2026-06-23",
+  "title_zh": "寄了 50 封陌生開發信，0 回覆。你們是怎麼找到第一批使用者的？",
+  "summary_zh": "過去一週我一直在開發一個 SaaS 產品，最近推出了第一個可運作的版本。上線後，我開始聯繫潛在使用者以獲取回饋。到目前為止，我已經寄了大概 5..."
+ },
+ {
+  "title": "We cloned our $50k/year vendor CRM 100% with Codex. Will LLMs kill SaaS dev houses?",
+  "summary": "Two years ago, we bought our in-house CRM from a software vendor. Last year, we successfully cloned 100% of its features using Codex, which cut our costs by $50,000 per year.",
+  "url": "https://www.reddit.com/r/SaaS/comments/1ufudj7/we_cloned_our_50kyear_vendor_crm_100_with_codex/",
+  "source": "r/SaaS",
+  "category": "SaaS 經營",
+  "mrr": null,
+  "points": 0,
+  "comments": 0,
+  "date": "2026-06-26",
+  "title_zh": "我們用 Codex 100% 複製了我們每年 $50k 的供應商 CRM。大型語言模型會扼殺 SaaS 開發公司嗎？",
+  "summary_zh": "兩年前，我們從一家軟體供應商購買了我們的內部 CRM。去年，我們成功地使用 Codex 100% 複製了它的功能，這為我們每年節省了 $50,000 的成本。"
+ },
+ {
+  "title": "Google Ads are a con. Prove me wrong.",
+  "summary": "Every year or so, I come back to paid ads.... I get sucked into the BS that Google sells and think, \"I'll give it one more go\", and every F**KING time Google wastes my money on BS traffic. In any other industry, what they do would be illegal. You can't walk into a restaurant and say \" I want the ste",
+  "url": "https://www.reddit.com/r/SaaS/comments/1udaa8t/google_ads_are_a_con_prove_me_wrong/",
+  "source": "r/SaaS",
+  "category": "AI SaaS",
+  "mrr": null,
+  "points": 0,
+  "comments": 0,
+  "date": "2026-06-23",
+  "title_zh": "Google 廣告是個騙局。證明我錯了。",
+  "summary_zh": "每年左右，我都會回頭嘗試付費廣告... 我被 Google 推銷的鬼話吸引，心想「我再試一次」，結果每次 Google 都把我的錢浪費在垃圾流量上。在任何其他..."
+ },
+ {
+  "title": "How do you actually find real problems worth solving?",
+  "summary": "I've been trying to build a SaaS, but I'm stuck on one thing: I just can't seem to find real problems that people have. Everyone says things like: \"Talk to users.\" \"Find pain points.\" \"Solve your own problem.\" But when I talk to people, they usually say everything is fine or they don't have anything",
+  "url": "https://www.reddit.com/r/SaaS/comments/1ucps42/how_do_you_actually_find_real_problems_worth/",
+  "source": "r/SaaS",
+  "category": "SaaS 經營",
+  "mrr": null,
+  "points": 0,
+  "comments": 0,
+  "date": "2026-06-22",
+  "title_zh": "你究竟如何找到真正值得解決的問題？",
+  "summary_zh": "我一直想開發一個 SaaS，但卡在一個問題上：我似乎找不到人們遇到的真正問題。每個人都說：「跟使用者聊聊。」「找出痛點。」「解決你自己的問題。」"
+ },
+ {
+  "title": "I think I wasted 30k of my own money on my SaaS!",
+  "summary": "To keep this concise I was working as a landlord and decided to make a rental inspection app because all the ones I tried were severely lacking. I invested around 30k of my own money to build it. Went through 2 developers because the first ones were trash. Fast forward and my app is done and I perso",
+  "url": "https://www.reddit.com/r/SaaS/comments/1ugomuc/i_think_i_wasted_30k_of_my_own_money_on_my_saas/",
+  "source": "r/SaaS",
+  "category": "營收實戰",
+  "mrr": "$100 per month",
+  "points": 0,
+  "comments": 0,
+  "date": "2026-06-27",
+  "title_zh": "我想我把自己的 $30k 浪費在我的 SaaS 上了！",
+  "summary_zh": "簡而言之，我當時是一名房東，決定開發一個租賃檢查應用程式，因為我試過的所有應用程式都嚴重不足。我投入了大約 $30k 的自有資金來開發它。結果..."
+ },
+ {
+  "title": "I'm about to quit the whole SaaS thing, and I don't want to",
+  "summary": "I've been pretty demotivated with the whole SaaS thing for a while now. I've spent months reading up, watching videos, and trying to build some kind of tool. The thing is, I never manage to finish any project I lose motivation, or I find a thousand problems that make me think it won't be worth it. A",
+  "url": "https://www.reddit.com/r/SaaS/comments/1ucgrgk/im_about_to_quit_the_whole_saas_thing_and_i_dont/",
+  "source": "r/SaaS",
+  "category": "SaaS 經營",
+  "mrr": null,
+  "points": 0,
+  "comments": 0,
+  "date": "2026-06-22",
+  "title_zh": "我快要放棄整個 SaaS 事業了，但我不想這樣",
+  "summary_zh": "一段時間以來，我對整個 SaaS 事業感到非常沮喪。我花了數個月閱讀、觀看影片，並嘗試打造某種工具。問題是，我從來沒有完成任何..."
+ },
+ {
   "title": "I’ve sent 200 cold emails and got 0 real leads, now what?",
   "summary": "Long story short: I built a way for small businesses to see where their money's going, track unnecessary spending, and find out what to actually do about it. You drop in a bank or card statement (CSV, Excel, or a PDF), and it gives you a plain-English rundown of where money's quietly leaking, and wh",
   "url": "https://www.reddit.com/r/SaaS/comments/1ue2i6f/ive_sent_200_cold_emails_and_got_0_real_leads_now/",
@@ -376,6 +324,19 @@ const CASES=[
   "date": "2026-06-24",
   "title_zh": "我寄了 200 封陌生開發信，卻沒有任何實際的潛在客戶，現在該怎麼辦？",
   "summary_zh": "長話短說：我開發了一個工具，讓小型企業能清楚掌握資金流向、追蹤不必要的開支，並找出實際的解決方案。你只要匯入銀行或信用卡對帳單 (CSV 格式，..."
+ },
+ {
+  "title": "my last saas died because i was scared of marketing, not because the product was bad",
+  "summary": "i will not promote. this is the opinion i wish someone had forced on me two years ago. if you're an engineer, your product is not your problem. your problem is that building feels safe and marketing feels like rejection, so you hide in the code. i spent 3 months building something i was actually pro",
+  "url": "https://www.reddit.com/r/SaaS/comments/1uha884/my_last_saas_died_because_i_was_scared_of/",
+  "source": "r/SaaS",
+  "category": "SaaS 經營",
+  "mrr": null,
+  "points": 0,
+  "comments": 0,
+  "date": "2026-06-27",
+  "title_zh": "我上一個 SaaS 失敗了，是因為我害怕行銷，而不是因為產品不好",
+  "summary_zh": "我不會推廣。這是兩年前我希望有人能強迫我接受的觀點。如果你是工程師，你的產品不是你的問題。你的問題在於開發讓人感覺安全，而行銷..."
  },
  {
   "title": "App's Onboarding Converted at 1.2% in 18k Sessions. Two UX Fixes Pushed it to 4%.",
@@ -391,6 +352,19 @@ const CASES=[
   "summary_zh": "我想分享一個客戶成功案例，這個案例幫助他們在應用程式引導期間，將結帳和成功訂閱的轉換率從 1.2% 提升到不錯的 4%。這個團隊一直在使用..."
  },
  {
+  "title": "We almost rebuilt the entire product. The real problem was one line in the pricing page.",
+  "summary": "I build tools for SaaS founders. About thirty of them at this point. A founder came to us with a scheduling tool for a specific niche. Small operators, maybe a few thousand of them out there. We built it, launched it, and then nothing happened for two months. Zero paying users. Not even slow growth.",
+  "url": "https://www.reddit.com/r/SaaS/comments/1uefcw1/we_almost_rebuilt_the_entire_product_the_real/",
+  "source": "r/SaaS",
+  "category": "營收實戰",
+  "mrr": "$29 a month",
+  "points": 0,
+  "comments": 0,
+  "date": "2026-06-24",
+  "title_zh": "我們幾乎重建了整個產品。真正的問題出在定價頁面的一行字。",
+  "summary_zh": "我為 SaaS 創辦人開發工具。到目前為止大約有三十個。一位創辦人帶著一個針對特定利基市場的排程工具來找我們。小型營運商，可能只有幾千個。我們開發了..."
+ },
+ {
   "title": "Successful SaaS founders: Did you know the industry beforehand or was it just a random niche?",
   "summary": "I’ve been completely stuck for a few months now and I can't seem to finish anything. I start projects, but I always end up dropping them because I don't see the potential or the idea just stops making sense. I see that the standard advice for building a SaaS is to look into your own problems, but th",
   "url": "https://www.reddit.com/r/SaaS/comments/1ud9sv2/successful_saas_founders_did_you_know_the/",
@@ -404,17 +378,43 @@ const CASES=[
   "summary_zh": "我已經完全卡住好幾個月了，似乎無法完成任何事情。我會開始專案，但總是半途而廢，因為我看不到潛力，或者這個想法就失去意義了..."
  },
  {
-  "title": "We almost rebuilt the entire product. The real problem was one line in the pricing page.",
-  "summary": "I build tools for SaaS founders. About thirty of them at this point. A founder came to us with a scheduling tool for a specific niche. Small operators, maybe a few thousand of them out there. We built it, launched it, and then nothing happened for two months. Zero paying users. Not even slow growth.",
-  "url": "https://www.reddit.com/r/SaaS/comments/1uefcw1/we_almost_rebuilt_the_entire_product_the_real/",
+  "title": "Stop building your MVP like it's a Series B product",
+  "summary": "There is a way in which funded startups collapse and no one talks about it much. It’s not exactly that they run out of money… though that is what it looks like from the outside. It is that they spend money on wrong things so efficiently that by the time they realize it there is nothing left to chang",
+  "url": "https://www.reddit.com/r/SaaS/comments/1uhz0n5/stop_building_your_mvp_like_its_a_series_b_product/",
   "source": "r/SaaS",
   "category": "營收實戰",
-  "mrr": "$29 a month",
+  "mrr": null,
+  "points": 0,
+  "comments": 0,
+  "date": "2026-06-28",
+  "title_zh": "別再把你的 MVP 當成是 B 輪融資的產品來開發了",
+  "summary_zh": "有一種獲得資金的新創公司會倒閉的方式，但很少人談論它。這不完全是他們資金耗盡…儘管從外面看起來是這樣。而是他們花費了"
+ },
+ {
+  "title": "What's the simplest SaaS product you've seen become surprisingly successful?",
+  "summary": "Sometimes the \"boring\" products end up making the most money. 🥲",
+  "url": "https://www.reddit.com/r/SaaS/comments/1ug6mhv/whats_the_simplest_saas_product_youve_seen_become/",
+  "source": "r/SaaS",
+  "category": "SaaS 經營",
+  "mrr": null,
+  "points": 0,
+  "comments": 0,
+  "date": "2026-06-26",
+  "title_zh": "你見過最簡單卻意外地成功的 SaaS 產品是什麼？",
+  "summary_zh": "有時候，「無聊」的產品反而賺最多錢。🥲"
+ },
+ {
+  "title": "Got fired after asking for a raise. Need your feedback as a SaaS founder.",
+  "summary": "I worked with a UK Restaurant SaaS and I think I highly undervalued my skills. I was getting paid 700GBP / month and was responsible for everything end to end: SEO, Social media, Email campaigns, CRO, landing pages creation, graphics, etc. I gave around 40hours / month and generated 400+ demo bookin",
+  "url": "https://www.reddit.com/r/SaaS/comments/1ueoohj/got_fired_after_asking_for_a_raise_need_your/",
+  "source": "r/SaaS",
+  "category": "SaaS 經營",
+  "mrr": null,
   "points": 0,
   "comments": 0,
   "date": "2026-06-24",
-  "title_zh": "我們幾乎重建了整個產品。真正的問題出在定價頁面的一行字。",
-  "summary_zh": "我為 SaaS 創辦人開發工具。到目前為止大約有三十個。一位創辦人帶著一個針對特定利基市場的排程工具來找我們。小型營運商，可能只有幾千個。我們開發了..."
+  "title_zh": "要求加薪後被解僱了。作為 SaaS 創辦人，我需要你的回饋。",
+  "summary_zh": "我曾與一家英國餐廳 SaaS 合作，我認為我嚴重低估了自己的技能。我當時每月領 700GBP，並負責所有端到端的工作：SEO、社群媒體、電子郵件行銷、CRO (轉換率優化)..."
  },
  {
   "title": "Got 272 founders to sign up. The hard part was everything after that",
@@ -443,17 +443,30 @@ const CASES=[
   "summary_zh": "我看過真正很棒的 SaaS 產品卻沒有任何用戶。這說明了即使是很棒或真正解決問題的 SaaS，如果行銷很糟，仍然會默默無聞。而且我可以向你展示一些平庸的 SaaS，它們卻..."
  },
  {
-  "title": "Vibe coding a social media SaaS? We built an MCP server that can manage unlimited accounts",
-  "summary": "Yooo, The title is a little bit of clickbait because my actual intention was more along the lines of \"vibe coders struggled, so we helped them.\" This is supposed to be a tutorial post. Why? Because a lot of people building things today aren't programmers at heart, and the struggle is real. We get hu",
-  "url": "https://www.reddit.com/r/indiehackers/comments/1udibld/vibe_coding_a_social_media_saas_we_built_an_mcp/",
+  "title": "Indie Kit just hit 1,500+ developers. But two weeks ago I almost quit out of pure burnout. Here is what I learned.",
+  "summary": "Hey r/indiehackers , Quick note: Yes, I used bullet points so this isn't a big wall of text. Please spare me the \"AI slop\" comments, I promise I actually sat down and typed this out lol. We just officially crossed 1,510 developers on Indie Kit. It’s a huge milestone, but to be completely transparent",
+  "url": "https://www.reddit.com/r/indiehackers/comments/1ui0r0t/indie_kit_just_hit_1500_developers_but_two_weeks/",
   "source": "r/indiehackers",
   "category": "工作流自動化",
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-23",
-  "title_zh": "隨性寫社群媒體 SaaS？我們建了一個能管理無限帳號的 MCP 伺服器",
-  "summary_zh": "嘿，標題有點點擊誘餌的成分，因為我真正的意圖更像是「隨性寫程式的人遇到困難，所以我們幫助他們。」這應該是一篇教學文章。為什麼？因為一個..."
+  "date": "2026-06-28",
+  "title_zh": "Indie Kit 剛達到 1,500 多名開發者。但兩週前我幾乎因為精疲力盡而放棄。這是我學到的。",
+  "summary_zh": "嘿，r/indiehackers 的大家，快速說明：是的，我使用了條列式，所以這不是一大段文字。請不要再說「AI 亂寫」了，我保證這是我親自坐下來打出來的，哈哈。我們剛正式"
+ },
+ {
+  "title": "[Show IH] I deliberately built the opposite of every competitor's headline feature — because I use the product every day",
+  "summary": "Disclosure: I'm building the macOS app in this post. No coupon and no revenue claim — just the process story. The hardest decision on my tiny Mac app wasn't a feature. It was choosing to do the opposite of every competitor. Background: I'm an IT lecturer — 10+ years, thousands of screen-recorded tut",
+  "url": "https://www.reddit.com/r/indiehackers/comments/1ug2k8e/show_ih_i_deliberately_built_the_opposite_of/",
+  "source": "r/indiehackers",
+  "category": "工作流自動化",
+  "mrr": null,
+  "points": 0,
+  "comments": 0,
+  "date": "2026-06-26",
+  "title_zh": "[Show IH] 我刻意打造了與所有競爭對手主打功能相反的產品 — 因為我每天都在使用它",
+  "summary_zh": "聲明：我正在開發這篇文章中提到的 macOS 應用程式。沒有優惠券，也沒有收入聲明 — 只是過程故事。我這個小小的 Mac 應用程式最困難的決定不是功能。而是選擇做與眾不同的..."
  },
  {
   "title": "19 days in, $0 revenue, 0 users — honest build diary of an AI visibility SaaS",
@@ -469,17 +482,17 @@ const CASES=[
   "summary_zh": "公開開發，不隱藏任何缺點。這是我目前 BrandLens 的進度 — 一個工具，用於評估當人們向 AI 尋求推薦時，你的品牌有多高的可見度。問題是：超過 2 億人使用 ChatGPT 來..."
  },
  {
-  "title": "[Show IH] I deliberately built the opposite of every competitor's headline feature — because I use the product every day",
-  "summary": "Disclosure: I'm building the macOS app in this post. No coupon and no revenue claim — just the process story. The hardest decision on my tiny Mac app wasn't a feature. It was choosing to do the opposite of every competitor. Background: I'm an IT lecturer — 10+ years, thousands of screen-recorded tut",
-  "url": "https://www.reddit.com/r/indiehackers/comments/1ug2k8e/show_ih_i_deliberately_built_the_opposite_of/",
+  "title": "Vibe coding a social media SaaS? We built an MCP server that can manage unlimited accounts",
+  "summary": "Yooo, The title is a little bit of clickbait because my actual intention was more along the lines of \"vibe coders struggled, so we helped them.\" This is supposed to be a tutorial post. Why? Because a lot of people building things today aren't programmers at heart, and the struggle is real. We get hu",
+  "url": "https://www.reddit.com/r/indiehackers/comments/1udibld/vibe_coding_a_social_media_saas_we_built_an_mcp/",
   "source": "r/indiehackers",
   "category": "工作流自動化",
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-26",
-  "title_zh": "[Show IH] 我刻意打造了與所有競爭對手主打功能相反的產品 — 因為我每天都在使用它",
-  "summary_zh": "聲明：我正在開發這篇文章中提到的 macOS 應用程式。沒有優惠券，也沒有收入聲明 — 只是過程故事。我這個小小的 Mac 應用程式最困難的決定不是功能。而是選擇做與眾不同的..."
+  "date": "2026-06-23",
+  "title_zh": "隨性寫社群媒體 SaaS？我們建了一個能管理無限帳號的 MCP 伺服器",
+  "summary_zh": "嘿，標題有點點擊誘餌的成分，因為我真正的意圖更像是「隨性寫程式的人遇到困難，所以我們幫助他們。」這應該是一篇教學文章。為什麼？因為一個..."
  },
  {
   "title": "My offline, zero-signup PDF editor just crossed 100K+ downloads (4.6⭐). Here is a demo of the local text editing tools.",
@@ -521,69 +534,17 @@ const CASES=[
   "summary_zh": "快速統計：總營收 💲73 (是的，不是 💲7.3k)。40 個使用者 (6 個付費使用者 + 34 個免費試用者)。仍在努力獲取自然流量。修復了四個錯誤和一個小的生活品質..."
  },
  {
-  "title": "My latest app made the front page on Hacker News today!",
-  "summary": "My puzzle site ( https://PuzzleLair.com ) made the front page on Hacker News today (still there as I type this)! Google Analytics showed up to 500 real time users every half hour for a few hours. I was worried that my little VPS that's running 8 other apps would tank, but it held up. I know it's not",
-  "url": "https://www.reddit.com/r/SideProject/comments/1ud13g8/my_latest_app_made_the_front_page_on_hacker_news/",
-  "source": "r/SideProject",
-  "category": "營收實戰",
-  "mrr": null,
-  "points": 0,
-  "comments": 0,
-  "date": "2026-06-22",
-  "title_zh": "我最新的應用程式今天登上了 Hacker News 頭版！",
-  "summary_zh": "我的益智網站 ( https://PuzzleLair.com ) 今天登上了 Hacker News 頭版 (我打字時還在上面)！Google Analytics 顯示在幾個小時內，每半小時有高達 500 個即時使用者。我..."
- },
- {
-  "title": "I built a Claude Code skill called /brag that turns your side project into a launch video",
-  "summary": "People around me keep telling me about cool stuff they built but it often ends at that, so I built /brag, a skill that helps people actually show what they made. /brag lets you brag about what you built by simply telling Claude \"hey, let's /brag about this.\" Under the hood it uses HyperFrames (HeyGe",
-  "url": "https://www.reddit.com/r/SideProject/comments/1ubr7ng/i_built_a_claude_code_skill_called_brag_that/",
-  "source": "r/SideProject",
-  "category": "AI SaaS",
-  "mrr": null,
-  "points": 0,
-  "comments": 0,
-  "date": "2026-06-21",
-  "title_zh": "我開發了一個名為 /brag 的 Claude Code 技能，能將你的副業專案變成發布影片。",
-  "summary_zh": "我身邊的人不斷告訴我他們開發的酷東西，但通常就到此為止了，所以我開發了 /brag，這是一個能幫助人們實際展示他們所做成果的技能。/brag 讓你能夠炫耀你開發的..."
- },
- {
-  "title": "Took me 4 years and 3 dead side projects to learn what actually matters",
-  "summary": "I built my first side project in 2022. It was a habit tracker with a twist — you'd compete against friends. I spent six months obsessing over the UI, the animations, the perfect onboarding flow. Launched it to crickets. Maybe 12 signups, all friends and family. Dead in a month. Project number two wa",
-  "url": "https://www.reddit.com/r/SideProject/comments/1ue2bm5/took_me_4_years_and_3_dead_side_projects_to_learn/",
+  "title": "Got my first paying user today and I genuinely couldn't believe it at first. Thank you all.",
+  "summary": "Saw the notification and my first reaction was \"wait, seriously?\" and I opened the dashboard to check again. Then again. I'm still checking but yeah, it's real. I've been working on this for 2 months. Full time job on top of it. At some point I got so stuck in my own head about whether anyone actual",
+  "url": "https://www.reddit.com/r/SideProject/comments/1ui72so/got_my_first_paying_user_today_and_i_genuinely/",
   "source": "r/SideProject",
   "category": "SaaS 經營",
   "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-24",
-  "title_zh": "我花了 4 年和 3 個失敗的副業專案，才學到真正重要的事",
-  "summary_zh": "我在 2022 年開發了我的第一個副業專案。這是一個帶有特殊玩法的習慣追蹤器——你可以和朋友競爭。我花了六個月的時間，沉迷於使用者介面、動畫和完美的引導流程。Launc"
- },
- {
-  "title": "I gave an AI agent its own wallet and EVM L1 chain with tokens and let it create + LP a token by itself. Agents-Coin MCP",
-  "summary": "I've been experimenting with letting an AI agent run DeFi actions by itself, instead of just calling an API. It has its own wallet on an EVM chain, connected through an MCP server, so I can drive it in plain English from Claude. Here's the flow from the chat (clip attached): - \"Create a wallet\" → it",
-  "url": "https://www.reddit.com/r/SideProject/comments/1uhdgi4/i_gave_an_ai_agent_its_own_wallet_and_evm_l1/",
-  "source": "r/SideProject",
-  "category": "工作流自動化",
-  "mrr": null,
-  "points": 0,
-  "comments": 0,
-  "date": "2026-06-27",
-  "title_zh": "我給了一個 AI 代理人自己的錢包和帶有代幣的 EVM L1 區塊鏈，並讓它自己創建並為代幣提供流動性。Agents-Coin MCP",
-  "summary_zh": "我一直在嘗試讓 AI 代理人自己執行 DeFi 操作，而不是只呼叫 API。它在 EVM 鏈上擁有自己的錢包，透過 MCP 伺服器連接，這樣我就可以驅動它..."
- },
- {
-  "title": "I'm testing a \"one tiny thing a day\" before building anything",
-  "summary": "I'm a builder, 15 years in product + tech. I know what I should do, I just can't start, and the evening disappears into scrolling. The idea: once a day you get one tiny nudge to do a small thing, small enough that starting is basically impossible to fail. Stand outside two minutes. Open the task you",
-  "url": "https://www.reddit.com/r/SideProject/comments/1ubmta1/im_testing_a_one_tiny_thing_a_day_before_building/",
-  "source": "r/SideProject",
-  "category": "AI SaaS",
-  "mrr": null,
-  "points": 0,
-  "comments": 0,
-  "date": "2026-06-21",
-  "title_zh": "在開始開發任何東西之前，我正在測試「每天做一件小事」的方法。",
-  "summary_zh": "我是一名開發者，在產品和科技領域有 15 年經驗。我知道我該做什麼，但我就是無法開始，晚上時間都浪費在滑手機上了。這個想法是：每天你會收到一個小小的提示，去做一件小事，小到..."
+  "date": "2026-06-28",
+  "title_zh": "我今天獲得了第一個付費用戶，一開始我真的不敢相信。謝謝大家。",
+  "summary_zh": "看到通知時，我的第一個反應是「等等，真的嗎？」，然後我打開儀表板再次確認。又再確認了一次。我還在確認，但沒錯，這是真的。我已經為此努力了 2 個月。"
  },
  {
   "title": "What 8 months of AI-handled intake calls actually looked like",
@@ -599,17 +560,43 @@ const CASES=[
   "summary_zh": "我合作的一家新創律師事務所面臨著前台因漏接電話而產生的問題。創辦人直言：「許多潛在客戶流失了，尤其是在時間緊迫的案件中..."
  },
  {
-  "title": "I spent two years building a 100% free alternative to Splitwise.",
-  "summary": "Hi everyone, I believe a basic utility like splitting expenses with friends and family should be free. When Splitwise paywalled their core features and started adding dark patterns, I looked for alternatives but found nothing with an intuitive UX. So, I built Divy. The thing I'm most proud of, is th",
-  "url": "https://www.reddit.com/r/SideProject/comments/1uc8itf/i_spent_two_years_building_a_100_free_alternative/",
+  "title": "My latest app made the front page on Hacker News today!",
+  "summary": "My puzzle site ( https://PuzzleLair.com ) made the front page on Hacker News today (still there as I type this)! Google Analytics showed up to 500 real time users every half hour for a few hours. I was worried that my little VPS that's running 8 other apps would tank, but it held up. I know it's not",
+  "url": "https://www.reddit.com/r/SideProject/comments/1ud13g8/my_latest_app_made_the_front_page_on_hacker_news/",
   "source": "r/SideProject",
-  "category": "AI SaaS",
+  "category": "營收實戰",
   "mrr": null,
   "points": 0,
   "comments": 0,
   "date": "2026-06-22",
-  "title_zh": "我花了兩年時間打造一個 100% 免費的 Splitwise 替代方案。",
-  "summary_zh": "大家好，我認為像與朋友和家人分攤費用這樣的基本工具應該是免費的。當 Splitwise 將其核心功能設為付費牆並開始增加暗黑模式時，我尋找了替代方案..."
+  "title_zh": "我最新的應用程式今天登上了 Hacker News 頭版！",
+  "summary_zh": "我的益智網站 ( https://PuzzleLair.com ) 今天登上了 Hacker News 頭版 (我打字時還在上面)！Google Analytics 顯示在幾個小時內，每半小時有高達 500 個即時使用者。我..."
+ },
+ {
+  "title": "I gave an AI agent its own wallet and EVM L1 chain with tokens and let it create + LP a token by itself. Agents-Coin MCP",
+  "summary": "I've been experimenting with letting an AI agent run DeFi actions by itself, instead of just calling an API. It has its own wallet on an EVM chain, connected through an MCP server, so I can drive it in plain English from Claude. Here's the flow from the chat (clip attached): - \"Create a wallet\" → it",
+  "url": "https://www.reddit.com/r/SideProject/comments/1uhdgi4/i_gave_an_ai_agent_its_own_wallet_and_evm_l1/",
+  "source": "r/SideProject",
+  "category": "工作流自動化",
+  "mrr": null,
+  "points": 0,
+  "comments": 0,
+  "date": "2026-06-27",
+  "title_zh": "我給了一個 AI 代理人自己的錢包和帶有代幣的 EVM L1 區塊鏈，並讓它自己創建並為代幣提供流動性。Agents-Coin MCP",
+  "summary_zh": "我一直在嘗試讓 AI 代理人自己執行 DeFi 操作，而不是只呼叫 API。它在 EVM 鏈上擁有自己的錢包，透過 MCP 伺服器連接，這樣我就可以驅動它..."
+ },
+ {
+  "title": "I got obsessed with building a tool to find forgotten games/movies/books based on vague memories. It beat raw Gemini in my tests.",
+  "summary": "Hey all, A few days ago, I stumbled upon a post on r/tipofmyjoystick where someone was desperately trying to find a game from their childhood with incredibly vague details. It got me thinking: standard AI chatbots like ChatGPT or Gemini are actually pretty good at this but they hallucinate, invent f",
+  "url": "https://www.reddit.com/r/SideProject/comments/1uhu96g/i_got_obsessed_with_building_a_tool_to_find/",
+  "source": "r/SideProject",
+  "category": "工作流自動化",
+  "mrr": null,
+  "points": 0,
+  "comments": 0,
+  "date": "2026-06-28",
+  "title_zh": "我沉迷於開發一個工具，用模糊的記憶來尋找被遺忘的遊戲/電影/書籍。在我的測試中，它擊敗了原始的 Gemini。",
+  "summary_zh": "大家好，幾天前，我在 r/tipofmyjoystick 上偶然看到一篇文章，有人拼命想根據極其模糊的細節找到一款童年遊戲。這讓我思考：標準的"
  },
  {
   "title": "I built AuditMetric: A free website auditor with unlimited CVE security checks. No monthly subscription.",
@@ -623,6 +610,32 @@ const CASES=[
   "date": "2026-06-23",
   "title_zh": "我開發了 AuditMetric：一個提供無限次 CVE 安全檢查的免費網站稽核工具，無月費訂閱。",
   "summary_zh": "嘿 r/SideProject，我受夠了網站稽核工具把基本的安全和健康掃描藏在昂貴的付費牆後面。所以我開發了 AuditMetric。這個核心平台每天提供 3 次免費稽核..."
+ },
+ {
+  "title": "When will enough B2B AI SaaS Slop be enough.",
+  "summary": "Hello all, Joined this server a while ago as I thought it was for cool coding or engineering projects but the amount of people advertising their AI B2B SaaS is annoying me. Most of the people making these AI products don’t actually know anything about programming? 😭 I feel like it’s a bit obvious th",
+  "url": "https://www.reddit.com/r/SideProject/comments/1uhfnkj/when_will_enough_b2b_ai_saas_slop_be_enough/",
+  "source": "r/SideProject",
+  "category": "AI SaaS",
+  "mrr": null,
+  "points": 0,
+  "comments": 0,
+  "date": "2026-06-27",
+  "title_zh": "到底什麼時候 B2B AI SaaS 的「垃圾產品」才夠？",
+  "summary_zh": "大家好，我很久以前加入了這個伺服器，以為它是關於很酷的程式設計或工程專案的，但這麼多人宣傳他們的 AI B2B SaaS 讓我很煩。大多數製作這些產品的人"
+ },
+ {
+  "title": "Looking for feedback from founders who run UGC campaigns",
+  "summary": "We’ve been building a tool for a problem we kept running into with UGC marketing. The idea is that an AI agent searches the market for you and helps find the best fit UGC creators across TikTok and Instagram. You give it your product, target audience, competitors, and the kind of creators or content",
+  "url": "https://www.reddit.com/r/SideProject/comments/1uiapfm/looking_for_feedback_from_founders_who_run_ugc/",
+  "source": "r/SideProject",
+  "category": "工作流自動化",
+  "mrr": null,
+  "points": 0,
+  "comments": 0,
+  "date": "2026-06-28",
+  "title_zh": "尋求經營 UGC 行銷活動的創辦人回饋",
+  "summary_zh": "我們一直在開發一個工具，為了解決我們在 UGC 行銷中不斷遇到的問題。這個想法是，一個 AI 代理會為你搜尋市場，並幫助你在 TikTok 和 In 上找到最適合的 UGC 創作者"
  },
  {
   "title": "Six months, multiple projects. I’m exhausted.",
@@ -651,17 +664,30 @@ const CASES=[
   "summary_zh": "大約一個月前，我推出了我的第一個 WordPress 外掛 — 針對服務業的 Rixden 視覺報價建立器。當時一切都很平靜。超過 300 次下載，活躍安裝數不到 10 個，零銷售。然後上週..."
  },
  {
-  "title": "How I Grew My Mobile IV Therapy Business from $0 to $50K a month in 6 months.",
-  "summary": "Hi, my name is Joe! I have built mobile IV companies from zero. I took my first one from a couple million a year to over eight figures. Then I built another from scratch and ran it across multiple states. I also run OMG Marketing that quietly handles a big chunk of this industry. So this is not theo",
-  "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1uctxwf/how_i_grew_my_mobile_iv_therapy_business_from_0/",
-  "source": "r/EntrepreneurRideAlong",
-  "category": "工作流自動化",
-  "mrr": "$50K a month",
+  "title": "I built a rewards chart/chore tracking “app” and haven’t wiped my son’s butt in two* weeks",
+  "summary": "TL/DR: I built StarQuest, a rewards chart/chore tracking app that can be “installed” on a tablet to allow kids to self-manage their tasks. A couple of years ago, we implemented a rewards chart system in our household to help our kids stay motivated with basic daily chores and self-care routines. It ",
+  "url": "https://www.reddit.com/r/SideProject/comments/1uga6m8/i_built_a_rewards_chartchore_tracking_app_and/",
+  "source": "r/SideProject",
+  "category": "SaaS 經營",
+  "mrr": null,
   "points": 0,
   "comments": 0,
-  "date": "2026-06-22",
-  "title_zh": "我如何將我的行動靜脈注射治療業務在 6 個月內從 💲0 成長到每月 💲50K。",
-  "summary_zh": "大家好，我叫 Joe！我從零開始建立了行動靜脈注射公司。我將我的第一家公司從每年數百萬美元提升到超過八位數。然後我從頭開始建立了另一家公司，並在多個州營運..."
+  "date": "2026-06-26",
+  "title_zh": "我開發了一個獎勵圖表/家務追蹤「應用程式」，而且兩*週沒幫我兒子擦屁股了",
+  "summary_zh": "TL/DR：我開發了 StarQuest，這是一個獎勵圖表/家務追蹤應用程式，可以「安裝」在平板電腦上，讓孩子們自行管理他們的任務。幾年前，我們實施了一個獎勵圖表系統"
+ },
+ {
+  "title": "My side project just hit > 50 MRR",
+  "summary": "Not a lot but for micro saas like Zenmic.com its good start What do you think, how an indie hacker like me could grow it to 1-2k range in next 6 months.",
+  "url": "https://www.reddit.com/r/SideProject/comments/1uh3crh/my_side_project_just_hit_50_mrr/",
+  "source": "r/SideProject",
+  "category": "SaaS 經營",
+  "mrr": "50 MRR",
+  "points": 0,
+  "comments": 0,
+  "date": "2026-06-27",
+  "title_zh": "我的副業專案剛達到 > 50 MRR",
+  "summary_zh": "雖然不多，但對於像 Zenmic.com 這樣的微型 SaaS 來說，這是一個好的開始。你覺得像我這樣的獨立開發者，如何在未來 6 個月內將其成長到 1-2k 的範圍？"
  },
  {
   "title": "We launched our Reddit alternative this month, and now we're hunting for creative ad/sponsorship opportunities.",
@@ -677,6 +703,19 @@ const CASES=[
   "summary_zh": "你們有些人可能看過我們宣布 Rhyme.com 的貼文 — 這是一個以主題為中心的社交平台，帶有一些獨特之處：每個主題一個社群（沒有零碎的重複內容）沒有志工版主 主題層級..."
  },
  {
+  "title": "How I Grew My Mobile IV Therapy Business from $0 to $50K a month in 6 months.",
+  "summary": "Hi, my name is Joe! I have built mobile IV companies from zero. I took my first one from a couple million a year to over eight figures. Then I built another from scratch and ran it across multiple states. I also run OMG Marketing that quietly handles a big chunk of this industry. So this is not theo",
+  "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1uctxwf/how_i_grew_my_mobile_iv_therapy_business_from_0/",
+  "source": "r/EntrepreneurRideAlong",
+  "category": "工作流自動化",
+  "mrr": "$50K a month",
+  "points": 0,
+  "comments": 0,
+  "date": "2026-06-22",
+  "title_zh": "我如何將我的行動靜脈注射治療業務在 6 個月內從 💲0 成長到每月 💲50K。",
+  "summary_zh": "大家好，我叫 Joe！我從零開始建立了行動靜脈注射公司。我將我的第一家公司從每年數百萬美元提升到超過八位數。然後我從頭開始建立了另一家公司，並在多個州營運..."
+ },
+ {
   "title": "I got 260+ landing page audit requests, 16 signups, and $0 revenue. What am I missing?",
   "summary": "Hello guys, yesterday I offered free landing page audits on reddit. I expected maybe 10-20 replies... Instead, I got 264 comments in less than 24 hours. The response was so much bigger than expected that I burned through a significant chunk of my Claude API budget just trying to keep up. The weird p",
   "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1udramb/i_got_260_landing_page_audit_requests_16_signups/",
@@ -690,30 +729,17 @@ const CASES=[
   "summary_zh": "大家好，昨天我在 reddit 上提供了免費的登陸頁面稽核。我預計大概會有 10-20 個回覆... 沒想到，在不到 24 小時內收到了 264 條評論。這個回應比預期大得多..."
  },
  {
-  "title": "I'm looking for a mentor or someone I can work with to learn more about business, entrepreneurship, and online business.",
-  "summary": "I have tried a few things at a beginner level, including influencer marketing, Amazon product listings, Youtube automation, content creation, and basic video editing. Im also a junior full stack developer. &#x200B; I have some exposure to different areas, but mostly at a surface level, and I would l",
-  "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1ubo5wh/im_looking_for_a_mentor_or_someone_i_can_work/",
-  "source": "r/EntrepreneurRideAlong",
-  "category": "工作流自動化",
-  "mrr": null,
-  "points": 0,
-  "comments": 0,
-  "date": "2026-06-21",
-  "title_zh": "我正在尋找一位導師或合作夥伴，以學習更多關於商業、創業和網路事業的知識。",
-  "summary_zh": "我在初學者階段嘗試過一些事情，包括網紅行銷、Amazon 產品上架、YouTube 自動化、內容創作和基礎影片剪輯。我也是一名初級全端開發者。"
- },
- {
-  "title": "Do you deserve more customers right now?",
-  "summary": "It took me 12 months of bootstrapping to find my feet. I made every mistake possible. Watching every ycombinator/stanford video didn't prevent it. Those mistakes they tell you about are better off being felt by you. When I started, I thought it was about getting as many signups as quickly as possibl",
-  "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1uc9gn3/do_you_deserve_more_customers_right_now/",
+  "title": "I tried every \"serious\" marketing channel for our SaaS. The one that 7x'd our MRR was the one everyone told me was dead.",
+  "summary": "My co-founder used to work at the company. From the inside he kept seeing the same basic problem come up over and over, something users clearly needed, and the company just never bothered to fix it. So he quit, and we built the thing ourselves as an add-on. The product was the easy part. It solved a",
+  "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1uhws41/i_tried_every_serious_marketing_channel_for_our/",
   "source": "r/EntrepreneurRideAlong",
   "category": "SaaS 經營",
-  "mrr": "$1,000,000 ARR",
+  "mrr": "$500 MRR",
   "points": 0,
   "comments": 0,
-  "date": "2026-06-22",
-  "title_zh": "你現在值得擁有更多客戶嗎？",
-  "summary_zh": "我花了 12 個月的自力更生才站穩腳跟。我犯了所有可能的錯誤。觀看每個 ycombinator/stanford 影片也無法阻止這些錯誤。他們告訴你的那些錯誤最好..."
+  "date": "2026-06-28",
+  "title_zh": "我嘗試了我們 SaaS 的所有「認真」行銷管道。結果讓我們的 MRR 成長 7 倍的，卻是大家告訴我已經沒用的管道。",
+  "summary_zh": "我的共同創辦人以前在這家公司工作。他在內部不斷看到同樣的基本問題一再出現，這是用戶顯然需要的，但公司卻從未費心解決。"
  },
  {
   "title": "DoN't ShOw VulNerabilitY t0 YoUr CuStoMerS",
@@ -742,6 +768,19 @@ const CASES=[
   "summary_zh": "說個小背景，去年 2025 年 6 月，我跟一個朋友有個想法，一個 SaaS 點子。我們從未在市場上見過類似的產品，我們每天搜尋了 3 個月，卻沒有找到一個類似的..."
  },
  {
+  "title": "Advice from founders who have launched on Product Hunt before",
+  "summary": "After months of building, I'm finally ready to launch on Product Hunt. One thing I've noticed is that many successful launches already have an audience behind them. As a first-time founder and someone who doesn’t have an audience, I'd greatly appreciate any advice from founders who have previously l",
+  "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1ugd072/advice_from_founders_who_have_launched_on_product/",
+  "source": "r/EntrepreneurRideAlong",
+  "category": "SaaS 經營",
+  "mrr": null,
+  "points": 0,
+  "comments": 0,
+  "date": "2026-06-26",
+  "title_zh": "曾於 Product Hunt 上線的創辦人給的建議",
+  "summary_zh": "經過數月的開發，我終於準備好在 Product Hunt 上線了。我注意到的一件事是，許多成功的上線專案背後都已經有了一群受眾。作為一個首次創業家和一個..."
+ },
+ {
   "title": "So is SaaS still worth starting?",
   "summary": "IMO yes, but only if your answer to: “Why wouldn’t my best users switch to a cheaper clone?” is something stronger than “we built it first” or “our UI is nicer”. Seeing this a lot lately here and on X that someone’s app got cloned with a vibe-coded app within a weekend. From what I’m seeing, AI defi",
   "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1ug1ixa/so_is_saas_still_worth_starting/",
@@ -755,6 +794,19 @@ const CASES=[
   "summary_zh": "我認為值得，但前提是你對「為什麼我最好的用戶不會轉用更便宜的仿製品？」這個問題的答案，要比「我們是第一個做的」或「我們的使用者介面更好看」更有說服力。最近在這裡和 X 上經常看到這種情況。"
  },
  {
+  "title": "26 year old entrepreneur with 7 years of ecommerce experience struggling to break into remote work despite diverse skills , need honest advice",
+  "summary": "i've been an entrepreneur since I was 18. Built and ran multiple ecommerce businesses, managed to generate solid revenue for years, and wore every hat ,ads, operations, community management, customer service, project management. At my peak I was making 10x the average salary in my country. Over the ",
+  "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1uhygzm/26_year_old_entrepreneur_with_7_years_of/",
+  "source": "r/EntrepreneurRideAlong",
+  "category": "營收實戰",
+  "mrr": null,
+  "points": 0,
+  "comments": 0,
+  "date": "2026-06-28",
+  "title_zh": "26 歲的創業家，擁有 7 年電商經驗，儘管技能多元，卻難以進入遠端工作領域，需要誠實的建議",
+  "summary_zh": "我從 18 歲開始創業。建立並經營了多家電商企業，多年來成功創造了可觀的收入，並身兼多職，包括廣告、營運、社群管理、客戶"
+ },
+ {
   "title": "\"Take a boring niche and build a solution\". I'm now 2 months into this approach, here are my notes.",
   "summary": "I always see this message floating around where you find a boring industry, look at the tools, find the problems and build the solution. This time I realised my industry is the boring one - project management. I've been one for 6+ years so I've earned the right to say that! I spent 3 weeks messaging",
   "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1ufz19q/take_a_boring_niche_and_build_a_solution_im_now_2/",
@@ -766,19 +818,6 @@ const CASES=[
   "date": "2026-06-26",
   "title_zh": "「選擇一個無聊的利基市場並建立解決方案」。我採用這種方法已經兩個月了，以下是我的筆記。",
   "summary_zh": "我總是看到這種說法：找到一個無聊的行業，研究其工具，找出問題並建立解決方案。這次我意識到我自己的行業就是那個無聊的行業 — 專案管理..."
- },
- {
-  "title": "Advice from founders who have launched on Product Hunt before",
-  "summary": "After months of building, I'm finally ready to launch on Product Hunt. One thing I've noticed is that many successful launches already have an audience behind them. As a first-time founder and someone who doesn’t have an audience, I'd greatly appreciate any advice from founders who have previously l",
-  "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1ugd072/advice_from_founders_who_have_launched_on_product/",
-  "source": "r/EntrepreneurRideAlong",
-  "category": "SaaS 經營",
-  "mrr": null,
-  "points": 0,
-  "comments": 0,
-  "date": "2026-06-26",
-  "title_zh": "曾於 Product Hunt 上線的創辦人給的建議",
-  "summary_zh": "經過數月的開發，我終於準備好在 Product Hunt 上線了。我注意到的一件事是，許多成功的上線專案背後都已經有了一群受眾。作為一個首次創業家和一個..."
  },
  {
   "title": "Your Cold DM is the Problem",
@@ -883,18 +922,5 @@ const CASES=[
   "date": "2026-06-27",
   "title_zh": "1,000 多個免費使用者，零收入。如何在不扼殺免費核心的情況下收費？",
   "summary_zh": "我的瀏覽器擴充功能剛突破 1,000 名使用者。這是個好消息，但我卻從中一毛錢都沒賺到。我將它打造成免費的，無需帳戶，也無需註冊，因為阻力會扼殺採用率。結果發現「無阻力」也意味著..."
- },
- {
-  "title": "When did you stop feeling like a freelancer and start feeling like a business owner?",
-  "summary": "I recently moved to Canada and have been building a small digital services business offering virtual assistant, graphic design, and social media management services. Lately, I've been thinking less about finding my next client and more about building something sustainable—creating better systems, po",
-  "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1uge90i/when_did_you_stop_feeling_like_a_freelancer_and/",
-  "source": "r/EntrepreneurRideAlong",
-  "category": "營收實戰",
-  "mrr": null,
-  "points": 0,
-  "comments": 0,
-  "date": "2026-06-26",
-  "title_zh": "你是從什麼時候開始不再覺得自己是個自由工作者，而開始覺得自己是個企業主？",
-  "summary_zh": "我最近搬到了加拿大，並一直在建立一間小型數位服務事業，提供虛擬助理、平面設計和社群媒體管理服務。最近，我越來越少思考關於..."
  }
 ];
